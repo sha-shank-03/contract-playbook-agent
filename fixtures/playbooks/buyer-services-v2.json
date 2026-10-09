@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "fictional": true,
+  "id": "buyer-services-v2",
+  "rules": [
+    {
+      "id": "REN-01",
+      "text": "Fictional buyer policy: renewal requires express written agreement of both parties; automatic renewal is unacceptable.",
+      "topic": "renewal",
+      "obligations": [
+        "renewal.express_written_agreement"
+      ],
+      "limit_days": null,
+      "approved_renewal_sentence": "The term renews only by express written agreement of both parties.",
+      "approved_insertion_sentence": "The term renews only by express written agreement of both parties.",
+      "insertion_before_section": 5,
+      "default_section": 2
+    },
+    {
+      "id": "TERM-01",
+      "text": "Fictional buyer policy: the Customer may terminate for convenience with written notice of no more than 30 calendar days.",
+      "topic": "termination",
+      "obligations": [
+        "termination.customer_right",
+        "termination.written_notice",
+        "termination.notice_days"
+      ],
+      "limit_days": 30,
+      "approved_renewal_sentence": null,
+      "approved_insertion_sentence": "The Customer may terminate this Agreement for convenience on 30 calendar days' written notice to the Supplier.",
+      "insertion_before_section": 5,
+      "default_section": 3
+    },
+    {
+      "id": "PAY-01",
+      "text": "Fictional buyer policy: undisputed invoices are payable at least 30 calendar days after receipt by the Customer.",
+      "topic": "payment",
+      "obligations": [
+        "payment.undisputed",
+        "payment.receipt_trigger",
+        "payment.days"
+      ],
+      "limit_days": 30,
+      "approved_renewal_sentence": null,
+      "approved_insertion_sentence": "Undisputed invoices are payable 30 calendar days after receipt by the Customer.",
+      "insertion_before_section": 5,
+      "default_section": 4
+    }
+  ]
+}

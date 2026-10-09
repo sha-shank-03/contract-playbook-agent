@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "fictional": true,
+  "documents": [
+    {
+      "id": "agreement",
+      "file": "agreement.txt",
+      "type": "base"
+    }
+  ]
+}
+

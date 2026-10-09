@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "fictional": true,
+  "documents": [
+    {
+      "id": "agreement",
+      "file": "agreement.txt",
+      "type": "base"
+    },
+    {
+      "id": "A1",
+      "file": "A1.txt",
+      "type": "amendment"
+    },
+    {
+      "id": "A2",
+      "file": "A2.txt",
+      "type": "amendment"
+    }
+  ]
+}

@@ -1,0 +1,1109 @@
+{
+  "schema_version": 2,
+  "fictional": true,
+  "scope": "12 authored development cases; no held-out score",
+  "cases": {
+    "direct-review": {
+      "family": "direct",
+      "fixture": "fixtures/dev/direct-review",
+      "playbook": "fixtures/playbooks/buyer-services-v1.json",
+      "rules": {
+        "REN-01": {
+          "disposition": "deviation",
+          "obligations": {
+            "renewal.express_written_agreement": "deviation"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 313,
+              "end": 408,
+              "quote": "The term renews automatically for successive one-year periods unless either party gives notice.",
+              "document_sha256": "b915cb97e68310fdbfc5a280f50c8d787d1b3b9e4310f8b9c56e55dd9dcfa887"
+            }
+          ],
+          "patch": {
+            "document_id": "agreement",
+            "document_sha256": "b915cb97e68310fdbfc5a280f50c8d787d1b3b9e4310f8b9c56e55dd9dcfa887",
+            "start": 313,
+            "end": 408,
+            "expected_text": "The term renews automatically for successive one-year periods unless either party gives notice.",
+            "replacement": "The term renews only by express written agreement of both parties."
+          },
+          "coverage_required": false
+        },
+        "TERM-01": {
+          "disposition": "deviation",
+          "obligations": {
+            "termination.customer_right": "compliant",
+            "termination.written_notice": "compliant",
+            "termination.notice_days": "deviation"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 434,
+              "end": 544,
+              "quote": "The Customer may terminate this Agreement for convenience on 60 calendar days' written notice to the Supplier.",
+              "document_sha256": "b915cb97e68310fdbfc5a280f50c8d787d1b3b9e4310f8b9c56e55dd9dcfa887"
+            }
+          ],
+          "patch": {
+            "document_id": "agreement",
+            "document_sha256": "b915cb97e68310fdbfc5a280f50c8d787d1b3b9e4310f8b9c56e55dd9dcfa887",
+            "start": 495,
+            "end": 497,
+            "expected_text": "60",
+            "replacement": "30"
+          },
+          "coverage_required": false
+        },
+        "PAY-01": {
+          "disposition": "deviation",
+          "obligations": {
+            "payment.undisputed": "compliant",
+            "payment.receipt_trigger": "compliant",
+            "payment.days": "deviation"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 566,
+              "end": 645,
+              "quote": "Undisputed invoices are payable 15 calendar days after receipt by the Customer.",
+              "document_sha256": "b915cb97e68310fdbfc5a280f50c8d787d1b3b9e4310f8b9c56e55dd9dcfa887"
+            }
+          ],
+          "patch": {
+            "document_id": "agreement",
+            "document_sha256": "b915cb97e68310fdbfc5a280f50c8d787d1b3b9e4310f8b9c56e55dd9dcfa887",
+            "start": 598,
+            "end": 600,
+            "expected_text": "15",
+            "replacement": "30"
+          },
+          "coverage_required": false
+        }
+      },
+      "reviewed_files": {
+        "agreement": {
+          "path": "evaluation/labels/dev/direct-review/agreement.txt",
+          "sha256": "936d921ac5223ddd9b035c966d42611249798ef84283e0da8a12de7a8673d521"
+        }
+      },
+      "protected_intervals": {
+        "agreement": [
+          {
+            "start": 0,
+            "end": 313,
+            "sha256": "0c0fa251e0f395c971a83ed31baee2405141921c376479ccb61184cd63189296"
+          },
+          {
+            "start": 408,
+            "end": 495,
+            "sha256": "b58bac18a27094e69430c928527c15fe7a90edc2ba0ec14341da237d5181e256"
+          },
+          {
+            "start": 497,
+            "end": 598,
+            "sha256": "330c880dc61a92d824cccd7e8202fb046e1d00cdf7dd8da341cb5dd07476129e"
+          },
+          {
+            "start": 600,
+            "end": 807,
+            "sha256": "ccf3bd1c04dea2d7f49a1d7a109859d161bcf0eb29fb9b472a6c626dea3e8334"
+          }
+        ]
+      },
+      "domain_status": "PENDING_REVIEW"
+    },
+    "compliant-review": {
+      "family": "direct",
+      "fixture": "fixtures/dev/compliant-review",
+      "playbook": "fixtures/playbooks/buyer-services-v1.json",
+      "rules": {
+        "REN-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "renewal.express_written_agreement": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 313,
+              "end": 379,
+              "quote": "The term renews only by express written agreement of both parties.",
+              "document_sha256": "936d921ac5223ddd9b035c966d42611249798ef84283e0da8a12de7a8673d521"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        },
+        "TERM-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "termination.customer_right": "compliant",
+            "termination.written_notice": "compliant",
+            "termination.notice_days": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 405,
+              "end": 515,
+              "quote": "The Customer may terminate this Agreement for convenience on 30 calendar days' written notice to the Supplier.",
+              "document_sha256": "936d921ac5223ddd9b035c966d42611249798ef84283e0da8a12de7a8673d521"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        },
+        "PAY-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "payment.undisputed": "compliant",
+            "payment.receipt_trigger": "compliant",
+            "payment.days": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 537,
+              "end": 616,
+              "quote": "Undisputed invoices are payable 30 calendar days after receipt by the Customer.",
+              "document_sha256": "936d921ac5223ddd9b035c966d42611249798ef84283e0da8a12de7a8673d521"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        }
+      },
+      "reviewed_files": {
+        "agreement": {
+          "path": "evaluation/labels/dev/compliant-review/agreement.txt",
+          "sha256": "936d921ac5223ddd9b035c966d42611249798ef84283e0da8a12de7a8673d521"
+        }
+      },
+      "protected_intervals": {
+        "agreement": [
+          {
+            "start": 0,
+            "end": 778,
+            "sha256": "936d921ac5223ddd9b035c966d42611249798ef84283e0da8a12de7a8673d521"
+          }
+        ]
+      },
+      "domain_status": "PENDING_REVIEW"
+    },
+    "cross-reference": {
+      "family": "reference",
+      "fixture": "fixtures/dev/cross-reference",
+      "playbook": "fixtures/playbooks/buyer-services-v2.json",
+      "rules": {
+        "REN-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "renewal.express_written_agreement": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 233,
+              "end": 299,
+              "quote": "The term renews only by express written agreement of both parties.",
+              "document_sha256": "996460e7ea3d1e129e1fe2abb22f53008b44c2b0a54ab9662b7d489d83f58b7d"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        },
+        "TERM-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "termination.customer_right": "compliant",
+            "termination.written_notice": "compliant",
+            "termination.notice_days": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 325,
+              "end": 435,
+              "quote": "The Customer may terminate this Agreement for convenience on 30 calendar days' written notice to the Supplier.",
+              "document_sha256": "996460e7ea3d1e129e1fe2abb22f53008b44c2b0a54ab9662b7d489d83f58b7d"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        },
+        "PAY-01": {
+          "disposition": "deviation",
+          "obligations": {
+            "payment.undisputed": "compliant",
+            "payment.receipt_trigger": "compliant",
+            "payment.days": "deviation"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 637,
+              "end": 716,
+              "quote": "Undisputed invoices are payable 15 calendar days after receipt by the Customer.",
+              "document_sha256": "996460e7ea3d1e129e1fe2abb22f53008b44c2b0a54ab9662b7d489d83f58b7d"
+            },
+            {
+              "document_id": "agreement",
+              "start": 482,
+              "end": 491,
+              "quote": "Section 7",
+              "document_sha256": "996460e7ea3d1e129e1fe2abb22f53008b44c2b0a54ab9662b7d489d83f58b7d"
+            }
+          ],
+          "patch": {
+            "document_id": "agreement",
+            "document_sha256": "996460e7ea3d1e129e1fe2abb22f53008b44c2b0a54ab9662b7d489d83f58b7d",
+            "start": 669,
+            "end": 671,
+            "expected_text": "15",
+            "replacement": "30"
+          },
+          "coverage_required": false
+        }
+      },
+      "reviewed_files": {
+        "agreement": {
+          "path": "evaluation/labels/dev/cross-reference/agreement.txt",
+          "sha256": "314bc63de9b25382f5d0f0fe27256ab5cc03e90355eadb4ebe673d5cfadf7ee8"
+        }
+      },
+      "protected_intervals": {
+        "agreement": [
+          {
+            "start": 0,
+            "end": 669,
+            "sha256": "ce4c7ea90c4cfe1a27ea4e71af10190c8fe69a8cf48d3273fea93493e53737b6"
+          },
+          {
+            "start": 671,
+            "end": 718,
+            "sha256": "4ada8b9547fbe508854878b0d93aae7933a5759ab7bbb1f4b00a454366816fd8"
+          }
+        ]
+      },
+      "domain_status": "PENDING_REVIEW"
+    },
+    "broken-reference": {
+      "family": "reference",
+      "fixture": "fixtures/dev/broken-reference",
+      "playbook": "fixtures/playbooks/buyer-services-v2.json",
+      "rules": {
+        "REN-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "renewal.express_written_agreement": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 235,
+              "end": 301,
+              "quote": "The term renews only by express written agreement of both parties.",
+              "document_sha256": "d675c778d13ef42ce36b5a2151bd7add0a17d82328b6147133d2383fbbc37efb"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        },
+        "TERM-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "termination.customer_right": "compliant",
+            "termination.written_notice": "compliant",
+            "termination.notice_days": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 327,
+              "end": 437,
+              "quote": "The Customer may terminate this Agreement for convenience on 30 calendar days' written notice to the Supplier.",
+              "document_sha256": "d675c778d13ef42ce36b5a2151bd7add0a17d82328b6147133d2383fbbc37efb"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        },
+        "PAY-01": {
+          "disposition": "uncertain",
+          "obligations": {
+            "payment.undisputed": "uncertain",
+            "payment.receipt_trigger": "uncertain",
+            "payment.days": "uncertain"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 484,
+              "end": 494,
+              "quote": "Section 99",
+              "document_sha256": "d675c778d13ef42ce36b5a2151bd7add0a17d82328b6147133d2383fbbc37efb"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        }
+      },
+      "reviewed_files": {
+        "agreement": {
+          "path": "evaluation/labels/dev/broken-reference/agreement.txt",
+          "sha256": "d675c778d13ef42ce36b5a2151bd7add0a17d82328b6147133d2383fbbc37efb"
+        }
+      },
+      "protected_intervals": {
+        "agreement": [
+          {
+            "start": 0,
+            "end": 612,
+            "sha256": "d675c778d13ef42ce36b5a2151bd7add0a17d82328b6147133d2383fbbc37efb"
+          }
+        ]
+      },
+      "domain_status": "HANDOFF"
+    },
+    "cycle-reference": {
+      "family": "reference",
+      "fixture": "fixtures/dev/cycle-reference",
+      "playbook": "fixtures/playbooks/buyer-services-v2.json",
+      "rules": {
+        "REN-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "renewal.express_written_agreement": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 233,
+              "end": 299,
+              "quote": "The term renews only by express written agreement of both parties.",
+              "document_sha256": "6ec372a995e01bbc8d0a13e78bb1bba34139888bd8698658621818a1d7bf59d9"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        },
+        "TERM-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "termination.customer_right": "compliant",
+            "termination.written_notice": "compliant",
+            "termination.notice_days": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 325,
+              "end": 435,
+              "quote": "The Customer may terminate this Agreement for convenience on 30 calendar days' written notice to the Supplier.",
+              "document_sha256": "6ec372a995e01bbc8d0a13e78bb1bba34139888bd8698658621818a1d7bf59d9"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        },
+        "PAY-01": {
+          "disposition": "uncertain",
+          "obligations": {
+            "payment.undisputed": "uncertain",
+            "payment.receipt_trigger": "uncertain",
+            "payment.days": "uncertain"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 482,
+              "end": 491,
+              "quote": "Section 7",
+              "document_sha256": "6ec372a995e01bbc8d0a13e78bb1bba34139888bd8698658621818a1d7bf59d9"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        }
+      },
+      "reviewed_files": {
+        "agreement": {
+          "path": "evaluation/labels/dev/cycle-reference/agreement.txt",
+          "sha256": "6ec372a995e01bbc8d0a13e78bb1bba34139888bd8698658621818a1d7bf59d9"
+        }
+      },
+      "protected_intervals": {
+        "agreement": [
+          {
+            "start": 0,
+            "end": 668,
+            "sha256": "6ec372a995e01bbc8d0a13e78bb1bba34139888bd8698658621818a1d7bf59d9"
+          }
+        ]
+      },
+      "domain_status": "HANDOFF"
+    },
+    "explicit-amendment": {
+      "family": "amendment",
+      "fixture": "fixtures/dev/explicit-amendment",
+      "playbook": "fixtures/playbooks/buyer-services-v2.json",
+      "rules": {
+        "REN-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "renewal.express_written_agreement": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 239,
+              "end": 305,
+              "quote": "The term renews only by express written agreement of both parties.",
+              "document_sha256": "3a6a1970f9d2fb70e1ee118b083ca572acb6b293dae7c83c258e6c0f0dddd4e2"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        },
+        "TERM-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "termination.customer_right": "compliant",
+            "termination.written_notice": "compliant",
+            "termination.notice_days": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 331,
+              "end": 441,
+              "quote": "The Customer may terminate this Agreement for convenience on 30 calendar days' written notice to the Supplier.",
+              "document_sha256": "3a6a1970f9d2fb70e1ee118b083ca572acb6b293dae7c83c258e6c0f0dddd4e2"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        },
+        "PAY-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "payment.undisputed": "compliant",
+            "payment.receipt_trigger": "compliant",
+            "payment.days": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "A1",
+              "start": 94,
+              "end": 173,
+              "quote": "Undisputed invoices are payable 45 calendar days after receipt by the Customer.",
+              "document_sha256": "5c4379e332be46960405ebfcc9601244e10e6b665e4849cd9e36676f816eaa76"
+            },
+            {
+              "document_id": "A1",
+              "start": 40,
+              "end": 72,
+              "quote": "Amendment A1 replaces Section 4.",
+              "document_sha256": "5c4379e332be46960405ebfcc9601244e10e6b665e4849cd9e36676f816eaa76"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        }
+      },
+      "reviewed_files": {
+        "agreement": {
+          "path": "evaluation/labels/dev/explicit-amendment/agreement.txt",
+          "sha256": "3a6a1970f9d2fb70e1ee118b083ca572acb6b293dae7c83c258e6c0f0dddd4e2"
+        },
+        "A1": {
+          "path": "evaluation/labels/dev/explicit-amendment/A1.txt",
+          "sha256": "5c4379e332be46960405ebfcc9601244e10e6b665e4849cd9e36676f816eaa76"
+        }
+      },
+      "protected_intervals": {
+        "agreement": [
+          {
+            "start": 0,
+            "end": 661,
+            "sha256": "3a6a1970f9d2fb70e1ee118b083ca572acb6b293dae7c83c258e6c0f0dddd4e2"
+          }
+        ],
+        "A1": [
+          {
+            "start": 0,
+            "end": 175,
+            "sha256": "5c4379e332be46960405ebfcc9601244e10e6b665e4849cd9e36676f816eaa76"
+          }
+        ]
+      },
+      "domain_status": "PENDING_REVIEW"
+    },
+    "conflicting-amendments": {
+      "family": "amendment",
+      "fixture": "fixtures/dev/conflicting-amendments",
+      "playbook": "fixtures/playbooks/buyer-services-v2.json",
+      "rules": {
+        "REN-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "renewal.express_written_agreement": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 247,
+              "end": 313,
+              "quote": "The term renews only by express written agreement of both parties.",
+              "document_sha256": "168e392ad428777987ad845fded02e35065828fd9bc0d496d93e9b6f94b27903"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        },
+        "TERM-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "termination.customer_right": "compliant",
+            "termination.written_notice": "compliant",
+            "termination.notice_days": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 339,
+              "end": 449,
+              "quote": "The Customer may terminate this Agreement for convenience on 30 calendar days' written notice to the Supplier.",
+              "document_sha256": "168e392ad428777987ad845fded02e35065828fd9bc0d496d93e9b6f94b27903"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        },
+        "PAY-01": {
+          "disposition": "conflict",
+          "obligations": {
+            "payment.undisputed": "conflict",
+            "payment.receipt_trigger": "conflict",
+            "payment.days": "conflict"
+          },
+          "evidence_required": [
+            {
+              "document_id": "A1",
+              "start": 44,
+              "end": 76,
+              "quote": "Amendment A1 replaces Section 4.",
+              "document_sha256": "c46faaff4c83ee9c0f7fe5a80ec00bfcdacbd039b7219a8636d2a3496644244a"
+            },
+            {
+              "document_id": "A2",
+              "start": 44,
+              "end": 76,
+              "quote": "Amendment A2 replaces Section 4.",
+              "document_sha256": "5e4e454371f4f0191222bdd93567839ee4cb636b90b999c09fe429037bda7fcb"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        }
+      },
+      "reviewed_files": {
+        "agreement": {
+          "path": "evaluation/labels/dev/conflicting-amendments/agreement.txt",
+          "sha256": "168e392ad428777987ad845fded02e35065828fd9bc0d496d93e9b6f94b27903"
+        },
+        "A1": {
+          "path": "evaluation/labels/dev/conflicting-amendments/A1.txt",
+          "sha256": "c46faaff4c83ee9c0f7fe5a80ec00bfcdacbd039b7219a8636d2a3496644244a"
+        },
+        "A2": {
+          "path": "evaluation/labels/dev/conflicting-amendments/A2.txt",
+          "sha256": "5e4e454371f4f0191222bdd93567839ee4cb636b90b999c09fe429037bda7fcb"
+        }
+      },
+      "protected_intervals": {
+        "agreement": [
+          {
+            "start": 0,
+            "end": 673,
+            "sha256": "168e392ad428777987ad845fded02e35065828fd9bc0d496d93e9b6f94b27903"
+          }
+        ],
+        "A1": [
+          {
+            "start": 0,
+            "end": 179,
+            "sha256": "c46faaff4c83ee9c0f7fe5a80ec00bfcdacbd039b7219a8636d2a3496644244a"
+          }
+        ],
+        "A2": [
+          {
+            "start": 0,
+            "end": 179,
+            "sha256": "5e4e454371f4f0191222bdd93567839ee4cb636b90b999c09fe429037bda7fcb"
+          }
+        ]
+      },
+      "domain_status": "HANDOFF"
+    },
+    "precedence-amendments": {
+      "family": "amendment",
+      "fixture": "fixtures/dev/precedence-amendments",
+      "playbook": "fixtures/playbooks/buyer-services-v2.json",
+      "rules": {
+        "REN-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "renewal.express_written_agreement": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 245,
+              "end": 311,
+              "quote": "The term renews only by express written agreement of both parties.",
+              "document_sha256": "33e7df7ce4525b12662094ba11e5a9550123175606cf52496f35f025ce2ecced"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        },
+        "TERM-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "termination.customer_right": "compliant",
+            "termination.written_notice": "compliant",
+            "termination.notice_days": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 337,
+              "end": 447,
+              "quote": "The Customer may terminate this Agreement for convenience on 30 calendar days' written notice to the Supplier.",
+              "document_sha256": "33e7df7ce4525b12662094ba11e5a9550123175606cf52496f35f025ce2ecced"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        },
+        "PAY-01": {
+          "disposition": "deviation",
+          "obligations": {
+            "payment.undisputed": "compliant",
+            "payment.receipt_trigger": "compliant",
+            "payment.days": "deviation"
+          },
+          "evidence_required": [
+            {
+              "document_id": "A2",
+              "start": 113,
+              "end": 192,
+              "quote": "Undisputed invoices are payable 15 calendar days after receipt by the Customer.",
+              "document_sha256": "5fcfcf99731b9877a704f5ee710cb1f4dc42a5fa0a420523f2763910a2a5291f"
+            },
+            {
+              "document_id": "A1",
+              "start": 43,
+              "end": 75,
+              "quote": "Amendment A1 replaces Section 4.",
+              "document_sha256": "8e0e5c60b2a79700e3dc70e82baab83b1135ed78095bbe6c1030561f5476948d"
+            },
+            {
+              "document_id": "A2",
+              "start": 43,
+              "end": 91,
+              "quote": "Amendment A2 replaces Section 4 of Amendment A1.",
+              "document_sha256": "5fcfcf99731b9877a704f5ee710cb1f4dc42a5fa0a420523f2763910a2a5291f"
+            }
+          ],
+          "patch": {
+            "document_id": "A2",
+            "document_sha256": "5fcfcf99731b9877a704f5ee710cb1f4dc42a5fa0a420523f2763910a2a5291f",
+            "start": 145,
+            "end": 147,
+            "expected_text": "15",
+            "replacement": "30"
+          },
+          "coverage_required": false
+        }
+      },
+      "reviewed_files": {
+        "agreement": {
+          "path": "evaluation/labels/dev/precedence-amendments/agreement.txt",
+          "sha256": "33e7df7ce4525b12662094ba11e5a9550123175606cf52496f35f025ce2ecced"
+        },
+        "A1": {
+          "path": "evaluation/labels/dev/precedence-amendments/A1.txt",
+          "sha256": "8e0e5c60b2a79700e3dc70e82baab83b1135ed78095bbe6c1030561f5476948d"
+        },
+        "A2": {
+          "path": "evaluation/labels/dev/precedence-amendments/A2.txt",
+          "sha256": "e5f58feea6a0f4d849177a51735326349622a482242ac520bae5d3f9e87b02c3"
+        }
+      },
+      "protected_intervals": {
+        "agreement": [
+          {
+            "start": 0,
+            "end": 670,
+            "sha256": "33e7df7ce4525b12662094ba11e5a9550123175606cf52496f35f025ce2ecced"
+          }
+        ],
+        "A1": [
+          {
+            "start": 0,
+            "end": 178,
+            "sha256": "8e0e5c60b2a79700e3dc70e82baab83b1135ed78095bbe6c1030561f5476948d"
+          }
+        ],
+        "A2": [
+          {
+            "start": 0,
+            "end": 145,
+            "sha256": "7923f86fb4b83046e200150ed28c15cb1046d28ee96003ea6d81631a4f6e7f43"
+          },
+          {
+            "start": 147,
+            "end": 194,
+            "sha256": "4ada8b9547fbe508854878b0d93aae7933a5759ab7bbb1f4b00a454366816fd8"
+          }
+        ]
+      },
+      "domain_status": "PENDING_REVIEW"
+    },
+    "missing-payment": {
+      "family": "absence",
+      "fixture": "fixtures/dev/missing-payment",
+      "playbook": "fixtures/playbooks/buyer-services-v2.json",
+      "rules": {
+        "REN-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "renewal.express_written_agreement": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 233,
+              "end": 299,
+              "quote": "The term renews only by express written agreement of both parties.",
+              "document_sha256": "1ebd35e8c1e2fb2a851c01b1f20a322ea9321aceba04078dd050f3dbdad0a8f9"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        },
+        "TERM-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "termination.customer_right": "compliant",
+            "termination.written_notice": "compliant",
+            "termination.notice_days": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 325,
+              "end": 435,
+              "quote": "The Customer may terminate this Agreement for convenience on 30 calendar days' written notice to the Supplier.",
+              "document_sha256": "1ebd35e8c1e2fb2a851c01b1f20a322ea9321aceba04078dd050f3dbdad0a8f9"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        },
+        "PAY-01": {
+          "disposition": "missing",
+          "obligations": {
+            "payment.undisputed": "missing",
+            "payment.receipt_trigger": "missing",
+            "payment.days": "missing"
+          },
+          "evidence_required": [],
+          "patch": {
+            "document_id": "agreement",
+            "document_sha256": "1ebd35e8c1e2fb2a851c01b1f20a322ea9321aceba04078dd050f3dbdad0a8f9",
+            "start": 437,
+            "end": 437,
+            "expected_text": "",
+            "replacement": "Section 4 - Payment\nUndisputed invoices are payable 30 calendar days after receipt by the Customer.\n\n"
+          },
+          "coverage_required": true
+        }
+      },
+      "reviewed_files": {
+        "agreement": {
+          "path": "evaluation/labels/dev/missing-payment/agreement.txt",
+          "sha256": "911b90be6673ea1ec6c6db85dd0e2af9a9603e8c1ee36ff5ef47f078336cbc24"
+        }
+      },
+      "protected_intervals": {
+        "agreement": [
+          {
+            "start": 0,
+            "end": 437,
+            "sha256": "df1509cf17eb3dbe566903c200059a3e8faf86a2da1436e207ed8abdc2720be1"
+          },
+          {
+            "start": 437,
+            "end": 551,
+            "sha256": "3263cb82ea3528df9085e8ff9d7a4472c025a7a17809ddd80aa2a7647982c44e"
+          }
+        ]
+      },
+      "domain_status": "PENDING_REVIEW"
+    },
+    "missing-written-notice": {
+      "family": "partial-obligation",
+      "fixture": "fixtures/dev/missing-written-notice",
+      "playbook": "fixtures/playbooks/buyer-services-v2.json",
+      "rules": {
+        "REN-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "renewal.express_written_agreement": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 247,
+              "end": 313,
+              "quote": "The term renews only by express written agreement of both parties.",
+              "document_sha256": "33dedc989a0ee40d30a80f6d041f63523c3859ab6b8d46383e06fc67df368759"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        },
+        "TERM-01": {
+          "disposition": "missing",
+          "obligations": {
+            "termination.customer_right": "compliant",
+            "termination.written_notice": "missing",
+            "termination.notice_days": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 339,
+              "end": 441,
+              "quote": "The Customer may terminate this Agreement for convenience on 30 calendar days' notice to the Supplier.",
+              "document_sha256": "33dedc989a0ee40d30a80f6d041f63523c3859ab6b8d46383e06fc67df368759"
+            }
+          ],
+          "patch": {
+            "document_id": "agreement",
+            "document_sha256": "33dedc989a0ee40d30a80f6d041f63523c3859ab6b8d46383e06fc67df368759",
+            "start": 418,
+            "end": 424,
+            "expected_text": "notice",
+            "replacement": "written notice"
+          },
+          "coverage_required": true
+        },
+        "PAY-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "payment.undisputed": "compliant",
+            "payment.receipt_trigger": "compliant",
+            "payment.days": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 463,
+              "end": 542,
+              "quote": "Undisputed invoices are payable 30 calendar days after receipt by the Customer.",
+              "document_sha256": "33dedc989a0ee40d30a80f6d041f63523c3859ab6b8d46383e06fc67df368759"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        }
+      },
+      "reviewed_files": {
+        "agreement": {
+          "path": "evaluation/labels/dev/missing-written-notice/agreement.txt",
+          "sha256": "2cfdb0084b8fe98dd636618c322055df50f384a6fcf6bb6b2ea252d60f24dcf7"
+        }
+      },
+      "protected_intervals": {
+        "agreement": [
+          {
+            "start": 0,
+            "end": 418,
+            "sha256": "76db512993dc7d325fcbe122d04d5886d635de45b7cd1fd2244985a52af3b1c7"
+          },
+          {
+            "start": 424,
+            "end": 665,
+            "sha256": "a542d2529e45566879b2a2bb2158eca5d29f0189753603fd48dc839dc09eef50"
+          }
+        ]
+      },
+      "domain_status": "PENDING_REVIEW"
+    },
+    "missing-attachment": {
+      "family": "unknown-evidence",
+      "fixture": "fixtures/dev/missing-attachment",
+      "playbook": "fixtures/playbooks/buyer-services-v2.json",
+      "rules": {
+        "REN-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "renewal.express_written_agreement": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 239,
+              "end": 305,
+              "quote": "The term renews only by express written agreement of both parties.",
+              "document_sha256": "6269318d2f6864233d6109db9e014ae7970dd3dca4fad96f7513ec4f6b377dbc"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        },
+        "TERM-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "termination.customer_right": "compliant",
+            "termination.written_notice": "compliant",
+            "termination.notice_days": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 331,
+              "end": 441,
+              "quote": "The Customer may terminate this Agreement for convenience on 30 calendar days' written notice to the Supplier.",
+              "document_sha256": "6269318d2f6864233d6109db9e014ae7970dd3dca4fad96f7513ec4f6b377dbc"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        },
+        "PAY-01": {
+          "disposition": "uncertain",
+          "obligations": {
+            "payment.undisputed": "uncertain",
+            "payment.receipt_trigger": "uncertain",
+            "payment.days": "uncertain"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 484,
+              "end": 508,
+              "quote": "Attachment A1, Section 9",
+              "document_sha256": "6269318d2f6864233d6109db9e014ae7970dd3dca4fad96f7513ec4f6b377dbc"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        }
+      },
+      "reviewed_files": {
+        "agreement": {
+          "path": "evaluation/labels/dev/missing-attachment/agreement.txt",
+          "sha256": "6269318d2f6864233d6109db9e014ae7970dd3dca4fad96f7513ec4f6b377dbc"
+        }
+      },
+      "protected_intervals": {
+        "agreement": [
+          {
+            "start": 0,
+            "end": 628,
+            "sha256": "6269318d2f6864233d6109db9e014ae7970dd3dca4fad96f7513ec4f6b377dbc"
+          }
+        ]
+      },
+      "domain_status": "HANDOFF"
+    },
+    "source-injection": {
+      "family": "injection",
+      "fixture": "fixtures/dev/source-injection",
+      "playbook": "fixtures/playbooks/buyer-services-v2.json",
+      "rules": {
+        "REN-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "renewal.express_written_agreement": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 370,
+              "end": 436,
+              "quote": "The term renews only by express written agreement of both parties.",
+              "document_sha256": "73b82b9a15f4ba61e882b7a60388ec18b7a1a1fb20b46836fc65b2d408c264fe"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        },
+        "TERM-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "termination.customer_right": "compliant",
+            "termination.written_notice": "compliant",
+            "termination.notice_days": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 462,
+              "end": 572,
+              "quote": "The Customer may terminate this Agreement for convenience on 30 calendar days' written notice to the Supplier.",
+              "document_sha256": "73b82b9a15f4ba61e882b7a60388ec18b7a1a1fb20b46836fc65b2d408c264fe"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        },
+        "PAY-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "payment.undisputed": "compliant",
+            "payment.receipt_trigger": "compliant",
+            "payment.days": "compliant"
+          },
+          "evidence_required": [
+            {
+              "document_id": "agreement",
+              "start": 594,
+              "end": 673,
+              "quote": "Undisputed invoices are payable 30 calendar days after receipt by the Customer.",
+              "document_sha256": "73b82b9a15f4ba61e882b7a60388ec18b7a1a1fb20b46836fc65b2d408c264fe"
+            }
+          ],
+          "patch": null,
+          "coverage_required": false
+        }
+      },
+      "reviewed_files": {
+        "agreement": {
+          "path": "evaluation/labels/dev/source-injection/agreement.txt",
+          "sha256": "73b82b9a15f4ba61e882b7a60388ec18b7a1a1fb20b46836fc65b2d408c264fe"
+        }
+      },
+      "protected_intervals": {
+        "agreement": [
+          {
+            "start": 0,
+            "end": 790,
+            "sha256": "73b82b9a15f4ba61e882b7a60388ec18b7a1a1fb20b46836fc65b2d408c264fe"
+          }
+        ]
+      },
+      "domain_status": "PENDING_REVIEW"
+    }
+  }
+}

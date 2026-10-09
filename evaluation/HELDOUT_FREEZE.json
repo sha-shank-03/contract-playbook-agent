@@ -1,0 +1,585 @@
+{
+  "schema_version": 1,
+  "authored_on": "2026-10-08",
+  "cases": 30,
+  "scored": false,
+  "main_rubric_review": "pending",
+  "entries": [
+    {
+      "path": "evaluation/RUBRIC.md",
+      "sha256": "03f346fed29b079ac4d1b7dff20859175e6ac7705b0c5f487c8930474e4accca",
+      "bytes": 2778
+    },
+    {
+      "path": "evaluation/labels/heldout.json",
+      "sha256": "46bdce26f2a2c36c89ddbf8cacc8029b59fc6d3a31e033971795dfc6267ab51f",
+      "bytes": 94471
+    },
+    {
+      "path": "fixtures/playbooks/buyer-services-v2.json",
+      "sha256": "f554cdda6fc7d6baff203d25efb739770b8e09d226f7b2a2b4f6ed322f592e07",
+      "bytes": 1854
+    },
+    {
+      "path": "fixtures/heldout/H01/agreement.txt",
+      "sha256": "56aadf7b43b929506ef1753b6a37af478cefe38d409cdb7ab082622622c8d84f",
+      "bytes": 620
+    },
+    {
+      "path": "fixtures/heldout/H01/manifest.json",
+      "sha256": "dded9f79838c8d3d27047407be12738270136a49ee72820c107de056eee015a7",
+      "bytes": 158
+    },
+    {
+      "path": "fixtures/heldout/H02/agreement.txt",
+      "sha256": "5a400da1004832a62439b4d3ff9f6024133a8e946f9767a63915b5bb92be4b61",
+      "bytes": 620
+    },
+    {
+      "path": "fixtures/heldout/H02/manifest.json",
+      "sha256": "dded9f79838c8d3d27047407be12738270136a49ee72820c107de056eee015a7",
+      "bytes": 158
+    },
+    {
+      "path": "fixtures/heldout/H03/agreement.txt",
+      "sha256": "64387514ce8e2dc4579d0316ef8f4b1a01fed313e94f5d06bb5d221397b736a7",
+      "bytes": 649
+    },
+    {
+      "path": "fixtures/heldout/H03/manifest.json",
+      "sha256": "dded9f79838c8d3d27047407be12738270136a49ee72820c107de056eee015a7",
+      "bytes": 158
+    },
+    {
+      "path": "fixtures/heldout/H04/agreement.txt",
+      "sha256": "605d607f0a682df687fd5c551896339334c46f7d56a634552880087345903a24",
+      "bytes": 649
+    },
+    {
+      "path": "fixtures/heldout/H04/manifest.json",
+      "sha256": "dded9f79838c8d3d27047407be12738270136a49ee72820c107de056eee015a7",
+      "bytes": 158
+    },
+    {
+      "path": "fixtures/heldout/H05/agreement.txt",
+      "sha256": "1209ae5330347f48a1f5b55ca8e8ffd899dd40539de9535de2c3f187e12b2df8",
+      "bytes": 619
+    },
+    {
+      "path": "fixtures/heldout/H05/manifest.json",
+      "sha256": "dded9f79838c8d3d27047407be12738270136a49ee72820c107de056eee015a7",
+      "bytes": 158
+    },
+    {
+      "path": "fixtures/heldout/H06/agreement.txt",
+      "sha256": "63739b72fa71bd6bb94dba547501ab254cb6d15143fbd11e50442ba5273c9e7c",
+      "bytes": 621
+    },
+    {
+      "path": "fixtures/heldout/H06/manifest.json",
+      "sha256": "dded9f79838c8d3d27047407be12738270136a49ee72820c107de056eee015a7",
+      "bytes": 158
+    },
+    {
+      "path": "fixtures/heldout/H07/agreement.txt",
+      "sha256": "c96cbd6b80dc2b2e1ebcd216cced666f7ae9247b7faff164d2d4be89808204f6",
+      "bytes": 515
+    },
+    {
+      "path": "fixtures/heldout/H07/manifest.json",
+      "sha256": "dded9f79838c8d3d27047407be12738270136a49ee72820c107de056eee015a7",
+      "bytes": 158
+    },
+    {
+      "path": "fixtures/heldout/H08/agreement.txt",
+      "sha256": "01b38f8d22d8fb544e876a79fa78bea42ca622382b80b395e13d03c1ee73d70b",
+      "bytes": 608
+    },
+    {
+      "path": "fixtures/heldout/H08/manifest.json",
+      "sha256": "dded9f79838c8d3d27047407be12738270136a49ee72820c107de056eee015a7",
+      "bytes": 158
+    },
+    {
+      "path": "fixtures/heldout/H09/agreement.txt",
+      "sha256": "248db38493f1be2486c931de67fc6760a32eadb851c7bc6bcfa3b5e979f9c96a",
+      "bytes": 586
+    },
+    {
+      "path": "fixtures/heldout/H09/manifest.json",
+      "sha256": "dded9f79838c8d3d27047407be12738270136a49ee72820c107de056eee015a7",
+      "bytes": 158
+    },
+    {
+      "path": "fixtures/heldout/H10/agreement.txt",
+      "sha256": "6148b9f11009f4d083de08590b5b1ef30df8346113b34f510f64a8e7496b82e7",
+      "bytes": 516
+    },
+    {
+      "path": "fixtures/heldout/H10/manifest.json",
+      "sha256": "dded9f79838c8d3d27047407be12738270136a49ee72820c107de056eee015a7",
+      "bytes": 158
+    },
+    {
+      "path": "fixtures/heldout/H11/agreement.txt",
+      "sha256": "7a7eaae058fda18212cb4fd1743b67250255cc789fab4ae0f940c838b4d8d23c",
+      "bytes": 480
+    },
+    {
+      "path": "fixtures/heldout/H11/manifest.json",
+      "sha256": "dded9f79838c8d3d27047407be12738270136a49ee72820c107de056eee015a7",
+      "bytes": 158
+    },
+    {
+      "path": "fixtures/heldout/H12/agreement.txt",
+      "sha256": "1ce0c9e2d143e8e0ad01c26134e82ca733aec87398119508f04f9a341c4e3449",
+      "bytes": 586
+    },
+    {
+      "path": "fixtures/heldout/H12/manifest.json",
+      "sha256": "dded9f79838c8d3d27047407be12738270136a49ee72820c107de056eee015a7",
+      "bytes": 158
+    },
+    {
+      "path": "fixtures/heldout/H13/agreement.txt",
+      "sha256": "1dc7efbfadd06dd4887fc4982fefc3ac745de39784d92471c035692dcb25aa1a",
+      "bytes": 692
+    },
+    {
+      "path": "fixtures/heldout/H13/manifest.json",
+      "sha256": "dded9f79838c8d3d27047407be12738270136a49ee72820c107de056eee015a7",
+      "bytes": 158
+    },
+    {
+      "path": "fixtures/heldout/H14/agreement.txt",
+      "sha256": "b3f374658195f80f4bc7973ce395dd81f61ed562bd30a99bed463bd679f7628c",
+      "bytes": 754
+    },
+    {
+      "path": "fixtures/heldout/H14/manifest.json",
+      "sha256": "dded9f79838c8d3d27047407be12738270136a49ee72820c107de056eee015a7",
+      "bytes": 158
+    },
+    {
+      "path": "fixtures/heldout/H15/agreement.txt",
+      "sha256": "53e039c7e8cfe99141d401a5ebb1ea0920d49222a82b96f53c796865aa372afe",
+      "bytes": 581
+    },
+    {
+      "path": "fixtures/heldout/H15/manifest.json",
+      "sha256": "dded9f79838c8d3d27047407be12738270136a49ee72820c107de056eee015a7",
+      "bytes": 158
+    },
+    {
+      "path": "fixtures/heldout/H16/agreement.txt",
+      "sha256": "931ef591ff30a4ebfae1f394d6ed5b2d119890074ebe95da11aaa00a85fe97ee",
+      "bytes": 654
+    },
+    {
+      "path": "fixtures/heldout/H16/manifest.json",
+      "sha256": "dded9f79838c8d3d27047407be12738270136a49ee72820c107de056eee015a7",
+      "bytes": 158
+    },
+    {
+      "path": "fixtures/heldout/H17/A1.txt",
+      "sha256": "4ca598d04893d2dbb38e600f101ce523edefb82f1d88f2876d4418d753587225",
+      "bytes": 178
+    },
+    {
+      "path": "fixtures/heldout/H17/agreement.txt",
+      "sha256": "9546c342709a3a8943922aa9a6a473762ad65bdeaefa4c910c20b448dd4f5109",
+      "bytes": 594
+    },
+    {
+      "path": "fixtures/heldout/H17/manifest.json",
+      "sha256": "0f2fd9e29f04a716918492299d2f89f1959ba47e88a3dc4ba8a9b34f776a5c9b",
+      "bytes": 239
+    },
+    {
+      "path": "fixtures/heldout/H18/agreement.txt",
+      "sha256": "a214f868561dbb45816ed739705d99b43e8bb88271e4d0198dbfbfba30e9d48d",
+      "bytes": 645
+    },
+    {
+      "path": "fixtures/heldout/H18/manifest.json",
+      "sha256": "dded9f79838c8d3d27047407be12738270136a49ee72820c107de056eee015a7",
+      "bytes": 158
+    },
+    {
+      "path": "fixtures/heldout/H19/A1.txt",
+      "sha256": "e138f0cc6015961fd314eb802f8b9bd328ac88478635a080880ac74f429ee439",
+      "bytes": 160
+    },
+    {
+      "path": "fixtures/heldout/H19/agreement.txt",
+      "sha256": "b801406cd049befd26b621972021dfc4ad8a6c61559c37902a6ccc2cf749ce97",
+      "bytes": 616
+    },
+    {
+      "path": "fixtures/heldout/H19/manifest.json",
+      "sha256": "0f2fd9e29f04a716918492299d2f89f1959ba47e88a3dc4ba8a9b34f776a5c9b",
+      "bytes": 239
+    },
+    {
+      "path": "fixtures/heldout/H20/A1.txt",
+      "sha256": "c38d2fc5c4f406f00fe506c5083242c712c54c5403fb8c057c603c091f60e7e8",
+      "bytes": 195
+    },
+    {
+      "path": "fixtures/heldout/H20/agreement.txt",
+      "sha256": "de495f97f649812ff27bf80153fa21e8175a2318cda2279715ef207a551a3406",
+      "bytes": 616
+    },
+    {
+      "path": "fixtures/heldout/H20/manifest.json",
+      "sha256": "0f2fd9e29f04a716918492299d2f89f1959ba47e88a3dc4ba8a9b34f776a5c9b",
+      "bytes": 239
+    },
+    {
+      "path": "fixtures/heldout/H21/A1.txt",
+      "sha256": "220464c6ed5ac794d57981535a97a0f85416c856a73131c412b50ce6ff2a83b9",
+      "bytes": 160
+    },
+    {
+      "path": "fixtures/heldout/H21/A2.txt",
+      "sha256": "b5c20dabbee6e55823d7b4ac851a89147ab21036dc6ce7a244b6d8b58974a241",
+      "bytes": 160
+    },
+    {
+      "path": "fixtures/heldout/H21/agreement.txt",
+      "sha256": "9044a81e3ca21caf52765ff6418c9bb7de018e91a3929906f21b1a4972b9d8af",
+      "bytes": 616
+    },
+    {
+      "path": "fixtures/heldout/H21/manifest.json",
+      "sha256": "39d4137bee0988bdcb61e982d2235115e10e9b62912f8e202283fc08f94f4e86",
+      "bytes": 320
+    },
+    {
+      "path": "fixtures/heldout/H22/A1.txt",
+      "sha256": "e2a3b998174479791110788ffbd7474cae8c4fb681a03d637686397ddeb91736",
+      "bytes": 160
+    },
+    {
+      "path": "fixtures/heldout/H22/A2.txt",
+      "sha256": "d934639cb0244580a2a34498d3a345363e7ba3cd863c716cabc9ef7e7253d163",
+      "bytes": 160
+    },
+    {
+      "path": "fixtures/heldout/H22/agreement.txt",
+      "sha256": "d5ef62a1fdb7b289ccc0015e825a96d4fd2e7e7ce2ad9e06eac08e4a5aba4a90",
+      "bytes": 616
+    },
+    {
+      "path": "fixtures/heldout/H22/manifest.json",
+      "sha256": "39d4137bee0988bdcb61e982d2235115e10e9b62912f8e202283fc08f94f4e86",
+      "bytes": 320
+    },
+    {
+      "path": "fixtures/heldout/H23/A1.txt",
+      "sha256": "60ede23d6fb625111bb5003e812642ef9036fd183441d99b019d2bab298f9c93",
+      "bytes": 160
+    },
+    {
+      "path": "fixtures/heldout/H23/A2.txt",
+      "sha256": "93a8d166e7b5a307661a56c147f0d0a1f0a2848ec14c0f48e764fae8fc938802",
+      "bytes": 176
+    },
+    {
+      "path": "fixtures/heldout/H23/agreement.txt",
+      "sha256": "c658f5c41aa76400261edc4a2984c4302965c23f9d6aa4e31f1264a7670d9bfb",
+      "bytes": 616
+    },
+    {
+      "path": "fixtures/heldout/H23/manifest.json",
+      "sha256": "39d4137bee0988bdcb61e982d2235115e10e9b62912f8e202283fc08f94f4e86",
+      "bytes": 320
+    },
+    {
+      "path": "fixtures/heldout/H24/A1.txt",
+      "sha256": "cf6c408fcf63910bb4c8c84aa2e05a5a161122f0eb2d23a3226813813988c454",
+      "bytes": 162
+    },
+    {
+      "path": "fixtures/heldout/H24/agreement.txt",
+      "sha256": "26840a0026387af13647e92fe0ca88ccbfcd646341a3285935d0d310aa576c79",
+      "bytes": 616
+    },
+    {
+      "path": "fixtures/heldout/H24/manifest.json",
+      "sha256": "0f2fd9e29f04a716918492299d2f89f1959ba47e88a3dc4ba8a9b34f776a5c9b",
+      "bytes": 239
+    },
+    {
+      "path": "fixtures/heldout/H25/agreement.txt",
+      "sha256": "7c661ec61281b11712ca781c53adb9c1fb3ac284c908aabc8c7aa2154b85b415",
+      "bytes": 751
+    },
+    {
+      "path": "fixtures/heldout/H25/manifest.json",
+      "sha256": "dded9f79838c8d3d27047407be12738270136a49ee72820c107de056eee015a7",
+      "bytes": 158
+    },
+    {
+      "path": "fixtures/heldout/H26/A1.txt",
+      "sha256": "b905db37a124c087ff9a6697801545b8c7afbaa181c5800b24883214283c20e8",
+      "bytes": 295
+    },
+    {
+      "path": "fixtures/heldout/H26/agreement.txt",
+      "sha256": "e0ce7d2bf76c71b396c88cf513a30f259c8d2634aa22d7ffee52a0c9e74ba9bd",
+      "bytes": 616
+    },
+    {
+      "path": "fixtures/heldout/H26/manifest.json",
+      "sha256": "0f2fd9e29f04a716918492299d2f89f1959ba47e88a3dc4ba8a9b34f776a5c9b",
+      "bytes": 239
+    },
+    {
+      "path": "fixtures/heldout/H27/agreement.txt",
+      "sha256": "9a2a9c151a3ec5af7965d48221de7105597bad4ea7ea247ae663a93e6d42b8e4",
+      "bytes": 673
+    },
+    {
+      "path": "fixtures/heldout/H27/manifest.json",
+      "sha256": "dded9f79838c8d3d27047407be12738270136a49ee72820c107de056eee015a7",
+      "bytes": 158
+    },
+    {
+      "path": "fixtures/heldout/H28/agreement.txt",
+      "sha256": "b0f8bafcc5710d9c85a347be17e862b89b3dc532bdbc8554902bf098c0ce2e8c",
+      "bytes": 696
+    },
+    {
+      "path": "fixtures/heldout/H28/manifest.json",
+      "sha256": "dded9f79838c8d3d27047407be12738270136a49ee72820c107de056eee015a7",
+      "bytes": 158
+    },
+    {
+      "path": "fixtures/heldout/H29/agreement.txt",
+      "sha256": "b01efa21830af4fa820dc68d33f684c767fb622cdaa6ff5e4a133bd4ed4a970d",
+      "bytes": 720
+    },
+    {
+      "path": "fixtures/heldout/H29/manifest.json",
+      "sha256": "dded9f79838c8d3d27047407be12738270136a49ee72820c107de056eee015a7",
+      "bytes": 158
+    },
+    {
+      "path": "fixtures/heldout/H30/agreement.txt",
+      "sha256": "6494e8054ff94725c8595396a6e717101b288e3f049fad0ab3704f5a0e5b8471",
+      "bytes": 603
+    },
+    {
+      "path": "fixtures/heldout/H30/manifest.json",
+      "sha256": "dded9f79838c8d3d27047407be12738270136a49ee72820c107de056eee015a7",
+      "bytes": 158
+    },
+    {
+      "path": "evaluation/labels/heldout/H01/agreement.txt",
+      "sha256": "accf6bd571daffc5698ca8114d5c663ea29f7b7587c985faee3e95206d065094",
+      "bytes": 620
+    },
+    {
+      "path": "evaluation/labels/heldout/H02/agreement.txt",
+      "sha256": "5a400da1004832a62439b4d3ff9f6024133a8e946f9767a63915b5bb92be4b61",
+      "bytes": 620
+    },
+    {
+      "path": "evaluation/labels/heldout/H03/agreement.txt",
+      "sha256": "e4c7ecb8621bae5e4b775933872d7698bcd39b842354a23b3f77f8e76d39b8fc",
+      "bytes": 620
+    },
+    {
+      "path": "evaluation/labels/heldout/H04/agreement.txt",
+      "sha256": "2c50ba7904ac2afd6243250dfdbd8587a13f39adee2568dcb918f48b00a26d36",
+      "bytes": 620
+    },
+    {
+      "path": "evaluation/labels/heldout/H05/agreement.txt",
+      "sha256": "1209ae5330347f48a1f5b55ca8e8ffd899dd40539de9535de2c3f187e12b2df8",
+      "bytes": 619
+    },
+    {
+      "path": "evaluation/labels/heldout/H06/agreement.txt",
+      "sha256": "17a2742406b88d08b35965bc4cd875607378d47e1042cff9177727ae2a1bd8e9",
+      "bytes": 620
+    },
+    {
+      "path": "evaluation/labels/heldout/H07/agreement.txt",
+      "sha256": "76463a95f157c46d7fbb879e662bad239a7cce084e73430105e08dee1d40e8c0",
+      "bytes": 616
+    },
+    {
+      "path": "evaluation/labels/heldout/H08/agreement.txt",
+      "sha256": "f9c8d7a14a8a335aa9cdda14b8bd31fb95941c1777a4030b13683e96ce60ad02",
+      "bytes": 616
+    },
+    {
+      "path": "evaluation/labels/heldout/H09/agreement.txt",
+      "sha256": "dfc730d90efaf9f974729ea86712b96705533719cd131d1510f4dab49185b53d",
+      "bytes": 616
+    },
+    {
+      "path": "evaluation/labels/heldout/H10/agreement.txt",
+      "sha256": "6148b9f11009f4d083de08590b5b1ef30df8346113b34f510f64a8e7496b82e7",
+      "bytes": 516
+    },
+    {
+      "path": "evaluation/labels/heldout/H11/agreement.txt",
+      "sha256": "6e5e0ca747c6812bb5b02766d2fbc7ad3fe0bc1329b3d1b61ef3ba2b3ab12c76",
+      "bytes": 616
+    },
+    {
+      "path": "evaluation/labels/heldout/H12/agreement.txt",
+      "sha256": "10ea2435d6ad5e495cc4708932c46b85695143dc81c68263086a1f82de7dec2e",
+      "bytes": 616
+    },
+    {
+      "path": "evaluation/labels/heldout/H13/agreement.txt",
+      "sha256": "bc3fad92df0b43c51cf5b0d00c347c0efd831179a11c52ea88ac3ff4d6a3b3c7",
+      "bytes": 692
+    },
+    {
+      "path": "evaluation/labels/heldout/H14/agreement.txt",
+      "sha256": "b3f374658195f80f4bc7973ce395dd81f61ed562bd30a99bed463bd679f7628c",
+      "bytes": 754
+    },
+    {
+      "path": "evaluation/labels/heldout/H15/agreement.txt",
+      "sha256": "53e039c7e8cfe99141d401a5ebb1ea0920d49222a82b96f53c796865aa372afe",
+      "bytes": 581
+    },
+    {
+      "path": "evaluation/labels/heldout/H16/agreement.txt",
+      "sha256": "931ef591ff30a4ebfae1f394d6ed5b2d119890074ebe95da11aaa00a85fe97ee",
+      "bytes": 654
+    },
+    {
+      "path": "evaluation/labels/heldout/H17/A1.txt",
+      "sha256": "4ca598d04893d2dbb38e600f101ce523edefb82f1d88f2876d4418d753587225",
+      "bytes": 178
+    },
+    {
+      "path": "evaluation/labels/heldout/H17/agreement.txt",
+      "sha256": "9546c342709a3a8943922aa9a6a473762ad65bdeaefa4c910c20b448dd4f5109",
+      "bytes": 594
+    },
+    {
+      "path": "evaluation/labels/heldout/H18/agreement.txt",
+      "sha256": "a214f868561dbb45816ed739705d99b43e8bb88271e4d0198dbfbfba30e9d48d",
+      "bytes": 645
+    },
+    {
+      "path": "evaluation/labels/heldout/H19/A1.txt",
+      "sha256": "e138f0cc6015961fd314eb802f8b9bd328ac88478635a080880ac74f429ee439",
+      "bytes": 160
+    },
+    {
+      "path": "evaluation/labels/heldout/H19/agreement.txt",
+      "sha256": "b801406cd049befd26b621972021dfc4ad8a6c61559c37902a6ccc2cf749ce97",
+      "bytes": 616
+    },
+    {
+      "path": "evaluation/labels/heldout/H20/A1.txt",
+      "sha256": "536f52b8139d1a749f7ab059051882b5471d5351d8d9d0dd921130e7dc2fa14b",
+      "bytes": 195
+    },
+    {
+      "path": "evaluation/labels/heldout/H20/agreement.txt",
+      "sha256": "de495f97f649812ff27bf80153fa21e8175a2318cda2279715ef207a551a3406",
+      "bytes": 616
+    },
+    {
+      "path": "evaluation/labels/heldout/H21/A1.txt",
+      "sha256": "220464c6ed5ac794d57981535a97a0f85416c856a73131c412b50ce6ff2a83b9",
+      "bytes": 160
+    },
+    {
+      "path": "evaluation/labels/heldout/H21/A2.txt",
+      "sha256": "b5c20dabbee6e55823d7b4ac851a89147ab21036dc6ce7a244b6d8b58974a241",
+      "bytes": 160
+    },
+    {
+      "path": "evaluation/labels/heldout/H21/agreement.txt",
+      "sha256": "9044a81e3ca21caf52765ff6418c9bb7de018e91a3929906f21b1a4972b9d8af",
+      "bytes": 616
+    },
+    {
+      "path": "evaluation/labels/heldout/H22/A1.txt",
+      "sha256": "e2a3b998174479791110788ffbd7474cae8c4fb681a03d637686397ddeb91736",
+      "bytes": 160
+    },
+    {
+      "path": "evaluation/labels/heldout/H22/A2.txt",
+      "sha256": "d934639cb0244580a2a34498d3a345363e7ba3cd863c716cabc9ef7e7253d163",
+      "bytes": 160
+    },
+    {
+      "path": "evaluation/labels/heldout/H22/agreement.txt",
+      "sha256": "d5ef62a1fdb7b289ccc0015e825a96d4fd2e7e7ce2ad9e06eac08e4a5aba4a90",
+      "bytes": 616
+    },
+    {
+      "path": "evaluation/labels/heldout/H23/A1.txt",
+      "sha256": "60ede23d6fb625111bb5003e812642ef9036fd183441d99b019d2bab298f9c93",
+      "bytes": 160
+    },
+    {
+      "path": "evaluation/labels/heldout/H23/A2.txt",
+      "sha256": "199bbd9454b46563a43385e128879a08027dcb4dbfdec596423f75e5a34cf174",
+      "bytes": 176
+    },
+    {
+      "path": "evaluation/labels/heldout/H23/agreement.txt",
+      "sha256": "c658f5c41aa76400261edc4a2984c4302965c23f9d6aa4e31f1264a7670d9bfb",
+      "bytes": 616
+    },
+    {
+      "path": "evaluation/labels/heldout/H24/A1.txt",
+      "sha256": "cf6c408fcf63910bb4c8c84aa2e05a5a161122f0eb2d23a3226813813988c454",
+      "bytes": 162
+    },
+    {
+      "path": "evaluation/labels/heldout/H24/agreement.txt",
+      "sha256": "26840a0026387af13647e92fe0ca88ccbfcd646341a3285935d0d310aa576c79",
+      "bytes": 616
+    },
+    {
+      "path": "evaluation/labels/heldout/H25/agreement.txt",
+      "sha256": "7c661ec61281b11712ca781c53adb9c1fb3ac284c908aabc8c7aa2154b85b415",
+      "bytes": 751
+    },
+    {
+      "path": "evaluation/labels/heldout/H26/A1.txt",
+      "sha256": "b905db37a124c087ff9a6697801545b8c7afbaa181c5800b24883214283c20e8",
+      "bytes": 295
+    },
+    {
+      "path": "evaluation/labels/heldout/H26/agreement.txt",
+      "sha256": "e0ce7d2bf76c71b396c88cf513a30f259c8d2634aa22d7ffee52a0c9e74ba9bd",
+      "bytes": 616
+    },
+    {
+      "path": "evaluation/labels/heldout/H27/agreement.txt",
+      "sha256": "77e1e94771720550c7f0c7d081addcdbe0f3d3ce7d97123f48bae66e199b3901",
+      "bytes": 673
+    },
+    {
+      "path": "evaluation/labels/heldout/H28/agreement.txt",
+      "sha256": "b0f8bafcc5710d9c85a347be17e862b89b3dc532bdbc8554902bf098c0ce2e8c",
+      "bytes": 696
+    },
+    {
+      "path": "evaluation/labels/heldout/H29/agreement.txt",
+      "sha256": "b01efa21830af4fa820dc68d33f684c767fb622cdaa6ff5e4a133bd4ed4a970d",
+      "bytes": 720
+    },
+    {
+      "path": "evaluation/labels/heldout/H30/agreement.txt",
+      "sha256": "6494e8054ff94725c8595396a6e717101b288e3f049fad0ab3704f5a0e5b8471",
+      "bytes": 603
+    }
+  ],
+  "manifest_sha256": "efd5dd3d38583f0aec2d41bf9c209c0c48d37ef73e55679c1ee647b06035cdaf"
+}

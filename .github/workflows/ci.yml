@@ -1,0 +1,35 @@
+name: Offline authored acceptance
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  acceptance:
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        os: [ubuntu-24.04, windows-2025]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
+    env:
+      PYTHONUTF8: "1"
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.11"
+      - name: Check source and frozen corpus
+        run: python scripts/check_repository.py
+      - name: Produce paired outcomes and two fresh repetitions
+        run: python -m evaluation --suite heldout --provider scripted --baseline keyword --repetitions 3 --out work/ci-evaluation
+      - name: Test all suites, regressions and independently regrade outputs
+        run: python scripts/acceptance.py --milestone all --evaluation work/ci-evaluation --out work/ci-acceptance

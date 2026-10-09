@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "fictional": true,
+  "scope": "M1 authored examples, not held-out/model quality evidence",
+  "cases": {
+    "direct-review": {
+      "expected_file": "evaluation/m1_gold/direct-review.txt",
+      "rules": {
+        "REN-01": {
+          "disposition": "deviation",
+          "obligations": {
+            "renewal.express_written_agreement": "deviation"
+          },
+          "source_sentence": "The term renews automatically for successive one-year periods unless either party gives notice.",
+          "edit": {
+            "old": "The term renews automatically for successive one-year periods unless either party gives notice.",
+            "new": "The term renews only by express written agreement of both parties."
+          }
+        },
+        "TERM-01": {
+          "disposition": "deviation",
+          "obligations": {
+            "termination.customer_right": "compliant",
+            "termination.written_notice": "compliant",
+            "termination.notice_days": "deviation"
+          },
+          "source_sentence": "The Customer may terminate this Agreement for convenience on 60 calendar days' written notice to the Supplier.",
+          "edit": {
+            "old": "60",
+            "new": "30"
+          }
+        },
+        "PAY-01": {
+          "disposition": "deviation",
+          "obligations": {
+            "payment.undisputed": "compliant",
+            "payment.receipt_trigger": "compliant",
+            "payment.days": "deviation"
+          },
+          "source_sentence": "Undisputed invoices are payable 15 calendar days after receipt by the Customer.",
+          "edit": {
+            "old": "15",
+            "new": "30"
+          }
+        }
+      }
+    },
+    "compliant-review": {
+      "expected_file": "evaluation/m1_gold/compliant-review.txt",
+      "rules": {
+        "REN-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "renewal.express_written_agreement": "compliant"
+          },
+          "source_sentence": "The term renews only by express written agreement of both parties.",
+          "edit": null
+        },
+        "TERM-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "termination.customer_right": "compliant",
+            "termination.written_notice": "compliant",
+            "termination.notice_days": "compliant"
+          },
+          "source_sentence": "The Customer may terminate this Agreement for convenience on 30 calendar days' written notice to the Supplier.",
+          "edit": null
+        },
+        "PAY-01": {
+          "disposition": "compliant",
+          "obligations": {
+            "payment.undisputed": "compliant",
+            "payment.receipt_trigger": "compliant",
+            "payment.days": "compliant"
+          },
+          "source_sentence": "Undisputed invoices are payable 30 calendar days after receipt by the Customer.",
+          "edit": null
+        }
+      }
+    }
+  }
+}
+
