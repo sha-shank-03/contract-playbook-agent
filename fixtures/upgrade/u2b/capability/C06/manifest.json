@@ -1,0 +1,11 @@
+{
+  "documents": [
+    {
+      "file": "agreement.txt",
+      "id": "agreement",
+      "type": "base"
+    }
+  ],
+  "fictional": true,
+  "schema_version": 1
+}

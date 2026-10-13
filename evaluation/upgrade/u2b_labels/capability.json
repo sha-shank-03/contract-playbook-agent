@@ -1,0 +1,641 @@
+{
+  "label_exposed": true,
+  "labels": [
+    {
+      "alternative_valid_edits": "Permitted after separately bound reviewer adjudication; no sole gold bytes.",
+      "expected_dispositions": {
+        "PAY-01": "compliant",
+        "REN-01": "deviation",
+        "TERM-01": "compliant"
+      },
+      "expected_domain_status": "PENDING_REVIEW",
+      "expected_obligations": {
+        "PAY-01": {
+          "payment.days": "compliant",
+          "payment.receipt_trigger": "compliant",
+          "payment.undisputed": "compliant"
+        },
+        "REN-01": {
+          "renewal.express_written_agreement": "deviation"
+        },
+        "TERM-01": {
+          "termination.customer_right": "compliant",
+          "termination.notice_days": "compliant",
+          "termination.written_notice": "compliant"
+        }
+      },
+      "fictional": true,
+      "label_exposed": true,
+      "meaning_notes": "Separately drafted capability variant of negative consent, sentence order and no-earlier-than wording.",
+      "protected_intervals": [
+        {
+          "document_id": "agreement",
+          "end": 519,
+          "sha256": "9d88278447aa868ca93800ab045faa9337b6895a8efa1e86f026380aee6e8f7a",
+          "start": 120
+        },
+        {
+          "document_id": "agreement",
+          "end": 1171,
+          "sha256": "c3ab70e257114c39f529d7ee105591e20346477d2092733c279d0383b8e7e12b",
+          "start": 899
+        },
+        {
+          "document_id": "agreement",
+          "end": 1437,
+          "sha256": "37a97d6c83c0d8299fb570425feaceab51a9b210cfc68f39ef666dbf3171eae2",
+          "start": 1171
+        }
+      ],
+      "required_handoff": false,
+      "source_sha256": {
+        "agreement": "33d333fae7b381f13610769de5dcb5f2649bb2c0d14156952b7aad5d6b1c8d0f"
+      },
+      "task_id": "C01",
+      "worker_authored": true
+    },
+    {
+      "alternative_valid_edits": "Permitted after separately bound reviewer adjudication; no sole gold bytes.",
+      "expected_dispositions": {
+        "PAY-01": "deviation",
+        "REN-01": "compliant",
+        "TERM-01": "deviation"
+      },
+      "expected_domain_status": "PENDING_REVIEW",
+      "expected_obligations": {
+        "PAY-01": {
+          "payment.days": "deviation",
+          "payment.receipt_trigger": "compliant",
+          "payment.undisputed": "compliant"
+        },
+        "REN-01": {
+          "renewal.express_written_agreement": "compliant"
+        },
+        "TERM-01": {
+          "termination.customer_right": "compliant",
+          "termination.notice_days": "deviation",
+          "termination.written_notice": "compliant"
+        }
+      },
+      "fictional": true,
+      "label_exposed": true,
+      "meaning_notes": "Two thresholds fail in a distinct logistics agreement; no automatic renewal violation.",
+      "protected_intervals": [
+        {
+          "document_id": "agreement",
+          "end": 519,
+          "sha256": "ab4de42e9b7e7d178b40b7d369d187a0bd93a23ca1e6da59d183b45ae6ab84d6",
+          "start": 120
+        },
+        {
+          "document_id": "agreement",
+          "end": 1179,
+          "sha256": "c3ab70e257114c39f529d7ee105591e20346477d2092733c279d0383b8e7e12b",
+          "start": 907
+        },
+        {
+          "document_id": "agreement",
+          "end": 1445,
+          "sha256": "37a97d6c83c0d8299fb570425feaceab51a9b210cfc68f39ef666dbf3171eae2",
+          "start": 1179
+        }
+      ],
+      "required_handoff": false,
+      "source_sha256": {
+        "agreement": "833df930ff0c0f7aa70aa190130d75d3c1a4e07eac38aa79eb491691d8dd6047"
+      },
+      "task_id": "C02",
+      "worker_authored": true
+    },
+    {
+      "alternative_valid_edits": "Permitted after separately bound reviewer adjudication; no sole gold bytes.",
+      "expected_dispositions": {
+        "PAY-01": "compliant",
+        "REN-01": "compliant",
+        "TERM-01": "uncertain"
+      },
+      "expected_domain_status": "HANDOFF",
+      "expected_obligations": {
+        "PAY-01": {
+          "payment.days": "compliant",
+          "payment.receipt_trigger": "compliant",
+          "payment.undisputed": "compliant"
+        },
+        "REN-01": {
+          "renewal.express_written_agreement": "compliant"
+        },
+        "TERM-01": {
+          "termination.customer_right": "uncertain",
+          "termination.notice_days": "uncertain",
+          "termination.written_notice": "uncertain"
+        }
+      },
+      "fictional": true,
+      "label_exposed": true,
+      "meaning_notes": "Scope of affiliate permission does not establish the signatory right; interpretation requires handoff.",
+      "protected_intervals": [
+        {
+          "document_id": "agreement",
+          "end": 504,
+          "sha256": "8a6bbddc8cf8dc2faebf63c8e0da727931b55d284ee828929080621f7bda658b",
+          "start": 112
+        },
+        {
+          "document_id": "agreement",
+          "end": 1240,
+          "sha256": "c3ab70e257114c39f529d7ee105591e20346477d2092733c279d0383b8e7e12b",
+          "start": 968
+        },
+        {
+          "document_id": "agreement",
+          "end": 1506,
+          "sha256": "37a97d6c83c0d8299fb570425feaceab51a9b210cfc68f39ef666dbf3171eae2",
+          "start": 1240
+        }
+      ],
+      "required_handoff": true,
+      "source_sha256": {
+        "agreement": "dc9b508b9932ab4b9af3e1cb3e202a7f3a9f2763bc4457e6efcb45ab75c04c9c"
+      },
+      "task_id": "C03",
+      "worker_authored": true
+    },
+    {
+      "alternative_valid_edits": "Permitted after separately bound reviewer adjudication; no sole gold bytes.",
+      "expected_dispositions": {
+        "PAY-01": "compliant",
+        "REN-01": "compliant",
+        "TERM-01": "uncertain"
+      },
+      "expected_domain_status": "HANDOFF",
+      "expected_obligations": {
+        "PAY-01": {
+          "payment.days": "compliant",
+          "payment.receipt_trigger": "compliant",
+          "payment.undisputed": "compliant"
+        },
+        "REN-01": {
+          "renewal.express_written_agreement": "compliant"
+        },
+        "TERM-01": {
+          "termination.customer_right": "uncertain",
+          "termination.notice_days": "uncertain",
+          "termination.written_notice": "uncertain"
+        }
+      },
+      "fictional": true,
+      "label_exposed": true,
+      "meaning_notes": "The receipt trigger is not established; do not silently treat acceptance as receipt.",
+      "protected_intervals": [
+        {
+          "document_id": "agreement",
+          "end": 514,
+          "sha256": "d5979b59542e370a3c493fa75361e1cf546202526ba58dba7919785ff7c659f9",
+          "start": 117
+        },
+        {
+          "document_id": "agreement",
+          "end": 1239,
+          "sha256": "c3ab70e257114c39f529d7ee105591e20346477d2092733c279d0383b8e7e12b",
+          "start": 967
+        },
+        {
+          "document_id": "agreement",
+          "end": 1505,
+          "sha256": "37a97d6c83c0d8299fb570425feaceab51a9b210cfc68f39ef666dbf3171eae2",
+          "start": 1239
+        }
+      ],
+      "required_handoff": true,
+      "source_sha256": {
+        "agreement": "116aa15df162d36fde09c3442c1e1bc6ca6217e21c82849c9163825a5e2a485d"
+      },
+      "task_id": "C04",
+      "worker_authored": true
+    },
+    {
+      "alternative_valid_edits": "Permitted after separately bound reviewer adjudication; no sole gold bytes.",
+      "expected_dispositions": {
+        "PAY-01": "compliant",
+        "REN-01": "compliant",
+        "TERM-01": "compliant"
+      },
+      "expected_domain_status": "PENDING_REVIEW",
+      "expected_obligations": {
+        "PAY-01": {
+          "payment.days": "compliant",
+          "payment.receipt_trigger": "compliant",
+          "payment.undisputed": "compliant"
+        },
+        "REN-01": {
+          "renewal.express_written_agreement": "compliant"
+        },
+        "TERM-01": {
+          "termination.customer_right": "compliant",
+          "termination.notice_days": "compliant",
+          "termination.written_notice": "compliant"
+        }
+      },
+      "fictional": true,
+      "label_exposed": true,
+      "meaning_notes": "A two-hop supplied definition is determinable; preserve both definition sections if no edit is needed.",
+      "protected_intervals": [
+        {
+          "document_id": "agreement",
+          "end": 507,
+          "sha256": "88ac233d87750006d730d46b57f39c949caeb5422138fb14412981674d641c12",
+          "start": 110
+        },
+        {
+          "document_id": "agreement",
+          "end": 1190,
+          "sha256": "c3ab70e257114c39f529d7ee105591e20346477d2092733c279d0383b8e7e12b",
+          "start": 918
+        },
+        {
+          "document_id": "agreement",
+          "end": 1456,
+          "sha256": "37a97d6c83c0d8299fb570425feaceab51a9b210cfc68f39ef666dbf3171eae2",
+          "start": 1190
+        }
+      ],
+      "required_handoff": false,
+      "source_sha256": {
+        "agreement": "22291f804245499c9732baa9e93edb94447a90934c42e08da1e93bc14e17fa3d"
+      },
+      "task_id": "C05",
+      "worker_authored": true
+    },
+    {
+      "alternative_valid_edits": "Permitted after separately bound reviewer adjudication; no sole gold bytes.",
+      "expected_dispositions": {
+        "PAY-01": "uncertain",
+        "REN-01": "compliant",
+        "TERM-01": "compliant"
+      },
+      "expected_domain_status": "HANDOFF",
+      "expected_obligations": {
+        "PAY-01": {
+          "payment.days": "uncertain",
+          "payment.receipt_trigger": "uncertain",
+          "payment.undisputed": "uncertain"
+        },
+        "REN-01": {
+          "renewal.express_written_agreement": "compliant"
+        },
+        "TERM-01": {
+          "termination.customer_right": "compliant",
+          "termination.notice_days": "compliant",
+          "termination.written_notice": "compliant"
+        }
+      },
+      "fictional": true,
+      "label_exposed": true,
+      "meaning_notes": "Two unsorted cross-references do not authorize choosing the favorable duration.",
+      "protected_intervals": [
+        {
+          "document_id": "agreement",
+          "end": 513,
+          "sha256": "65a7177c14803156257b09a6fe50debc0a6cde3d585d770f2d8e7051cfb2fd83",
+          "start": 113
+        },
+        {
+          "document_id": "agreement",
+          "end": 1192,
+          "sha256": "c3ab70e257114c39f529d7ee105591e20346477d2092733c279d0383b8e7e12b",
+          "start": 920
+        },
+        {
+          "document_id": "agreement",
+          "end": 1458,
+          "sha256": "37a97d6c83c0d8299fb570425feaceab51a9b210cfc68f39ef666dbf3171eae2",
+          "start": 1192
+        }
+      ],
+      "required_handoff": true,
+      "source_sha256": {
+        "agreement": "273d8de24053e651fe9b4d5981921fa00a9696dd5140835a3375397844109316"
+      },
+      "task_id": "C06",
+      "worker_authored": true
+    },
+    {
+      "alternative_valid_edits": "Permitted after separately bound reviewer adjudication; no sole gold bytes.",
+      "expected_dispositions": {
+        "PAY-01": "conflict",
+        "REN-01": "compliant",
+        "TERM-01": "compliant"
+      },
+      "expected_domain_status": "HANDOFF",
+      "expected_obligations": {
+        "PAY-01": {
+          "payment.days": "conflict",
+          "payment.receipt_trigger": "conflict",
+          "payment.undisputed": "conflict"
+        },
+        "REN-01": {
+          "renewal.express_written_agreement": "compliant"
+        },
+        "TERM-01": {
+          "termination.customer_right": "compliant",
+          "termination.notice_days": "compliant",
+          "termination.written_notice": "compliant"
+        }
+      },
+      "fictional": true,
+      "label_exposed": true,
+      "meaning_notes": "Even agreeing replacement text leaves unsupported precedence; this is a topology challenge, not different numbers.",
+      "protected_intervals": [
+        {
+          "document_id": "agreement",
+          "end": 519,
+          "sha256": "7ac69efe44b25778775330da018827b50c355fd5d2a526986d26be588e40a357",
+          "start": 120
+        },
+        {
+          "document_id": "agreement",
+          "end": 1221,
+          "sha256": "c3ab70e257114c39f529d7ee105591e20346477d2092733c279d0383b8e7e12b",
+          "start": 949
+        },
+        {
+          "document_id": "agreement",
+          "end": 1487,
+          "sha256": "37a97d6c83c0d8299fb570425feaceab51a9b210cfc68f39ef666dbf3171eae2",
+          "start": 1221
+        }
+      ],
+      "required_handoff": true,
+      "source_sha256": {
+        "A1": "e70991808ee9227cde94425265d452db8ed59405482bacb7c798581957678081",
+        "A2": "8cdd00188a1efd99277e5875dea5f35b540a2478d094206e44f07217e8c6c278",
+        "agreement": "87ea56b091c713a9be02488edd69b872795cb1fca38adcc76c2e693c12c2e54b"
+      },
+      "task_id": "C07",
+      "worker_authored": true
+    },
+    {
+      "alternative_valid_edits": "Permitted after separately bound reviewer adjudication; no sole gold bytes.",
+      "expected_dispositions": {
+        "PAY-01": "compliant",
+        "REN-01": "compliant",
+        "TERM-01": "compliant"
+      },
+      "expected_domain_status": "PENDING_REVIEW",
+      "expected_obligations": {
+        "PAY-01": {
+          "payment.days": "compliant",
+          "payment.receipt_trigger": "compliant",
+          "payment.undisputed": "compliant"
+        },
+        "REN-01": {
+          "renewal.express_written_agreement": "compliant"
+        },
+        "TERM-01": {
+          "termination.customer_right": "compliant",
+          "termination.notice_days": "compliant",
+          "termination.written_notice": "compliant"
+        }
+      },
+      "fictional": true,
+      "label_exposed": true,
+      "meaning_notes": "Explicit second replacement restores the fictional preference; changing old base text alone is unnecessary.",
+      "protected_intervals": [
+        {
+          "document_id": "agreement",
+          "end": 523,
+          "sha256": "2b69de6b4d48f1b6d6c415c834ac9dfa5f8a9df2f61b6834a2680ec8f307dedd",
+          "start": 122
+        },
+        {
+          "document_id": "agreement",
+          "end": 1162,
+          "sha256": "c3ab70e257114c39f529d7ee105591e20346477d2092733c279d0383b8e7e12b",
+          "start": 890
+        },
+        {
+          "document_id": "agreement",
+          "end": 1428,
+          "sha256": "37a97d6c83c0d8299fb570425feaceab51a9b210cfc68f39ef666dbf3171eae2",
+          "start": 1162
+        }
+      ],
+      "required_handoff": false,
+      "source_sha256": {
+        "A1": "4c1a662ae85a314c854cb71bf5a5f7e7825ea2529888186b8cf41c423c76d4a3",
+        "A2": "46f669b04b5214df6135e63f39a65226169652b6194b7123cc6df68767d1fa8c",
+        "agreement": "2e2698e89063999dc867337b2492ebf9aabd542655d0056df7f9cdcab175ae72"
+      },
+      "task_id": "C08",
+      "worker_authored": true
+    },
+    {
+      "alternative_valid_edits": "Permitted after separately bound reviewer adjudication; no sole gold bytes.",
+      "expected_dispositions": {
+        "PAY-01": "uncertain",
+        "REN-01": "compliant",
+        "TERM-01": "compliant"
+      },
+      "expected_domain_status": "HANDOFF",
+      "expected_obligations": {
+        "PAY-01": {
+          "payment.days": "uncertain",
+          "payment.receipt_trigger": "uncertain",
+          "payment.undisputed": "uncertain"
+        },
+        "REN-01": {
+          "renewal.express_written_agreement": "compliant"
+        },
+        "TERM-01": {
+          "termination.customer_right": "compliant",
+          "termination.notice_days": "compliant",
+          "termination.written_notice": "compliant"
+        }
+      },
+      "fictional": true,
+      "label_exposed": true,
+      "meaning_notes": "Unavailable nonliteral evidence cannot be reduced to missing days; host cannot fetch arbitrary external material.",
+      "protected_intervals": [
+        {
+          "document_id": "agreement",
+          "end": 509,
+          "sha256": "99d65cc7745233b3740136a7c9ff629175fc52894720a2b0dcbc1954ac017869",
+          "start": 115
+        },
+        {
+          "document_id": "agreement",
+          "end": 1238,
+          "sha256": "c3ab70e257114c39f529d7ee105591e20346477d2092733c279d0383b8e7e12b",
+          "start": 966
+        },
+        {
+          "document_id": "agreement",
+          "end": 1504,
+          "sha256": "37a97d6c83c0d8299fb570425feaceab51a9b210cfc68f39ef666dbf3171eae2",
+          "start": 1238
+        }
+      ],
+      "required_handoff": true,
+      "source_sha256": {
+        "agreement": "016aad9da077f796a9d3d72a5fbb996eea64689cf9d5c35039cb1822fb5e9e43"
+      },
+      "task_id": "C09",
+      "worker_authored": true
+    },
+    {
+      "alternative_valid_edits": "Permitted after separately bound reviewer adjudication; no sole gold bytes.",
+      "expected_dispositions": {
+        "PAY-01": "missing",
+        "REN-01": "compliant",
+        "TERM-01": "compliant"
+      },
+      "expected_domain_status": "HANDOFF",
+      "expected_obligations": {
+        "PAY-01": {
+          "payment.days": "missing",
+          "payment.receipt_trigger": "missing",
+          "payment.undisputed": "missing"
+        },
+        "REN-01": {
+          "renewal.express_written_agreement": "compliant"
+        },
+        "TERM-01": {
+          "termination.customer_right": "compliant",
+          "termination.notice_days": "compliant",
+          "termination.written_notice": "compliant"
+        }
+      },
+      "fictional": true,
+      "label_exposed": true,
+      "meaning_notes": "Payment and the trusted insertion-before Section 5 anchor are absent; explicit missing finding has no supported patch and requires handoff.",
+      "protected_intervals": [
+        {
+          "document_id": "agreement",
+          "end": 529,
+          "sha256": "818451ef5a216bfd24467e93fa153cd4cecfb012d59e4bb1e95c90001c1768f5",
+          "start": 125
+        },
+        {
+          "document_id": "agreement",
+          "end": 1084,
+          "sha256": "37a97d6c83c0d8299fb570425feaceab51a9b210cfc68f39ef666dbf3171eae2",
+          "start": 818
+        }
+      ],
+      "required_handoff": true,
+      "source_sha256": {
+        "agreement": "edf1b2148358300f6f04663c40b269d7c421dd98280adb1eaa96fc486b4c07fc"
+      },
+      "task_id": "C10",
+      "worker_authored": true
+    },
+    {
+      "alternative_valid_edits": "Permitted after separately bound reviewer adjudication; no sole gold bytes.",
+      "expected_dispositions": {
+        "PAY-01": "deviation",
+        "REN-01": "compliant",
+        "TERM-01": "compliant"
+      },
+      "expected_domain_status": "PENDING_REVIEW",
+      "expected_obligations": {
+        "PAY-01": {
+          "payment.days": "deviation",
+          "payment.receipt_trigger": "compliant",
+          "payment.undisputed": "compliant"
+        },
+        "REN-01": {
+          "renewal.express_written_agreement": "compliant"
+        },
+        "TERM-01": {
+          "termination.customer_right": "compliant",
+          "termination.notice_days": "compliant",
+          "termination.written_notice": "compliant"
+        }
+      },
+      "fictional": true,
+      "label_exposed": true,
+      "meaning_notes": "A distinct capacity-service scenario tests localized edits near multibyte and numerical distractors.",
+      "protected_intervals": [
+        {
+          "document_id": "agreement",
+          "end": 503,
+          "sha256": "2bb927b085ae799d07e047c9fa65c2926f11527f19ed74d033d3dcd3cc93c881",
+          "start": 111
+        },
+        {
+          "document_id": "agreement",
+          "end": 1164,
+          "sha256": "c3ab70e257114c39f529d7ee105591e20346477d2092733c279d0383b8e7e12b",
+          "start": 892
+        },
+        {
+          "document_id": "agreement",
+          "end": 1430,
+          "sha256": "37a97d6c83c0d8299fb570425feaceab51a9b210cfc68f39ef666dbf3171eae2",
+          "start": 1164
+        }
+      ],
+      "required_handoff": false,
+      "source_sha256": {
+        "agreement": "2f799ae5dd7d20ace1d54f85640a7699c5b555f35675173101163f6960cdcce2"
+      },
+      "task_id": "C11",
+      "worker_authored": true
+    },
+    {
+      "alternative_valid_edits": "Permitted after separately bound reviewer adjudication; no sole gold bytes.",
+      "expected_dispositions": {
+        "PAY-01": "compliant",
+        "REN-01": "compliant",
+        "TERM-01": "uncertain"
+      },
+      "expected_domain_status": "HANDOFF",
+      "expected_obligations": {
+        "PAY-01": {
+          "payment.days": "compliant",
+          "payment.receipt_trigger": "compliant",
+          "payment.undisputed": "compliant"
+        },
+        "REN-01": {
+          "renewal.express_written_agreement": "compliant"
+        },
+        "TERM-01": {
+          "termination.customer_right": "uncertain",
+          "termination.notice_days": "uncertain",
+          "termination.written_notice": "uncertain"
+        }
+      },
+      "fictional": true,
+      "label_exposed": true,
+      "meaning_notes": "Source text cannot make an unavailable attachment trusted or grant approval.",
+      "protected_intervals": [
+        {
+          "document_id": "agreement",
+          "end": 523,
+          "sha256": "24cc5a68a14a6c870d28e0851f9fd67afe49a2f676ec05640afbce052d5220c7",
+          "start": 121
+        },
+        {
+          "document_id": "agreement",
+          "end": 1169,
+          "sha256": "c3ab70e257114c39f529d7ee105591e20346477d2092733c279d0383b8e7e12b",
+          "start": 897
+        },
+        {
+          "document_id": "agreement",
+          "end": 1435,
+          "sha256": "37a97d6c83c0d8299fb570425feaceab51a9b210cfc68f39ef666dbf3171eae2",
+          "start": 1169
+        }
+      ],
+      "required_handoff": true,
+      "source_sha256": {
+        "agreement": "88b1cd94ba46d2033a3324e759daeee696003bf4b0c7a745a8995e88338d6eae"
+      },
+      "task_id": "C12",
+      "worker_authored": true
+    }
+  ],
+  "schema_version": 1,
+  "split": "capability"
+}

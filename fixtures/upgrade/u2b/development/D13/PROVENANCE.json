@@ -1,0 +1,28 @@
+{
+  "attribution": "2026 Contract Playbook Agent contributors",
+  "author": "contract-playbook-agent worker; AI-assisted",
+  "created_date": "2026-10-12",
+  "documents": {
+    "A1": "7c09858ce36ea598b20e32cbf4496a55fc199f4d466a5208dcb6a25226ea18c2",
+    "agreement": "7888879872c69ab4335c985d8a0ee92a59eb47716988946a18abead5511a98bc"
+  },
+  "external_data": false,
+  "family": "competing-amendments",
+  "fictional": true,
+  "label_exposure": "Worker-authored/exposed synthetic fiction; not blind or independently sampled",
+  "license": "MIT",
+  "license_file": "LICENSE",
+  "manifest_sha256": "4557eef0ffea68d29ee20b4b99093147ee731867390e68e6bba89d42f1e2bcb3",
+  "near_duplicate_review": {
+    "independent_samples": false,
+    "method": "Semantic feature contrast notes plus pairwise critical-text token Jaccard; no claim of random independence.",
+    "review_basis": "Explicit replacement controls the base; the obsolete sixty-day term is not an effective deviation.",
+    "reviewer": "authoring worker with AI assistance",
+    "shared_agreement_boilerplate": true
+  },
+  "schema_version": 1,
+  "split": "development",
+  "task_id": "D13",
+  "title": "One explicit replacement",
+  "version": "U2-B-1.0"
+}

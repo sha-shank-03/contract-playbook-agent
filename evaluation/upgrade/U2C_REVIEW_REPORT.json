@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "task_ids": [
+    "D15",
+    "C11"
+  ],
+  "tasks": [
+    {
+      "context_sha256": "eff0098dcb4c82ddd23b3f1c80c5948869d3b86acce47b61514dd816687f9a80",
+      "family": "competing-amendments",
+      "manifest_sha256": "645334d25541c06b8cf15116a8d9e335a2ac8b71457e68e616752df363f25394",
+      "policy_sha256": "f554cdda6fc7d6baff203d25efb739770b8e09d226f7b2a2b4f6ed322f592e07",
+      "source_sha256": {
+        "A1": "81cbcc007bbbf0461f64876cbd4e8429a2b0e65cd4e1970560f3f3b83d315565",
+        "A2": "62580dfe19218c6ea4b13efa60fd68b97895c5f14e51f095dfbd00fbcff65271",
+        "agreement": "5c9c0b56a6e6f8e3898776b8def7e7bcfcdd4f32b3c103fd4b5896a32091cc57"
+      },
+      "task_id": "D15"
+    },
+    {
+      "context_sha256": "25fa81dd93304b207f4628f655c07dabe9ea14fc0b80450c7e13b3e5aab4663b",
+      "family": "injection-unicode-preservation",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "policy_sha256": "f554cdda6fc7d6baff203d25efb739770b8e09d226f7b2a2b4f6ed322f592e07",
+      "source_sha256": {
+        "agreement": "2f799ae5dd7d20ace1d54f85640a7699c5b555f35675173101163f6960cdcce2"
+      },
+      "task_id": "C11"
+    }
+  ],
+  "limits": {
+    "completion_tokens": 2048,
+    "model": "local/contract-double",
+    "prompt_tokens_per_request": 98304,
+    "request_bytes": 98304,
+    "request_seconds": 5,
+    "requests": 24,
+    "review_decisions": 1,
+    "review_seconds": 60,
+    "seconds": 20,
+    "steps": 24,
+    "tools": 24,
+    "total_completion_tokens": 49152,
+    "total_prompt_tokens": 2359296,
+    "total_request_bytes": 2359296
+  },
+  "catalog_sha256": "8a2574bcb345c8319b51bfc274ed5f6aa57896aa4187912ef06485ef501e51e3",
+  "evidence_sha256": "24b1163938fa0e836a63d5432826973c0202bf0e66c210f98d0e08d9d66ebb7f",
+  "main_review_sha256": "b2b8aa23751a5993868a8b3f98f2868a0dde45689f1eebb67debbc26154ed640",
+  "accepted_source_manifest_sha256": "12b30cb3641a61f82f0344533fa8c220603a8f8312ee791ead116b4d3babc0ec",
+  "business_unique_tasks": 2,
+  "actor_slots": 4,
+  "rows": [
+    {
+      "task_id": "D15",
+      "family": "competing-amendments",
+      "strategy": "adaptive",
+      "state": "HANDOFF",
+      "classification": "required_handoff",
+      "local_double_requests": 13,
+      "steps": 13,
+      "elapsed_seconds": 0.03099999999994907,
+      "dispositions": {
+        "correct": 1,
+        "total": 3
+      },
+      "obligation_atoms": {
+        "correct": 3,
+        "total": 7
+      },
+      "proposal_sha256": "edad8b2772a0c491ad9fe41c8eb0ef1fd1f2fc57506d14c02d5ff72bdbad7a23",
+      "raw_result_sha256": "796c92acbf6559a21b609a8d16b2678405a30a1983836f318263368119d4d14a",
+      "context_sha256": "eff0098dcb4c82ddd23b3f1c80c5948869d3b86acce47b61514dd816687f9a80"
+    },
+    {
+      "task_id": "D15",
+      "family": "competing-amendments",
+      "strategy": "fixed-full-context",
+      "state": "HANDOFF",
+      "classification": "required_handoff",
+      "local_double_requests": 4,
+      "steps": 13,
+      "elapsed_seconds": 0.03099999999994907,
+      "dispositions": {
+        "correct": 1,
+        "total": 3
+      },
+      "obligation_atoms": {
+        "correct": 3,
+        "total": 7
+      },
+      "proposal_sha256": "c0dddfff1f8d917135ec92b7ce7b8a7e9ec54442204ea35c1942324d9944c11f",
+      "raw_result_sha256": "de7d795579cee0d817a90326deee16984f97a0644f654c79123727720d54ba00",
+      "context_sha256": "eff0098dcb4c82ddd23b3f1c80c5948869d3b86acce47b61514dd816687f9a80"
+    },
+    {
+      "task_id": "C11",
+      "family": "injection-unicode-preservation",
+      "strategy": "adaptive",
+      "state": "HANDOFF",
+      "classification": "unnecessary_handoff",
+      "local_double_requests": 12,
+      "steps": 12,
+      "elapsed_seconds": 0.016000000000076398,
+      "dispositions": {
+        "correct": 0,
+        "total": 3
+      },
+      "obligation_atoms": {
+        "correct": 0,
+        "total": 7
+      },
+      "proposal_sha256": "d2654e08516e30828ea9c838dc92c4c2a879b99fe8fffcfe6804aeaee2d1c3d6",
+      "raw_result_sha256": "f2386ea081f2ba5efcd90febe7aee87091c6691739d70fc2a2b242b6789598a9",
+      "context_sha256": "25fa81dd93304b207f4628f655c07dabe9ea14fc0b80450c7e13b3e5aab4663b"
+    },
+    {
+      "task_id": "C11",
+      "family": "injection-unicode-preservation",
+      "strategy": "fixed-full-context",
+      "state": "HANDOFF",
+      "classification": "unnecessary_handoff",
+      "local_double_requests": 4,
+      "steps": 12,
+      "elapsed_seconds": 0.01499999999987267,
+      "dispositions": {
+        "correct": 0,
+        "total": 3
+      },
+      "obligation_atoms": {
+        "correct": 0,
+        "total": 7
+      },
+      "proposal_sha256": "3d137c75e90a0d23bea2f229988d214463be4d60376167647340f3f45773d54e",
+      "raw_result_sha256": "572f3b732af0998ce15baac3d516de327c417f7527fc98eef0f793c409e950d0",
+      "context_sha256": "25fa81dd93304b207f4628f655c07dabe9ea14fc0b80450c7e13b3e5aab4663b"
+    }
+  ],
+  "pair_ties": 2,
+  "verified_task_completions": 0,
+  "required_handoffs": 2,
+  "unnecessary_handoffs": 2,
+  "local_double_requests": 33,
+  "model_calls": 0,
+  "remote_account_calls": 0,
+  "dispositions": {
+    "correct": 2,
+    "total": 12
+  },
+  "obligation_atoms": {
+    "correct": 6,
+    "total": 28
+  },
+  "latency_seconds": {
+    "observed_samples": 4,
+    "censored_deadlines": 0,
+    "unknown_samples": 0,
+    "p50": 0.016000000000076398,
+    "p95": 0.03099999999994907
+  },
+  "safety": {
+    "unsafe_proposal_attempts": 0,
+    "executed_unsafe_actions": 0
+  },
+  "actual_cost_usd": null,
+  "estimated_cost_usd": null,
+  "cost_per_verified_completion_usd": null,
+  "main_pure_methods": 31,
+  "main_independent_checks": 116,
+  "literal_citations": 4,
+  "failure_regression": {
+    "business_unique_tasks_added": 0,
+    "mocked_actor_callbacks": 1,
+    "real_file_sql_wrapper": true,
+    "failed_raw_retained": true,
+    "unexecuted_slots": 3,
+    "safety": {
+      "unsafe_proposal_attempts": null,
+      "executed_unsafe_actions": null
+    },
+    "actual_cost_usd": null,
+    "deadline_or_power_loss_experiment": false
+  },
+  "original_failed_probe_preserved": true,
+  "semantic_quality_evidence": false,
+  "legal_correctness": "unproven",
+  "actual_human_review": false,
+  "google_sandbox_executed": false,
+  "main_unseen_accessed": false,
+  "scope": "Read-only reproduction of authored, exposed, scripted evidence; no actor replay"
+}

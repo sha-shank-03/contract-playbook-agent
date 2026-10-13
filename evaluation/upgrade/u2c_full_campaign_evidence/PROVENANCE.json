@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "version": "U2C-report-reconciliation-1.0",
+  "source_manifest_sha256": "336548e0c93f10e070c23b61e6e0586425554d2e68e56ce648ff488044bdc8f2",
+  "campaign_sha256": "f396547aabb1f21d8002abb5665b69307de4b1390a50866425f8f7437ae87cce",
+  "entries": [
+    {
+      "path": "FULL_LOCAL_CAMPAIGN_REVIEW.redacted.json",
+      "source_alias": "full-final-audit",
+      "original_sha256": "88cdfc6f15c9bf8b1c3458eec565d8f098f0eacf97e3ad44db38602430975694",
+      "original_bytes": 8398,
+      "sha256": "a65fbe2a69cf3a47ce1352c3000c067575b2c27359b393379c581099f3d5bb02",
+      "bytes": 4372,
+      "redaction": "private path values only"
+    },
+    {
+      "path": "S17_MAIN_REVIEW.redacted.json",
+      "source_alias": "final-slice-audit",
+      "original_sha256": "00a579698012af6e650e63a9751b4c1ea8159f1940808322d2fb86533423141b",
+      "original_bytes": 44446,
+      "sha256": "598ca832479e445c57d69c38e29eec296d8ad6ade27e33c60b3d3a6560b93302",
+      "bytes": 43675,
+      "redaction": "private path values only"
+    },
+    {
+      "path": "S09_MAIN_REVIEW.redacted.json",
+      "source_alias": "encoding-failure-slice-audit",
+      "original_sha256": "2d938b9e39cddd728a41a84454371fb59d6019b0072bb06070efc64d914f21bb",
+      "original_bytes": 26403,
+      "sha256": "7b25e54109734ce64956812edad1e58e5f08759396ca25ca8b07c096438e4444",
+      "bytes": 25844,
+      "redaction": "private path values only"
+    },
+    {
+      "path": "S09_UTF8_REPORT_COMMAND.redacted.json",
+      "source_alias": "readonly-utf8-recovery",
+      "original_sha256": "b1ea52099e45c11b1b14d80b80e1d1700cdfca3d16bdf1f2acc2353965e0cebd",
+      "original_bytes": 606,
+      "sha256": "c7aa21067887c9ef7f0ef722bce1a7d7d246f38c74baabed7d982e73353fcbdb",
+      "bytes": 512,
+      "redaction": "private path values only"
+    },
+    {
+      "path": "S09_NATIVE_EXECUTION.redacted.json",
+      "source_alias": "native-success-report-failure",
+      "original_sha256": "6ad5c5244314a2fce3e920aa6f681f6c9a09a32e1ddc849e005a96f7ab3781d9",
+      "original_bytes": 2809,
+      "sha256": "212eb95cf17bdbec3dcd0979deefe5784fa2dfe80fe768e529b8d89e0c53a50d",
+      "bytes": 2376,
+      "redaction": "private path values only"
+    },
+    {
+      "path": "S09_DEFAULT_REPORT_ERROR.json",
+      "source_alias": "original-encoding-failure-stdout",
+      "original_sha256": "7f2515a1b2365152915bac4afc628c0250dfd50f448532ff50b2ccbfb4294981",
+      "original_bytes": 247,
+      "sha256": "7f2515a1b2365152915bac4afc628c0250dfd50f448532ff50b2ccbfb4294981",
+      "bytes": 247,
+      "redaction": "none"
+    },
+    {
+      "path": "S09_NATIVE_BATCH_ERROR.json",
+      "source_alias": "original-batch-error",
+      "original_sha256": "9e7a6cbd0a95d7a8f2452f5003d28bbba3c5dd75a4a3be2262577fc7b3a66a35",
+      "original_bytes": 69,
+      "sha256": "9e7a6cbd0a95d7a8f2452f5003d28bbba3c5dd75a4a3be2262577fc7b3a66a35",
+      "bytes": 69,
+      "redaction": "none"
+    }
+  ],
+  "new_actor_executions": 0,
+  "full_raw_campaign_republished": false,
+  "claim": "Actual main audit receipts copied with path-only redaction; hashes do not imply independent public execution"
+}

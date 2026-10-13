@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "upgrade_version": "U1-1.1",
+  "client_date": "2026-10-12",
+  "protocol": "gateway-u1-v1",
+  "published_baseline_commit": "03270039a30c94b543e60cc050310198865fe0d8",
+  "original_freeze_sha256": "8ae16854230fd754760c38a205f698857fdbdb3f75e0da92ee16cd9daac3b666",
+  "original_frozen_entry_count": 115,
+  "preservation": "Original freeze and historical evidence not regenerated. New source is separately identified.",
+  "scope": "One exposed fictional paraphrase/local-double journey. No live provider, connector or legal-quality acceptance.",
+  "application_code_sha256": "f6248060122d0ce0257b0ce3751c9f18194ed8b1fa5e370cff991ec37ac72d54",
+  "source_entry_digest": "74acd723e066e349ceba40f99c5656f330cb330e93e1579e0544d270cb8b855f",
+  "source_entries": [
+    {
+      "path": "EVIDENCE.md",
+      "bytes": 47652,
+      "sha256": "30a4ff58cc28d3b9b049cc0cee565b78095114b75aa599fa520212875cddb50d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9527,
+      "sha256": "db0b6c8ecf9ef6ba9b24c2e9937b58fa300be5b45b971385ff168b96a62397b4"
+    },
+    {
+      "path": "UPGRADE_MANIFEST.json",
+      "bytes": 5392,
+      "sha256": "8014b228cad39f4629659551966250576dcacaf4453caf78a51a4833b7f80a5d"
+    },
+    {
+      "path": "contract_playbook/proposal_check.py",
+      "bytes": 7796,
+      "sha256": "c716c0ab53b25cc4d8b87cd35debc2722e5ebc981a3a43f6162089bb1d043a13"
+    },
+    {
+      "path": "contract_playbook/providers/gateway.py",
+      "bytes": 8891,
+      "sha256": "f488d8950cae027a1bda2d56c5d26d1f1a4e621e5b7bc3f821cf6b8daaedd4e4"
+    },
+    {
+      "path": "contract_playbook/providers/gateway_transport.py",
+      "bytes": 6699,
+      "sha256": "dc35ff3d593ef286505cdf4c1c3b2257274714030713c3c3d5f271843d5cb7e9"
+    },
+    {
+      "path": "contract_playbook/reports.py",
+      "bytes": 3421,
+      "sha256": "63529947b3c31415946d8486caa010e09ea5bac2f186142931a81ea99db72a34"
+    },
+    {
+      "path": "contract_playbook/service.py",
+      "bytes": 7844,
+      "sha256": "ad42a0cf6414f5bacd7525ead3c66796f3daccd6344f805824203fc2f0f833a9"
+    },
+    {
+      "path": "contract_playbook/upgrade/__init__.py",
+      "bytes": 77,
+      "sha256": "9db5329586d8d1215953a3f0f04df5e5a1918b79741062d9515bb3a40697c51e"
+    },
+    {
+      "path": "contract_playbook/upgrade/__main__.py",
+      "bytes": 2951,
+      "sha256": "d4548959d872fa55366c9f6d2fc1679f3736f2ea353507bd1ddbc851fe13484b"
+    },
+    {
+      "path": "contract_playbook/upgrade/budget.py",
+      "bytes": 2925,
+      "sha256": "2be5916e9e7351332c67c9b0ae4cc27f4dd9cba18713ed801e1116b229b4dd64"
+    },
+    {
+      "path": "contract_playbook/upgrade/double.py",
+      "bytes": 4124,
+      "sha256": "8d473ec2d1f0842379a3358b4c5955169e815d007952cc78c9d84d60e5d41fea"
+    },
+    {
+      "path": "contract_playbook/upgrade/metrics.py",
+      "bytes": 6286,
+      "sha256": "a81635cd47e2c85ccb08f7036c33f16e38ee2435aa3489d1adbeba2aa5c2e610"
+    },
+    {
+      "path": "contract_playbook/upgrade/service.py",
+      "bytes": 17589,
+      "sha256": "c8281adbb7247ee77ef7951362d7aaaadb9e168b72a467bc06cd6a2b4ead1280"
+    },
+    {
+      "path": "docs/UPGRADE_U1.md",
+      "bytes": 4529,
+      "sha256": "b49fe93575a6362a4771cd70a3485fe8a9dad0ecb5ff40793cfbda4affddd9ab"
+    },
+    {
+      "path": "fixtures/upgrade/u1-paraphrase/MANUAL_RUBRIC.md",
+      "bytes": 1437,
+      "sha256": "7807a3fba34b00d066f8d1b80a1a879a4c286819497ca705de6fa6b6d7d98781"
+    },
+    {
+      "path": "fixtures/upgrade/u1-paraphrase/PROVENANCE.json",
+      "bytes": 488,
+      "sha256": "2c77659037960dc6b68df35e45395a636dbaf0d32d41ccb557f532f60109e7c1"
+    },
+    {
+      "path": "fixtures/upgrade/u1-paraphrase/agreement.txt",
+      "bytes": 788,
+      "sha256": "e4aa8028803d5c84314b808317448e46d7346ac6b4e7f731cc0ec528718885f4"
+    },
+    {
+      "path": "fixtures/upgrade/u1-paraphrase/manifest.json",
+      "bytes": 108,
+      "sha256": "f719a95f00b007bffbb0a59147495502f9e4cf1cdfb2839e2e2e20e5c971bd3e"
+    },
+    {
+      "path": "scripts/upgrade_acceptance.py",
+      "bytes": 8331,
+      "sha256": "73fa7e4e27fd4ac84a3691ecc62e94c8503938634d5660b460d6d71c7566349d"
+    },
+    {
+      "path": "scripts/upgrade_correction_acceptance.py",
+      "bytes": 11256,
+      "sha256": "dee0937b2725ff796453365c1a53db2f6cf546770e0bce6f2f1b4e471dc5add2"
+    },
+    {
+      "path": "tests/upgrade/components/test_budget_metrics.py",
+      "bytes": 9023,
+      "sha256": "73f4ada84fe69bc0504e3c8ff3880ef1c28fa1660261803298ae47ca07a4526c"
+    },
+    {
+      "path": "tests/upgrade/components/test_gateway_codec.py",
+      "bytes": 5697,
+      "sha256": "bda02e6dc485cd26964dffc362bedd042bcfc2397fe7b3b51b5be0c154194e82"
+    },
+    {
+      "path": "tests/upgrade/components/test_proposal_check.py",
+      "bytes": 15359,
+      "sha256": "21ad7f8d05ab52354afc753bb24bc57b21af841b929baf4651d67e84f06b950e"
+    },
+    {
+      "path": "tests/upgrade/provider_contract/test_gateway_http.py",
+      "bytes": 6222,
+      "sha256": "2273533e8db96957c00a411d7ba47efb777285ee7121909a8a1f2c30663d5fc5"
+    }
+  ],
+  "self_hash_policy": "This manifest excludes itself and retains the immutable U1-1.0 manifest as a source entry.",
+  "runtime": "Python3.11 standard library",
+  "new_dependencies": [],
+  "prompt_sha256": "e435eaaaa01fe00387116eac1fea6faa1dc81ddff153b81c0500ff1133e8cdd6",
+  "default_config": {
+    "model": "demo/u1 (synthetic example, explicitly provided at CLI)",
+    "max_requests": 24,
+    "max_steps": 24,
+    "max_seconds": 120,
+    "request_seconds": 20,
+    "completion_tokens": 2048
+  },
+  "automatic_transport_retries": 0,
+  "live_dispatch_enabled": false,
+  "supersedes": {
+    "path": "UPGRADE_MANIFEST.json",
+    "upgrade_version": "U1-1.0",
+    "sha256": "8014b228cad39f4629659551966250576dcacaf4453caf78a51a4833b7f80a5d"
+  },
+  "correction_scope": "Committed current metrics and durable stale-input disposition; preserve historical event counts, guards and cumulative budgets.",
+  "metrics_schema_version": 2,
+  "native_correction_check": {
+    "status": "unexecuted",
+    "command": "py -3.11 -B scripts/upgrade_correction_acceptance.py --out work/upgrade-u1-correction",
+    "max_seconds": 90,
+    "unique_semantic_tasks": 1,
+    "targeted_controls": 4,
+    "max_requests_per_run": 16,
+    "max_steps_per_run": 16,
+    "max_active_seconds_per_run": 20,
+    "request_seconds": 5
+  }
+}

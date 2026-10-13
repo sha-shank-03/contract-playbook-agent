@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "created_on": "2026-10-11",
+  "author": "Project developer with AI assistance",
+  "license": "MIT; see DATA_LICENSE",
+  "fictional": true,
+  "unique_tasks": 1,
+  "split": "U1 exposed development demonstration",
+  "label_exposure": "Author saw the intended findings and the authored local-double decisions.",
+  "live_model_evidence": false,
+  "independent_legal_benchmark": false,
+  "source": "New fictional text; no real contract or external dataset copied."
+}

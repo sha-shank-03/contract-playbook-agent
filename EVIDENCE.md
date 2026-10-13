@@ -325,3 +325,11 @@ Final M3 package acceptance is pending the documentation review. Hosted CI, Linu
 All three local MVP milestones passed independent acceptance on 8 October 2026, including final documentation review. The review was executed separately from the implementation worker and included documented quickstarts, meaningful success/failure tests and direct domain-state checks. The results and limitations above remain unchanged.
 
 This source release includes application code, authored fixtures, evaluator/tests, quickstart, architecture, license/attribution and the prepared CI workflow. Private orchestration records, machine-specific paths, runtime caches and generated local runs are excluded. Offline scripted/rule/replay outcomes and local provider doubles do not establish live model quality, employer adoption or production impact. Hosted CI results are available in this repository's Actions tab after publication; historical local reports retain their original execution dates.
+
+## U1 upgrade authoring — 11 October 2026
+
+The accepted bounded slice adds one exposed fictional paraphrase journey, a Gateway-native codec, cumulative budgets, independent mechanical proposal verification and redacted operating metadata. Existing review/source guards remain in place. The new provider boundary refuses live transports; its authored double reads no key.
+
+Only lightweight pure units have been executed during authoring. Socket/owned-child transport checks, the CLI/SQLite approval and recovery journeys, original full regressions and hosted CI have not been executed against this upgrade. Their commands are in docs/UPGRADE_U1.md. No U1 milestone acceptance, live quality, external integration, deployment, legal correctness or production impact is claimed. A manual semantic rubric allows alternative correct edits; exact copied bytes alone establish no legal interpretation.
+
+The v1 published commit is 03270039a30c94b543e60cc050310198865fe0d8. Original evaluation/HELDOUT_FREEZE.json and historical successes/failures remain unchanged; upgrade source identity is recorded separately in UPGRADE_MANIFEST.json and run metadata.

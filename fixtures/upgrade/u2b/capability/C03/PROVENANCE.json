@@ -1,0 +1,27 @@
+{
+  "attribution": "2026 Contract Playbook Agent contributors",
+  "author": "contract-playbook-agent worker; AI-assisted",
+  "created_date": "2026-10-12",
+  "documents": {
+    "agreement": "dc9b508b9932ab4b9af3e1cb3e202a7f3a9f2763bc4457e6efcb45ab75c04c9c"
+  },
+  "external_data": false,
+  "family": "party-exception",
+  "fictional": true,
+  "label_exposure": "Worker-authored/exposed synthetic fiction; not blind or independently sampled",
+  "license": "MIT",
+  "license_file": "LICENSE",
+  "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+  "near_duplicate_review": {
+    "independent_samples": false,
+    "method": "Semantic feature contrast notes plus pairwise critical-text token Jaccard; no claim of random independence.",
+    "review_basis": "Scope of affiliate permission does not establish the signatory right; interpretation requires handoff.",
+    "reviewer": "authoring worker with AI assistance",
+    "shared_agreement_boilerplate": true
+  },
+  "schema_version": 1,
+  "split": "capability",
+  "task_id": "C03",
+  "title": "Affiliate permission",
+  "version": "U2-B-1.0"
+}

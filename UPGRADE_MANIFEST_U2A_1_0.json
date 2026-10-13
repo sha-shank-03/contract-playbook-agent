@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "upgrade_version": "U2-A-1.0",
+  "client_date": "2026-10-12",
+  "protocol": "docs-copy-intent-v1",
+  "published_baseline_commit": "03270039a30c94b543e60cc050310198865fe0d8",
+  "original_freeze_sha256": "8ae16854230fd754760c38a205f698857fdbdb3f75e0da92ee16cd9daac3b666",
+  "original_frozen_entry_count": 115,
+  "supersedes": {
+    "path": "UPGRADE_MANIFEST_U1_1_1.json",
+    "upgrade_version": "U1-1.1",
+    "sha256": "6610230144f4ae78a0f741a96cf679a26533dba3cfcf1f2c5676d043e3b79c95",
+    "independent_main_accepted": true
+  },
+  "preservation": "All prior U1 source entries/manifests remain byte-for-byte unchanged. Historical outcomes and freeze are retained.",
+  "scope": "Additive pure one-tab plain-body Docs copy/edit intents and reconciliation via injected local doubles. No remote transport, auth loading or write execution.",
+  "application_code_sha256": "899c13c0bed89b0a003d6e0754b6bf84c116a1eaea46e3d557a4cc3b52af3d44",
+  "gateway_prompt_sha256": "e435eaaaa01fe00387116eac1fea6faa1dc81ddff153b81c0500ff1133e8cdd6",
+  "source_entry_digest": "472c48c716d4e2a4171dec84469ecfb78968bd0abc8002bc32e3a1ec4cee4d8d",
+  "source_entries": [
+    {
+      "path": "EVIDENCE.md",
+      "bytes": 47652,
+      "sha256": "30a4ff58cc28d3b9b049cc0cee565b78095114b75aa599fa520212875cddb50d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9527,
+      "sha256": "db0b6c8ecf9ef6ba9b24c2e9937b58fa300be5b45b971385ff168b96a62397b4"
+    },
+    {
+      "path": "UPGRADE_MANIFEST.json",
+      "bytes": 5392,
+      "sha256": "8014b228cad39f4629659551966250576dcacaf4453caf78a51a4833b7f80a5d"
+    },
+    {
+      "path": "UPGRADE_MANIFEST_U1_1_1.json",
+      "bytes": 6354,
+      "sha256": "6610230144f4ae78a0f741a96cf679a26533dba3cfcf1f2c5676d043e3b79c95"
+    },
+    {
+      "path": "contract_playbook/connectors/__init__.py",
+      "bytes": 64,
+      "sha256": "9404f76086ba3701e279442b4a34554349d309030d32ae6319b1087462d1f6e4"
+    },
+    {
+      "path": "contract_playbook/connectors/docs_double.py",
+      "bytes": 1510,
+      "sha256": "1eb4f42ba50eefde0f45b943fed4d5d7eb5d5f5372d28f3fa132827a284913b4"
+    },
+    {
+      "path": "contract_playbook/connectors/google_docs.py",
+      "bytes": 19476,
+      "sha256": "656d266829d928406be880047b732080731208f17daf5341dd144b19c3bd9980"
+    },
+    {
+      "path": "contract_playbook/proposal_check.py",
+      "bytes": 7796,
+      "sha256": "c716c0ab53b25cc4d8b87cd35debc2722e5ebc981a3a43f6162089bb1d043a13"
+    },
+    {
+      "path": "contract_playbook/providers/gateway.py",
+      "bytes": 8891,
+      "sha256": "f488d8950cae027a1bda2d56c5d26d1f1a4e621e5b7bc3f821cf6b8daaedd4e4"
+    },
+    {
+      "path": "contract_playbook/providers/gateway_transport.py",
+      "bytes": 6699,
+      "sha256": "dc35ff3d593ef286505cdf4c1c3b2257274714030713c3c3d5f271843d5cb7e9"
+    },
+    {
+      "path": "contract_playbook/reports.py",
+      "bytes": 3421,
+      "sha256": "63529947b3c31415946d8486caa010e09ea5bac2f186142931a81ea99db72a34"
+    },
+    {
+      "path": "contract_playbook/service.py",
+      "bytes": 7844,
+      "sha256": "ad42a0cf6414f5bacd7525ead3c66796f3daccd6344f805824203fc2f0f833a9"
+    },
+    {
+      "path": "contract_playbook/upgrade/__init__.py",
+      "bytes": 77,
+      "sha256": "9db5329586d8d1215953a3f0f04df5e5a1918b79741062d9515bb3a40697c51e"
+    },
+    {
+      "path": "contract_playbook/upgrade/__main__.py",
+      "bytes": 2951,
+      "sha256": "d4548959d872fa55366c9f6d2fc1679f3736f2ea353507bd1ddbc851fe13484b"
+    },
+    {
+      "path": "contract_playbook/upgrade/budget.py",
+      "bytes": 2925,
+      "sha256": "2be5916e9e7351332c67c9b0ae4cc27f4dd9cba18713ed801e1116b229b4dd64"
+    },
+    {
+      "path": "contract_playbook/upgrade/double.py",
+      "bytes": 4124,
+      "sha256": "8d473ec2d1f0842379a3358b4c5955169e815d007952cc78c9d84d60e5d41fea"
+    },
+    {
+      "path": "contract_playbook/upgrade/metrics.py",
+      "bytes": 6286,
+      "sha256": "a81635cd47e2c85ccb08f7036c33f16e38ee2435aa3489d1adbeba2aa5c2e610"
+    },
+    {
+      "path": "contract_playbook/upgrade/service.py",
+      "bytes": 17589,
+      "sha256": "c8281adbb7247ee77ef7951362d7aaaadb9e168b72a467bc06cd6a2b4ead1280"
+    },
+    {
+      "path": "docs/UPGRADE_U1.md",
+      "bytes": 4529,
+      "sha256": "b49fe93575a6362a4771cd70a3485fe8a9dad0ecb5ff40793cfbda4affddd9ab"
+    },
+    {
+      "path": "docs/UPGRADE_U2A.md",
+      "bytes": 7186,
+      "sha256": "cb4a94f91577f1f26e8b4297b5b27bc1ba0b1f82529b66d98aa62e7afb6f47dd"
+    },
+    {
+      "path": "fixtures/upgrade/u1-paraphrase/MANUAL_RUBRIC.md",
+      "bytes": 1437,
+      "sha256": "7807a3fba34b00d066f8d1b80a1a879a4c286819497ca705de6fa6b6d7d98781"
+    },
+    {
+      "path": "fixtures/upgrade/u1-paraphrase/PROVENANCE.json",
+      "bytes": 488,
+      "sha256": "2c77659037960dc6b68df35e45395a636dbaf0d32d41ccb557f532f60109e7c1"
+    },
+    {
+      "path": "fixtures/upgrade/u1-paraphrase/agreement.txt",
+      "bytes": 788,
+      "sha256": "e4aa8028803d5c84314b808317448e46d7346ac6b4e7f731cc0ec528718885f4"
+    },
+    {
+      "path": "fixtures/upgrade/u1-paraphrase/manifest.json",
+      "bytes": 108,
+      "sha256": "f719a95f00b007bffbb0a59147495502f9e4cf1cdfb2839e2e2e20e5c971bd3e"
+    },
+    {
+      "path": "scripts/docs_contract_acceptance.py",
+      "bytes": 12229,
+      "sha256": "33889e6dc7dfe162d1764c96b553d638e3fcce43eb6fc662373ac0e4f3534789"
+    },
+    {
+      "path": "scripts/upgrade_acceptance.py",
+      "bytes": 8331,
+      "sha256": "73fa7e4e27fd4ac84a3691ecc62e94c8503938634d5660b460d6d71c7566349d"
+    },
+    {
+      "path": "scripts/upgrade_correction_acceptance.py",
+      "bytes": 11256,
+      "sha256": "dee0937b2725ff796453365c1a53db2f6cf546770e0bce6f2f1b4e471dc5add2"
+    },
+    {
+      "path": "tests/upgrade/components/test_budget_metrics.py",
+      "bytes": 9023,
+      "sha256": "73f4ada84fe69bc0504e3c8ff3880ef1c28fa1660261803298ae47ca07a4526c"
+    },
+    {
+      "path": "tests/upgrade/components/test_gateway_codec.py",
+      "bytes": 5697,
+      "sha256": "bda02e6dc485cd26964dffc362bedd042bcfc2397fe7b3b51b5be0c154194e82"
+    },
+    {
+      "path": "tests/upgrade/components/test_proposal_check.py",
+      "bytes": 15359,
+      "sha256": "21ad7f8d05ab52354afc753bb24bc57b21af841b929baf4651d67e84f06b950e"
+    },
+    {
+      "path": "tests/upgrade/docs_pure/test_google_docs.py",
+      "bytes": 20993,
+      "sha256": "9c0a4c5f9d4db41069a9627e35ebe631017192fbd2f03765fd1b441e7a91e226"
+    },
+    {
+      "path": "tests/upgrade/provider_contract/test_gateway_http.py",
+      "bytes": 6222,
+      "sha256": "2273533e8db96957c00a411d7ba47efb777285ee7121909a8a1f2c30663d5fc5"
+    }
+  ],
+  "self_hash_policy": "Current manifest excludes itself; prior U1 manifests are retained provenance entries.",
+  "runtime": "Python3.11 standard library",
+  "new_dependencies": [],
+  "remote_execution_enabled": false,
+  "automatic_write_retries": 0,
+  "bounds": {
+    "response_bytes": 262144,
+    "text_bytes": 65536,
+    "paragraphs": 128,
+    "runs_per_paragraph": 64,
+    "intent_bytes": 98304,
+    "listing_bytes": 32768,
+    "local_read_seconds_default": 5,
+    "local_read_seconds_max": 10
+  },
+  "native_local_contract": {
+    "status": "unexecuted",
+    "command": "py -3.11 -B scripts/docs_contract_acceptance.py --out work/upgrade-u2a-docs-contract",
+    "unique_semantic_tasks": 1,
+    "simulated_copy_writes": 1,
+    "simulated_edit_writes": 1,
+    "negative_controls": 6,
+    "remote_calls": 0
+  },
+  "genuine_sandbox_integration": "unexecuted; separate main runtime/transport/account/approval assignment required"
+}

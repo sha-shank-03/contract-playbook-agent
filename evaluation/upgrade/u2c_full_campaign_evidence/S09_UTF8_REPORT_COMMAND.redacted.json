@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "py",
+    "-3.11",
+    "-X",
+    "utf8",
+    "-B",
+    "scripts/u2c_coordinator.py",
+    "report",
+    "--campaign",
+    "work/upgrade-u2c"
+  ],
+  "cwd": "<private-path-redacted>",
+  "exit_code": 0,
+  "source_edited": false,
+  "actor_replayed": false,
+  "raw_unchanged": true,
+  "prior_report_error": "UnicodeEncodeError from CP1252 stdout while emitting report including D22 non-ASCII document text; actors and durable FINISHED already complete.",
+  "at": "2026-10-13T04:49:09.674680+00:00"
+}

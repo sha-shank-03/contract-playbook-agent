@@ -1,0 +1,172 @@
+{
+  "at": "2026-10-13T04:51:19.922606+00:00",
+  "status": "all_original_remaining68_local_slots_independently_audited_no_semantic_quality_claim",
+  "remaining_unique_tasks": 34,
+  "remaining_actor_slots": 68,
+  "historical_tasks_separate": [
+    "D15",
+    "C11"
+  ],
+  "new_this_heartbeat_slots": 48,
+  "terminal_slots": 68,
+  "pending_slots": 0,
+  "business_completions": 0,
+  "required_handoffs": 24,
+  "unnecessary_handoffs": 44,
+  "local_callbacks": 560,
+  "current_pair_ties": 34,
+  "live_calls": 0,
+  "actual_cost": null,
+  "all_new_slices_raw_audited": true,
+  "receipts": [
+    {
+      "slice": 7,
+      "tasks": [
+        "D02",
+        "C04"
+      ],
+      "main_assertions": 283,
+      "negative_controls": 6,
+      "remaining_slots": 40,
+      "aggregate_callbacks": 229,
+      "main_review": "<private-path-redacted>",
+      "native_receipt": "<private-path-redacted>"
+    },
+    {
+      "slice": 8,
+      "tasks": [
+        "D10",
+        "C08"
+      ],
+      "main_assertions": 310,
+      "negative_controls": 6,
+      "remaining_slots": 36,
+      "aggregate_callbacks": 263,
+      "main_review": "<private-path-redacted>",
+      "native_receipt": "<private-path-redacted>"
+    },
+    {
+      "slice": 9,
+      "tasks": [
+        "D18",
+        "D22"
+      ],
+      "main_assertions": 338,
+      "negative_controls": 6,
+      "remaining_slots": 32,
+      "aggregate_callbacks": 295,
+      "main_review": "<private-path-redacted>",
+      "native_receipt": "<private-path-redacted>",
+      "readonly_report_recovery": "<private-path-redacted>"
+    },
+    {
+      "slice": 10,
+      "tasks": [
+        "C02",
+        "D06"
+      ],
+      "main_assertions": 364,
+      "negative_controls": 6,
+      "remaining_slots": 28,
+      "aggregate_callbacks": 327,
+      "main_review": "<private-path-redacted>",
+      "native_receipt": "<private-path-redacted>"
+    },
+    {
+      "slice": 11,
+      "tasks": [
+        "C06",
+        "D14"
+      ],
+      "main_assertions": 391,
+      "negative_controls": 6,
+      "remaining_slots": 24,
+      "aggregate_callbacks": 362,
+      "main_review": "<private-path-redacted>",
+      "native_receipt": "<private-path-redacted>"
+    },
+    {
+      "slice": 12,
+      "tasks": [
+        "C10",
+        "D23"
+      ],
+      "main_assertions": 418,
+      "negative_controls": 6,
+      "remaining_slots": 20,
+      "aggregate_callbacks": 394,
+      "main_review": "<private-path-redacted>",
+      "native_receipt": "<private-path-redacted>"
+    },
+    {
+      "slice": 13,
+      "tasks": [
+        "D03",
+        "D07"
+      ],
+      "main_assertions": 445,
+      "negative_controls": 6,
+      "remaining_slots": 16,
+      "aggregate_callbacks": 426,
+      "main_review": "<private-path-redacted>",
+      "native_receipt": "<private-path-redacted>"
+    },
+    {
+      "slice": 14,
+      "tasks": [
+        "D11",
+        "D16"
+      ],
+      "main_assertions": 472,
+      "negative_controls": 6,
+      "remaining_slots": 12,
+      "aggregate_callbacks": 459,
+      "main_review": "<private-path-redacted>",
+      "native_receipt": "<private-path-redacted>"
+    },
+    {
+      "slice": 15,
+      "tasks": [
+        "D19",
+        "D24"
+      ],
+      "main_assertions": 499,
+      "negative_controls": 6,
+      "remaining_slots": 8,
+      "aggregate_callbacks": 492,
+      "main_review": "<private-path-redacted>",
+      "native_receipt": "<private-path-redacted>"
+    },
+    {
+      "slice": 16,
+      "tasks": [
+        "D04",
+        "D08"
+      ],
+      "main_assertions": 526,
+      "negative_controls": 6,
+      "remaining_slots": 4,
+      "aggregate_callbacks": 524,
+      "main_review": "<private-path-redacted>",
+      "native_receipt": "<private-path-redacted>"
+    },
+    {
+      "slice": 17,
+      "tasks": [
+        "D12",
+        "D20"
+      ],
+      "main_assertions": 553,
+      "negative_controls": 6,
+      "remaining_slots": 0,
+      "aggregate_callbacks": 560,
+      "main_review": "<private-path-redacted>",
+      "native_receipt": "<private-path-redacted>"
+    }
+  ],
+  "limitations": [
+    "All actors are authored scripted callbacks and hand off; complete coverage is not model semantic quality or useful business completion.",
+    "Historical four slots excluded from remaining68 and retained; no replay/tuning.",
+    "No main-unseen, actual Google sandbox, paid model, CI or publication acceptance."
+  ]
+}

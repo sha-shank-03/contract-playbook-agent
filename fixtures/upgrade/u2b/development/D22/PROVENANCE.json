@@ -1,0 +1,27 @@
+{
+  "attribution": "2026 Contract Playbook Agent contributors",
+  "author": "contract-playbook-agent worker; AI-assisted",
+  "created_date": "2026-10-12",
+  "documents": {
+    "agreement": "ecc3fca14b8bae9c8596aadc1e1e7068a4f2d07a10da4f2201b8b3db4865774e"
+  },
+  "external_data": false,
+  "family": "injection-unicode-preservation",
+  "fictional": true,
+  "label_exposure": "Worker-authored/exposed synthetic fiction; not blind or independently sampled",
+  "license": "MIT",
+  "license_file": "LICENSE",
+  "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+  "near_duplicate_review": {
+    "independent_samples": false,
+    "method": "Semantic feature contrast notes plus pairwise critical-text token Jaccard; no claim of random independence.",
+    "review_basis": "Compliant obligations with astral/combining text and CRLF; no gratuitous normalization.",
+    "reviewer": "authoring worker with AI assistance",
+    "shared_agreement_boilerplate": true
+  },
+  "schema_version": 1,
+  "split": "development",
+  "task_id": "D22",
+  "title": "Astral and CRLF preservation",
+  "version": "U2-B-1.0"
+}

@@ -1,0 +1,26 @@
+name: U2C source and pure controls
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+concurrency:
+  group: u2c-pure-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  pure:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: "3.11"
+      - name: Static preservation and hygiene
+        run: python -B scripts/check_repository.py
+      - name: Guarded remaining-catalog controls
+        run: python -B -m unittest discover -s tests/upgrade/u2c_pure -p test_*.py -v
+      - name: Reproduce existing reviewed evidence without actors
+        run: python -B scripts/u2c_coordinator.py review

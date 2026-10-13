@@ -1,0 +1,27 @@
+{
+  "attribution": "2026 Contract Playbook Agent contributors",
+  "author": "contract-playbook-agent worker; AI-assisted",
+  "created_date": "2026-10-12",
+  "documents": {
+    "agreement": "22291f804245499c9732baa9e93edb94447a90934c42e08da1e93bc14e17fa3d"
+  },
+  "external_data": false,
+  "family": "definitions-reference",
+  "fictional": true,
+  "label_exposure": "Worker-authored/exposed synthetic fiction; not blind or independently sampled",
+  "license": "MIT",
+  "license_file": "LICENSE",
+  "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+  "near_duplicate_review": {
+    "independent_samples": false,
+    "method": "Semantic feature contrast notes plus pairwise critical-text token Jaccard; no claim of random independence.",
+    "review_basis": "A two-hop supplied definition is determinable; preserve both definition sections if no edit is needed.",
+    "reviewer": "authoring worker with AI assistance",
+    "shared_agreement_boilerplate": true
+  },
+  "schema_version": 1,
+  "split": "capability",
+  "task_id": "C05",
+  "title": "Two-hop definition",
+  "version": "U2-B-1.0"
+}

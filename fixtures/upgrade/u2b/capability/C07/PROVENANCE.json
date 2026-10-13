@@ -1,0 +1,29 @@
+{
+  "attribution": "2026 Contract Playbook Agent contributors",
+  "author": "contract-playbook-agent worker; AI-assisted",
+  "created_date": "2026-10-12",
+  "documents": {
+    "A1": "e70991808ee9227cde94425265d452db8ed59405482bacb7c798581957678081",
+    "A2": "8cdd00188a1efd99277e5875dea5f35b540a2478d094206e44f07217e8c6c278",
+    "agreement": "87ea56b091c713a9be02488edd69b872795cb1fca38adcc76c2e693c12c2e54b"
+  },
+  "external_data": false,
+  "family": "competing-amendments",
+  "fictional": true,
+  "label_exposure": "Worker-authored/exposed synthetic fiction; not blind or independently sampled",
+  "license": "MIT",
+  "license_file": "LICENSE",
+  "manifest_sha256": "645334d25541c06b8cf15116a8d9e335a2ac8b71457e68e616752df363f25394",
+  "near_duplicate_review": {
+    "independent_samples": false,
+    "method": "Semantic feature contrast notes plus pairwise critical-text token Jaccard; no claim of random independence.",
+    "review_basis": "Even agreeing replacement text leaves unsupported precedence; this is a topology challenge, not different numbers.",
+    "reviewer": "authoring worker with AI assistance",
+    "shared_agreement_boilerplate": true
+  },
+  "schema_version": 1,
+  "split": "capability",
+  "task_id": "C07",
+  "title": "Equal competing replacements",
+  "version": "U2-B-1.0"
+}

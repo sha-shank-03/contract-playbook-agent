@@ -1,0 +1,28 @@
+{
+  "attribution": "2026 Contract Playbook Agent contributors",
+  "author": "contract-playbook-agent worker; AI-assisted",
+  "created_date": "2026-10-12",
+  "documents": {
+    "A1": "49921ba8f24af4c3e165860127af579203e7d7e598d7df2d2f8db0d794ae9247",
+    "agreement": "619556245fe684ccfca6183f077a52afb927db28792f7db74e1cd0b8fd121a4b"
+  },
+  "external_data": false,
+  "family": "competing-amendments",
+  "fictional": true,
+  "label_exposure": "Worker-authored/exposed synthetic fiction; not blind or independently sampled",
+  "license": "MIT",
+  "license_file": "LICENSE",
+  "manifest_sha256": "4557eef0ffea68d29ee20b4b99093147ee731867390e68e6bba89d42f1e2bcb3",
+  "near_duplicate_review": {
+    "independent_samples": false,
+    "method": "Semantic feature contrast notes plus pairwise critical-text token Jaccard; no claim of random independence.",
+    "review_basis": "The current host conservatively marks unknown target evidence for all searches; no invented priority or absence.",
+    "reviewer": "authoring worker with AI assistance",
+    "shared_agreement_boilerplate": true
+  },
+  "schema_version": 1,
+  "split": "development",
+  "task_id": "D16",
+  "title": "Invalid amendment target",
+  "version": "U2-B-1.0"
+}

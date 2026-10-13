@@ -1,0 +1,27 @@
+{
+  "attribution": "2026 Contract Playbook Agent contributors",
+  "author": "contract-playbook-agent worker; AI-assisted",
+  "created_date": "2026-10-12",
+  "documents": {
+    "agreement": "0e9eefc2eb39b57f8bd56809532786c5b0adb3522d62fab6859862e9d32bd74d"
+  },
+  "external_data": false,
+  "family": "absent-unavailable",
+  "fictional": true,
+  "label_exposure": "Worker-authored/exposed synthetic fiction; not blind or independently sampled",
+  "license": "MIT",
+  "license_file": "LICENSE",
+  "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+  "near_duplicate_review": {
+    "independent_samples": false,
+    "method": "Semantic feature contrast notes plus pairwise critical-text token Jaccard; no claim of random independence.",
+    "review_basis": "Complete supplied evidence has no invoice obligation; trusted insertion may be proposed with explicit full coverage.",
+    "reviewer": "authoring worker with AI assistance",
+    "shared_agreement_boilerplate": true
+  },
+  "schema_version": 1,
+  "split": "development",
+  "task_id": "D17",
+  "title": "No invoice obligation",
+  "version": "U2-B-1.0"
+}

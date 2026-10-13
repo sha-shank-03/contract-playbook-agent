@@ -1,0 +1,16 @@
+{
+  "completion_tokens": 2048,
+  "model": "local/contract-double",
+  "prompt_tokens_per_request": 98304,
+  "request_bytes": 98304,
+  "request_seconds": 5,
+  "requests": 24,
+  "review_decisions": 1,
+  "review_seconds": 60,
+  "seconds": 20,
+  "steps": 24,
+  "tools": 24,
+  "total_completion_tokens": 49152,
+  "total_prompt_tokens": 2359296,
+  "total_request_bytes": 2359296
+}

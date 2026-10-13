@@ -109,6 +109,9 @@ def resume_run(run: Path, *, failpoint=lambda phase: None, transport=None):
         config = store.config()
     finally:
         store.close()
+    if config.get("upgrade_protocol") == "gateway-u1-v1":
+        from .upgrade.service import resume_u1
+        return resume_u1(run, transport=transport, failpoint=failpoint)
     return run_case(Path(config.pop("case_dir")), Path(config.pop("playbook_path")), run,
                     **config, resume=True, failpoint=failpoint, transport=transport)
 
@@ -140,6 +143,10 @@ def review(run: Path, decision: str, expected: str, reviewer: str, *,
         raise ReviewError("Review run does not exist.", 3)
     store = RunStore(run)
     try:
+        if (store.db.execute("SELECT 1 FROM config").fetchone()
+                and store.config().get("upgrade_protocol") == "gateway-u1-v1"):
+            from .upgrade.service import review_store
+            return review_store(store, decision, expected, reviewer, failpoint=failpoint)
         return store.review(decision, expected, reviewer, failpoint=failpoint)
     finally:
         store.close()

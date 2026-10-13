@@ -6,7 +6,11 @@ The default decision provider is **scripted** and works offline. It supports bou
 
 The recorded M3 comparison has **30/30 exact scripted cases versus 16/30 for the fixed keyword baseline**: 14 scripted-only successes and 16 ties. Both providers preserve all eight required human handoffs; those correct handoffs count as exact outcomes, not automatic completion. All 180 saved runs passed integrity and operational checks, and all 120 repeat comparisons matched. These are same-author fictional template cases with deterministic providers; they establish neither general legal accuracy nor live model quality. Separate independent checks verified the saved results after worker measurement failures. Final M3 package acceptance passed independent documentation and release review; see [evidence](EVIDENCE.md#m3-current-results-and-independent-checks).
 
-Python 3.11 and its standard library are sufficient. No installation, account or model is needed for the offline path. Run from the repository root:
+Python 3.11 and its standard library are sufficient. No installation, account or model is needed for the offline path.
+
+The bounded [U1 upgrade](docs/UPGRADE_U1.md) adds one fictional paraphrase journey using Gateway-native envelopes through explicitly labeled local doubles. Its pure unit checks are recorded separately. Transport and end-to-end acceptance remain unexecuted pending review and an integration lease; live inference and external sandbox integration remain disabled. The historical MVP results below belong to the original published commit.
+
+Run the offline path from the repository root:
 
 ```powershell
 py -3.11 -m contract_playbook demo --case direct-review --out work/demo

@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "upgrade_version": "U1-1.0",
+  "client_date": "2026-10-11",
+  "protocol": "gateway-u1-v1",
+  "published_baseline_commit": "03270039a30c94b543e60cc050310198865fe0d8",
+  "original_freeze_sha256": "8ae16854230fd754760c38a205f698857fdbdb3f75e0da92ee16cd9daac3b666",
+  "original_frozen_entry_count": 115,
+  "preservation": "Original freeze and historical evidence not regenerated. New source is separately identified.",
+  "scope": "One exposed fictional paraphrase/local-double journey. No live provider, connector or legal-quality acceptance.",
+  "application_code_sha256": "b3cef4410fd64afa912a0007fba8ef4dc2ec715bdd522f1eda36261d2872b12f",
+  "source_entry_digest": "1373917231ea26acd48ee7ad4fbc40159f9cfbd07954d644119cb23fde8db266",
+  "source_entries": [
+    {
+      "path": "EVIDENCE.md",
+      "bytes": 47652,
+      "sha256": "30a4ff58cc28d3b9b049cc0cee565b78095114b75aa599fa520212875cddb50d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9527,
+      "sha256": "db0b6c8ecf9ef6ba9b24c2e9937b58fa300be5b45b971385ff168b96a62397b4"
+    },
+    {
+      "path": "contract_playbook/proposal_check.py",
+      "bytes": 7796,
+      "sha256": "c716c0ab53b25cc4d8b87cd35debc2722e5ebc981a3a43f6162089bb1d043a13"
+    },
+    {
+      "path": "contract_playbook/providers/gateway.py",
+      "bytes": 8891,
+      "sha256": "f488d8950cae027a1bda2d56c5d26d1f1a4e621e5b7bc3f821cf6b8daaedd4e4"
+    },
+    {
+      "path": "contract_playbook/providers/gateway_transport.py",
+      "bytes": 6699,
+      "sha256": "dc35ff3d593ef286505cdf4c1c3b2257274714030713c3c3d5f271843d5cb7e9"
+    },
+    {
+      "path": "contract_playbook/reports.py",
+      "bytes": 3421,
+      "sha256": "63529947b3c31415946d8486caa010e09ea5bac2f186142931a81ea99db72a34"
+    },
+    {
+      "path": "contract_playbook/service.py",
+      "bytes": 7844,
+      "sha256": "ad42a0cf6414f5bacd7525ead3c66796f3daccd6344f805824203fc2f0f833a9"
+    },
+    {
+      "path": "contract_playbook/upgrade/__init__.py",
+      "bytes": 77,
+      "sha256": "9db5329586d8d1215953a3f0f04df5e5a1918b79741062d9515bb3a40697c51e"
+    },
+    {
+      "path": "contract_playbook/upgrade/__main__.py",
+      "bytes": 2951,
+      "sha256": "d4548959d872fa55366c9f6d2fc1679f3736f2ea353507bd1ddbc851fe13484b"
+    },
+    {
+      "path": "contract_playbook/upgrade/budget.py",
+      "bytes": 2925,
+      "sha256": "2be5916e9e7351332c67c9b0ae4cc27f4dd9cba18713ed801e1116b229b4dd64"
+    },
+    {
+      "path": "contract_playbook/upgrade/double.py",
+      "bytes": 4124,
+      "sha256": "8d473ec2d1f0842379a3358b4c5955169e815d007952cc78c9d84d60e5d41fea"
+    },
+    {
+      "path": "contract_playbook/upgrade/metrics.py",
+      "bytes": 4782,
+      "sha256": "6d80c7b0c59f17c342efee0c4ecbdd0485ba6745466a5f6a8e077e4b2109746a"
+    },
+    {
+      "path": "contract_playbook/upgrade/service.py",
+      "bytes": 16928,
+      "sha256": "e05e79a49553237b6d530c949af68a702c79b72162222b1ffbc957da3216407c"
+    },
+    {
+      "path": "docs/UPGRADE_U1.md",
+      "bytes": 3221,
+      "sha256": "8ad9674b13b19c84c61ce9d01e9e169520fb06b586fc023861416c2331ac5bbb"
+    },
+    {
+      "path": "fixtures/upgrade/u1-paraphrase/MANUAL_RUBRIC.md",
+      "bytes": 1437,
+      "sha256": "7807a3fba34b00d066f8d1b80a1a879a4c286819497ca705de6fa6b6d7d98781"
+    },
+    {
+      "path": "fixtures/upgrade/u1-paraphrase/PROVENANCE.json",
+      "bytes": 488,
+      "sha256": "2c77659037960dc6b68df35e45395a636dbaf0d32d41ccb557f532f60109e7c1"
+    },
+    {
+      "path": "fixtures/upgrade/u1-paraphrase/agreement.txt",
+      "bytes": 788,
+      "sha256": "e4aa8028803d5c84314b808317448e46d7346ac6b4e7f731cc0ec528718885f4"
+    },
+    {
+      "path": "fixtures/upgrade/u1-paraphrase/manifest.json",
+      "bytes": 108,
+      "sha256": "f719a95f00b007bffbb0a59147495502f9e4cf1cdfb2839e2e2e20e5c971bd3e"
+    },
+    {
+      "path": "scripts/upgrade_acceptance.py",
+      "bytes": 8331,
+      "sha256": "73fa7e4e27fd4ac84a3691ecc62e94c8503938634d5660b460d6d71c7566349d"
+    },
+    {
+      "path": "tests/upgrade/components/test_budget_metrics.py",
+      "bytes": 6058,
+      "sha256": "3e1c3b7ba3205bfa49b7dadc6135b3ae281e516b9a97b83cac493955fd061d76"
+    },
+    {
+      "path": "tests/upgrade/components/test_gateway_codec.py",
+      "bytes": 5697,
+      "sha256": "bda02e6dc485cd26964dffc362bedd042bcfc2397fe7b3b51b5be0c154194e82"
+    },
+    {
+      "path": "tests/upgrade/components/test_proposal_check.py",
+      "bytes": 6451,
+      "sha256": "d4c268797ecc341f36198e525e78529fb2490cf303e6ca53a1e7a0eff7280d8f"
+    },
+    {
+      "path": "tests/upgrade/provider_contract/test_gateway_http.py",
+      "bytes": 6222,
+      "sha256": "2273533e8db96957c00a411d7ba47efb777285ee7121909a8a1f2c30663d5fc5"
+    }
+  ],
+  "self_hash_policy": "This manifest excludes itself from source_entries.",
+  "runtime": "Python3.11 standard library",
+  "new_dependencies": [],
+  "prompt_sha256": "e435eaaaa01fe00387116eac1fea6faa1dc81ddff153b81c0500ff1133e8cdd6",
+  "default_config": {
+    "model": "demo/u1 (synthetic example, explicitly provided at CLI)",
+    "max_requests": 24,
+    "max_steps": 24,
+    "max_seconds": 120,
+    "request_seconds": 20,
+    "completion_tokens": 2048
+  },
+  "automatic_transport_retries": 0,
+  "live_dispatch_enabled": false
+}

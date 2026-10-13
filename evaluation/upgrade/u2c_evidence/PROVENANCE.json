@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "accepted_source_manifest_sha256": "12b30cb3641a61f82f0344533fa8c220603a8f8312ee791ead116b4d3babc0ec",
+  "main_review_original_sha256": "b2b8aa23751a5993868a8b3f98f2868a0dde45689f1eebb67debbc26154ed640",
+  "main_review_note_sha256": "4cb5c0ef15f18dad457ec210a81f4a31ecce6abc393577e0e409e746f6c1e967",
+  "entries": [
+    {
+      "path": "reviewed-scripted-four-slots/INTENDED_PLAN.json",
+      "source_alias": "reviewed-scripted-four-slots/INTENDED_PLAN.json",
+      "original_bytes": 2062,
+      "original_sha256": "01659a945fde934fffe3742a2d4ab9c05e6ca13d3b2dbcd1c5a0c451bf06e736",
+      "bytes": 2062,
+      "sha256": "01659a945fde934fffe3742a2d4ab9c05e6ca13d3b2dbcd1c5a0c451bf06e736",
+      "redaction": "none"
+    },
+    {
+      "path": "reviewed-scripted-four-slots/raw-outcomes.json",
+      "source_alias": "reviewed-scripted-four-slots/raw-outcomes.json",
+      "original_bytes": 114618,
+      "original_sha256": "2c9cb6df91e635b0fa26c78e7a09cd7972231858f47da75b670f74eb7efb1c15",
+      "bytes": 114618,
+      "sha256": "2c9cb6df91e635b0fa26c78e7a09cd7972231858f47da75b670f74eb7efb1c15",
+      "redaction": "none"
+    },
+    {
+      "path": "reviewed-scripted-four-slots/RAW_OUTCOME_FREEZE.json",
+      "source_alias": "reviewed-scripted-four-slots/RAW_OUTCOME_FREEZE.json",
+      "original_bytes": 537,
+      "original_sha256": "af63ed0a639a8c4f3996634b75ca82c7b1feb67db8a520b813696de8975691b8",
+      "bytes": 537,
+      "sha256": "af63ed0a639a8c4f3996634b75ca82c7b1feb67db8a520b813696de8975691b8",
+      "redaction": "none"
+    },
+    {
+      "path": "reviewed-scripted-four-slots/paired-raw-scores.json",
+      "source_alias": "reviewed-scripted-four-slots/paired-raw-scores.json",
+      "original_bytes": 4991,
+      "original_sha256": "2632bae013542c1228fe9d2e8c0e2dcc114fa4eb5614b51fcc1764702d5d67d2",
+      "bytes": 4991,
+      "sha256": "2632bae013542c1228fe9d2e8c0e2dcc114fa4eb5614b51fcc1764702d5d67d2",
+      "redaction": "none"
+    },
+    {
+      "path": "reviewed-scripted-four-slots/read-only-sql-witness.json",
+      "source_alias": "reviewed-scripted-four-slots/read-only-sql-witness.json",
+      "original_bytes": 56,
+      "original_sha256": "319aeb387d2d05af536063a8bfc4ac87b4185b48fc37e4c221205267dd6cb79d",
+      "bytes": 56,
+      "sha256": "319aeb387d2d05af536063a8bfc4ac87b4185b48fc37e4c221205267dd6cb79d",
+      "redaction": "none"
+    },
+    {
+      "path": "reviewed-scripted-four-slots/negative-controls.json",
+      "source_alias": "reviewed-scripted-four-slots/negative-controls.json",
+      "original_bytes": 335,
+      "original_sha256": "a0d51b3382102cb93765770f25da712e7ac0f72da16f0db112cd826b1873cccf",
+      "bytes": 335,
+      "sha256": "a0d51b3382102cb93765770f25da712e7ac0f72da16f0db112cd826b1873cccf",
+      "redaction": "none"
+    },
+    {
+      "path": "reviewed-scripted-four-slots/accounting-journal/000000.json",
+      "source_alias": "reviewed-scripted-four-slots/accounting-journal/000000.json",
+      "original_bytes": 2378,
+      "original_sha256": "976f00624f2674c4a5860bed9fc19815aecea6c5d31d7f57e2cbe7023d302ddd",
+      "bytes": 2378,
+      "sha256": "976f00624f2674c4a5860bed9fc19815aecea6c5d31d7f57e2cbe7023d302ddd",
+      "redaction": "none"
+    },
+    {
+      "path": "reviewed-scripted-four-slots/accounting-journal/000001.json",
+      "source_alias": "reviewed-scripted-four-slots/accounting-journal/000001.json",
+      "original_bytes": 319,
+      "original_sha256": "0efd9c0708be1446201095fafd929fc05206383f8fb8a7e83623807e17057fb2",
+      "bytes": 319,
+      "sha256": "0efd9c0708be1446201095fafd929fc05206383f8fb8a7e83623807e17057fb2",
+      "redaction": "none"
+    },
+    {
+      "path": "reviewed-scripted-four-slots/accounting-journal/000002.json",
+      "source_alias": "reviewed-scripted-four-slots/accounting-journal/000002.json",
+      "original_bytes": 32454,
+      "original_sha256": "322ca6c775f0b336a84c96b2ba551644dc90cf46c30e5fbabc8a42ae79884e09",
+      "bytes": 32454,
+      "sha256": "322ca6c775f0b336a84c96b2ba551644dc90cf46c30e5fbabc8a42ae79884e09",
+      "redaction": "none"
+    },
+    {
+      "path": "reviewed-scripted-four-slots/accounting-journal/000003.json",
+      "source_alias": "reviewed-scripted-four-slots/accounting-journal/000003.json",
+      "original_bytes": 329,
+      "original_sha256": "2c30e68eb2311b8421f0bc62f4235b09c1dfe8b3de06b1900c95bd1ce0ffaa0c",
+      "bytes": 329,
+      "sha256": "2c30e68eb2311b8421f0bc62f4235b09c1dfe8b3de06b1900c95bd1ce0ffaa0c",
+      "redaction": "none"
+    },
+    {
+      "path": "reviewed-scripted-four-slots/accounting-journal/000004.json",
+      "source_alias": "reviewed-scripted-four-slots/accounting-journal/000004.json",
+      "original_bytes": 32465,
+      "original_sha256": "515475d7c896aaede0bc95fdd023051ef64ba7abcfe86c84205573bcbf05831e",
+      "bytes": 32465,
+      "sha256": "515475d7c896aaede0bc95fdd023051ef64ba7abcfe86c84205573bcbf05831e",
+      "redaction": "none"
+    },
+    {
+      "path": "reviewed-scripted-four-slots/accounting-journal/000005.json",
+      "source_alias": "reviewed-scripted-four-slots/accounting-journal/000005.json",
+      "original_bytes": 319,
+      "original_sha256": "445a30d6be3a11706c497950a5e8f333e0a78bfd80473444467a9a5d73ebb56b",
+      "bytes": 319,
+      "sha256": "445a30d6be3a11706c497950a5e8f333e0a78bfd80473444467a9a5d73ebb56b",
+      "redaction": "none"
+    },
+    {
+      "path": "reviewed-scripted-four-slots/accounting-journal/000006.json",
+      "source_alias": "reviewed-scripted-four-slots/accounting-journal/000006.json",
+      "original_bytes": 25676,
+      "original_sha256": "117cd2c352ab3d5acc8b7b5394725c36c643d74d43c219502a0cabeaa159b83e",
+      "bytes": 25676,
+      "sha256": "117cd2c352ab3d5acc8b7b5394725c36c643d74d43c219502a0cabeaa159b83e",
+      "redaction": "none"
+    },
+    {
+      "path": "reviewed-scripted-four-slots/accounting-journal/000007.json",
+      "source_alias": "reviewed-scripted-four-slots/accounting-journal/000007.json",
+      "original_bytes": 329,
+      "original_sha256": "dfcbe5cc165a02a7d011e0516153d41a24bf038559a0fa2c48f2049618a3e812",
+      "bytes": 329,
+      "sha256": "dfcbe5cc165a02a7d011e0516153d41a24bf038559a0fa2c48f2049618a3e812",
+      "redaction": "none"
+    },
+    {
+      "path": "reviewed-scripted-four-slots/accounting-journal/000008.json",
+      "source_alias": "reviewed-scripted-four-slots/accounting-journal/000008.json",
+      "original_bytes": 25689,
+      "original_sha256": "5b23ebbe3cd2ec96d285b39161d5ddcbfdc3d46b5af03bab7c82c70e71dd041c",
+      "bytes": 25689,
+      "sha256": "5b23ebbe3cd2ec96d285b39161d5ddcbfdc3d46b5af03bab7c82c70e71dd041c",
+      "redaction": "none"
+    },
+    {
+      "path": "reviewed-scripted-four-slots/accounting-journal/000009.json",
+      "source_alias": "reviewed-scripted-four-slots/accounting-journal/000009.json",
+      "original_bytes": 1020,
+      "original_sha256": "6ec3bbaa1be2051974721aa87a5e399b85b9f030188c9ace21d8ee5747d69104",
+      "bytes": 1020,
+      "sha256": "6ec3bbaa1be2051974721aa87a5e399b85b9f030188c9ace21d8ee5747d69104",
+      "redaction": "none"
+    },
+    {
+      "path": "reviewed-scripted-four-slots/accounting-journal/000010.json",
+      "source_alias": "reviewed-scripted-four-slots/accounting-journal/000010.json",
+      "original_bytes": 1031,
+      "original_sha256": "a35c0da6a405f2463bf3fa771a470164e392b53480b089f812db6799f91477e2",
+      "bytes": 1031,
+      "sha256": "a35c0da6a405f2463bf3fa771a470164e392b53480b089f812db6799f91477e2",
+      "redaction": "none"
+    },
+    {
+      "path": "reviewed-scripted-four-slots/accounting-journal/000011.json",
+      "source_alias": "reviewed-scripted-four-slots/accounting-journal/000011.json",
+      "original_bytes": 1022,
+      "original_sha256": "3fd5d2c51d83df38a763626df62b7369e11e88823d60122bd35f1c7d0dc0ddb5",
+      "bytes": 1022,
+      "sha256": "3fd5d2c51d83df38a763626df62b7369e11e88823d60122bd35f1c7d0dc0ddb5",
+      "redaction": "none"
+    },
+    {
+      "path": "reviewed-scripted-four-slots/accounting-journal/000012.json",
+      "source_alias": "reviewed-scripted-four-slots/accounting-journal/000012.json",
+      "original_bytes": 1032,
+      "original_sha256": "264d2a886d2b3c0a85234ce5433bc0ee87e81c4431817b3afc18f473bbb17d99",
+      "bytes": 1032,
+      "sha256": "264d2a886d2b3c0a85234ce5433bc0ee87e81c4431817b3afc18f473bbb17d99",
+      "redaction": "none"
+    },
+    {
+      "path": "mocked-actor-real-persistence/INTENDED_PLAN.json",
+      "source_alias": "mocked-actor-real-persistence/INTENDED_PLAN.json",
+      "original_bytes": 2062,
+      "original_sha256": "01659a945fde934fffe3742a2d4ab9c05e6ca13d3b2dbcd1c5a0c451bf06e736",
+      "bytes": 2062,
+      "sha256": "01659a945fde934fffe3742a2d4ab9c05e6ca13d3b2dbcd1c5a0c451bf06e736",
+      "redaction": "none"
+    },
+    {
+      "path": "mocked-actor-real-persistence/raw-outcomes.json",
+      "source_alias": "mocked-actor-real-persistence/raw-outcomes.json",
+      "original_bytes": 411,
+      "original_sha256": "b78319bc3010ff1c7b305146b0b1acfd9748a72ac76225bdf9cbf965d1352f7c",
+      "bytes": 411,
+      "sha256": "b78319bc3010ff1c7b305146b0b1acfd9748a72ac76225bdf9cbf965d1352f7c",
+      "redaction": "none"
+    },
+    {
+      "path": "mocked-actor-real-persistence/accounting-journal/000000.json",
+      "source_alias": "mocked-actor-real-persistence/accounting-journal/000000.json",
+      "original_bytes": 2378,
+      "original_sha256": "976f00624f2674c4a5860bed9fc19815aecea6c5d31d7f57e2cbe7023d302ddd",
+      "bytes": 2378,
+      "sha256": "976f00624f2674c4a5860bed9fc19815aecea6c5d31d7f57e2cbe7023d302ddd",
+      "redaction": "none"
+    },
+    {
+      "path": "mocked-actor-real-persistence/accounting-journal/000001.json",
+      "source_alias": "mocked-actor-real-persistence/accounting-journal/000001.json",
+      "original_bytes": 319,
+      "original_sha256": "0efd9c0708be1446201095fafd929fc05206383f8fb8a7e83623807e17057fb2",
+      "bytes": 319,
+      "sha256": "0efd9c0708be1446201095fafd929fc05206383f8fb8a7e83623807e17057fb2",
+      "redaction": "none"
+    },
+    {
+      "path": "mocked-actor-real-persistence/accounting-journal/000002.json",
+      "source_alias": "mocked-actor-real-persistence/accounting-journal/000002.json",
+      "original_bytes": 634,
+      "original_sha256": "aa653fa5aef045f2ce49a0fdbedcdab6f882b94c2fae61f16ef9578fe5a4c5b3",
+      "bytes": 634,
+      "sha256": "aa653fa5aef045f2ce49a0fdbedcdab6f882b94c2fae61f16ef9578fe5a4c5b3",
+      "redaction": "none"
+    },
+    {
+      "path": "MAIN_REVIEW.redacted.json",
+      "source_alias": "main-independent-review-1551",
+      "original_bytes": 6401,
+      "original_sha256": "b2b8aa23751a5993868a8b3f98f2868a0dde45689f1eebb67debbc26154ed640",
+      "bytes": 5369,
+      "sha256": "a942209a1a837852edcff81b8fe0f69d9a73e0cf944d89cad59c92fd5887fb57",
+      "redaction": "private-path values only"
+    },
+    {
+      "path": "ORIGINAL_FAILURE_PROBE.redacted.json",
+      "source_alias": "original-mocked-accounting-probe-1239",
+      "original_bytes": 517,
+      "original_sha256": "38e5d47866dd84a4fceb4e9fb7eb1a71ec6b9f2a6e5788a16cbb0acbf5d9d499",
+      "bytes": 458,
+      "sha256": "c084e388a5208cc4c4caa897fd7dabcffa1b23d5f6b461ec3c6821c91317d00c",
+      "redaction": "private-path values only"
+    }
+  ],
+  "fictional": true,
+  "label_exposed": true,
+  "actor_reexecuted": false,
+  "scope": "Existing main-reviewed file evidence; SQLite binaries not copied or opened. Original hashes retained.",
+  "diagnostics_are_additional_tasks": false,
+  "new_native_execution": false
+}

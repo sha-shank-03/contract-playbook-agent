@@ -1,0 +1,473 @@
+{
+  "author": "worker; AI-assisted",
+  "cases": [
+    {
+      "case_path": "fixtures/upgrade/u2b/development/D01",
+      "document_sha256": {
+        "agreement": "a5c608ace1b4e01d36ff588e488561a3ae981951f6254ba4c0992e46c7bb918c"
+      },
+      "family": "paraphrase",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "f1aff178969b359f302dfe6fb0bfa8b0f3c9dbb65ed3f146a0185ae9278264c3",
+      "split": "development",
+      "task_id": "D01"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/development/D02",
+      "document_sha256": {
+        "agreement": "9ed8c9370f5dc19d87cfd26964440f5386fb0bfe41426c2c45da57b38d55ad5e"
+      },
+      "family": "paraphrase",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "480b9727fbadfe0a6a213713c2e11b394fa1a4b632c77fc8733ddb8312edf2e8",
+      "split": "development",
+      "task_id": "D02"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/development/D03",
+      "document_sha256": {
+        "agreement": "947282d3ab32d07bedb5580907a48b187c8f6ff3deb33371e5cbacfcd09c00c4"
+      },
+      "family": "paraphrase",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "0ddbef38c27a27365fc43ba819ec4e4da07fdd7cbe963748f16c0921588997b9",
+      "split": "development",
+      "task_id": "D03"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/development/D04",
+      "document_sha256": {
+        "agreement": "fe3579edf529d8b44febe1f430b4294a63c0f83ba06c462887ebe9c21f4cf418"
+      },
+      "family": "paraphrase",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "2bda6d2c8e82a20a7182b5989f62759fb223163996a695e71c30724949da493c",
+      "split": "development",
+      "task_id": "D04"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/development/D05",
+      "document_sha256": {
+        "agreement": "a073d808a49b39692fdcc1c7db4af8e3c5b4c085dbd6ea6db3a6a953b87d06d4"
+      },
+      "family": "party-exception",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "65edf8e1f30c9d0c8e9b15fe623bc9f44cfa9121518b2aa5bc3509d48e4c7a15",
+      "split": "development",
+      "task_id": "D05"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/development/D06",
+      "document_sha256": {
+        "agreement": "67077da2dc5515148297847506098d70c68823250fdcd1ce4ffe8942870082cc"
+      },
+      "family": "party-exception",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "6926d15cdcb6e3b3e94e6f5fe5563f0db4fd3336db55f1fdb0c85cf4343a2a91",
+      "split": "development",
+      "task_id": "D06"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/development/D07",
+      "document_sha256": {
+        "agreement": "4e9f8533788400f4bcd72c96b9d21de27e8c9d9ce4ceb96da5fc2087b2d7655a"
+      },
+      "family": "party-exception",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "c139d27899beafa50546b80c3a329d669e09e0c884f196ba31ad4eade70baedf",
+      "split": "development",
+      "task_id": "D07"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/development/D08",
+      "document_sha256": {
+        "agreement": "1ae7d225c5912db1477e824889bc484beac3f740d8267af9beb897850bdbfb7c"
+      },
+      "family": "party-exception",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "4c79f4a2a7477bd8b161c46cbd9e0367cff6c7b0ec4fd4ee36073d4dd05d8067",
+      "split": "development",
+      "task_id": "D08"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/development/D09",
+      "document_sha256": {
+        "agreement": "2022a31e84d30bc0e5c31d5ca25c3d1389c8d7b46f7abf813cc67f9eb3582c35"
+      },
+      "family": "definitions-reference",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "2950763ccdca8732c28d7925c75b3c60f9979d51648ecfc94bff1b450498b698",
+      "split": "development",
+      "task_id": "D09"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/development/D10",
+      "document_sha256": {
+        "agreement": "2def5e17042371bd14de7b635a87bfe616aa9cdb1a13156aecf832d5ef219126"
+      },
+      "family": "definitions-reference",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "041b024969a90cbf69db290b014cc6adab7b5a4ebc976ad404fc37de3d2824a8",
+      "split": "development",
+      "task_id": "D10"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/development/D11",
+      "document_sha256": {
+        "agreement": "e1e9bc64f055ab6bb0d70ece31f93f64cc856fc76d408af923d740613edbd992"
+      },
+      "family": "definitions-reference",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "b8a18f298094f5dbc68894f3ad463b55dfe24cc100c2bf44795e2aaa5e1bfc29",
+      "split": "development",
+      "task_id": "D11"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/development/D12",
+      "document_sha256": {
+        "agreement": "08ae0d3948e0c8b1f79f4052a896a502b32cc5225fb2280059d6d8026393e9f0"
+      },
+      "family": "definitions-reference",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "47168cdb4a9a8d7e287777109f55c4fa0961e39eeafe4b5a6b6177881d4fbc79",
+      "split": "development",
+      "task_id": "D12"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/development/D13",
+      "document_sha256": {
+        "A1": "7c09858ce36ea598b20e32cbf4496a55fc199f4d466a5208dcb6a25226ea18c2",
+        "agreement": "7888879872c69ab4335c985d8a0ee92a59eb47716988946a18abead5511a98bc"
+      },
+      "family": "competing-amendments",
+      "manifest_sha256": "4557eef0ffea68d29ee20b4b99093147ee731867390e68e6bba89d42f1e2bcb3",
+      "provenance_sha256": "b7488da3ae200b84d8d3804e34b0aae09b23534953c6a979e89f2d4ed1b8ae75",
+      "split": "development",
+      "task_id": "D13"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/development/D14",
+      "document_sha256": {
+        "A1": "d5ca29c06ba642189c5051fc898af93ab3f7a699ff171f2427a3137a78ae7698",
+        "A2": "62dc80f0f1a908d788124fba20572afa40638a7446d192f6e0f84fa4e3366a61",
+        "agreement": "c5a08395140fa2be2a4f35cb0f42ec8e6a399060009ab137ff64e57ff8649863"
+      },
+      "family": "competing-amendments",
+      "manifest_sha256": "645334d25541c06b8cf15116a8d9e335a2ac8b71457e68e616752df363f25394",
+      "provenance_sha256": "defc81d537227fc99017c1db406bfb41115d21622a54cb094fcd7cc59b3ef4df",
+      "split": "development",
+      "task_id": "D14"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/development/D15",
+      "document_sha256": {
+        "A1": "81cbcc007bbbf0461f64876cbd4e8429a2b0e65cd4e1970560f3f3b83d315565",
+        "A2": "62580dfe19218c6ea4b13efa60fd68b97895c5f14e51f095dfbd00fbcff65271",
+        "agreement": "5c9c0b56a6e6f8e3898776b8def7e7bcfcdd4f32b3c103fd4b5896a32091cc57"
+      },
+      "family": "competing-amendments",
+      "manifest_sha256": "645334d25541c06b8cf15116a8d9e335a2ac8b71457e68e616752df363f25394",
+      "provenance_sha256": "9024e7d7b49972a1466f6e3ca6e829b72277d79df6c6701ef2afafe411154f80",
+      "split": "development",
+      "task_id": "D15"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/development/D16",
+      "document_sha256": {
+        "A1": "49921ba8f24af4c3e165860127af579203e7d7e598d7df2d2f8db0d794ae9247",
+        "agreement": "619556245fe684ccfca6183f077a52afb927db28792f7db74e1cd0b8fd121a4b"
+      },
+      "family": "competing-amendments",
+      "manifest_sha256": "4557eef0ffea68d29ee20b4b99093147ee731867390e68e6bba89d42f1e2bcb3",
+      "provenance_sha256": "57d08bc7232a79810e80bf9b5c9e33b119a84df74a6ef21ae03b92b5c3ed8bed",
+      "split": "development",
+      "task_id": "D16"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/development/D17",
+      "document_sha256": {
+        "agreement": "0e9eefc2eb39b57f8bd56809532786c5b0adb3522d62fab6859862e9d32bd74d"
+      },
+      "family": "absent-unavailable",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "8aab9cc344476c42d3ff0d0ff94ecf037e1067b2c03ca9d9f374540542ae7687",
+      "split": "development",
+      "task_id": "D17"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/development/D18",
+      "document_sha256": {
+        "agreement": "aaba29bb6491ff7e3e3dd43632661ade48078abd18654a906302dff47c72a340"
+      },
+      "family": "absent-unavailable",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "48ab7cc2b5cec546c807158d357c5d45c0fad1630aa521a4886bc53150b48f99",
+      "split": "development",
+      "task_id": "D18"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/development/D19",
+      "document_sha256": {
+        "agreement": "6c4d6a65037b6289da3bb4d3c9175d7fec993ea7a47d51d70dfedddd4cdb569d"
+      },
+      "family": "absent-unavailable",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "279052b1221ac75d0dc8a39c19efa4b4abe63829eae8a0b49a6466a1eae93420",
+      "split": "development",
+      "task_id": "D19"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/development/D20",
+      "document_sha256": {
+        "agreement": "43faa4bbf0fc5bf796aef7bf810dc62ff74d376b12cf943a441ca91259b5cd69"
+      },
+      "family": "absent-unavailable",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "0d9b9dea5cc51bd5a5e73dc1927c5ee4cd26ea31b1e05cceac9f0a9bfea70c87",
+      "split": "development",
+      "task_id": "D20"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/development/D21",
+      "document_sha256": {
+        "agreement": "75200b2b624af372c1dbde4dc885bcf5ef947f4ff25eeed67fc53d2de128f626"
+      },
+      "family": "injection-unicode-preservation",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "6056561d18d97152780b169ed81a456a780b270e9ea53274493c66ebfa1ed92a",
+      "split": "development",
+      "task_id": "D21"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/development/D22",
+      "document_sha256": {
+        "agreement": "ecc3fca14b8bae9c8596aadc1e1e7068a4f2d07a10da4f2201b8b3db4865774e"
+      },
+      "family": "injection-unicode-preservation",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "d3502c26e83b0c2406e77ea6de22ca4e0b2eba70540c6790e380da23b68e0324",
+      "split": "development",
+      "task_id": "D22"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/development/D23",
+      "document_sha256": {
+        "agreement": "323e8a9211081f5d1399fb1d4c91fdf255a26c12821f68ed9573b2bdefbc872b"
+      },
+      "family": "injection-unicode-preservation",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "92f1d98fbb8baf60f7d11dfb19dc6742cf7cad065b5d4997ddd378fe7af58422",
+      "split": "development",
+      "task_id": "D23"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/development/D24",
+      "document_sha256": {
+        "agreement": "048254c4b9d296624f57ca0b36e8950a2b024fb0fce741724428fc0c7bc1ef02"
+      },
+      "family": "injection-unicode-preservation",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "547eca88b32d54b3d37864e61a981dd927917904f5ea152b0769340173cf06fc",
+      "split": "development",
+      "task_id": "D24"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/capability/C01",
+      "document_sha256": {
+        "agreement": "33d333fae7b381f13610769de5dcb5f2649bb2c0d14156952b7aad5d6b1c8d0f"
+      },
+      "family": "paraphrase",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "1c19fe5afdc8ba9ed9c47f6df514e6e11eeae33108c1dc91bbb825cffa03f7aa",
+      "split": "capability",
+      "task_id": "C01"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/capability/C02",
+      "document_sha256": {
+        "agreement": "833df930ff0c0f7aa70aa190130d75d3c1a4e07eac38aa79eb491691d8dd6047"
+      },
+      "family": "paraphrase",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "33034bb8027e68e098e5a038aa24c753c3047ebbd37d84bd716a3339c280dfa6",
+      "split": "capability",
+      "task_id": "C02"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/capability/C03",
+      "document_sha256": {
+        "agreement": "dc9b508b9932ab4b9af3e1cb3e202a7f3a9f2763bc4457e6efcb45ab75c04c9c"
+      },
+      "family": "party-exception",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "1c056ed77be05525c8d076007fe53df1cf54590a39322d0df9b1103ca3d4bc9f",
+      "split": "capability",
+      "task_id": "C03"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/capability/C04",
+      "document_sha256": {
+        "agreement": "116aa15df162d36fde09c3442c1e1bc6ca6217e21c82849c9163825a5e2a485d"
+      },
+      "family": "party-exception",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "90215f744a46a98bb1e8000b1612ba76470ef63a85cb46079f052b553797c75d",
+      "split": "capability",
+      "task_id": "C04"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/capability/C05",
+      "document_sha256": {
+        "agreement": "22291f804245499c9732baa9e93edb94447a90934c42e08da1e93bc14e17fa3d"
+      },
+      "family": "definitions-reference",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "30029a317fc25df49b52c7198f3440f3bc30c10ad5127e09ca541168d6025b8e",
+      "split": "capability",
+      "task_id": "C05"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/capability/C06",
+      "document_sha256": {
+        "agreement": "273d8de24053e651fe9b4d5981921fa00a9696dd5140835a3375397844109316"
+      },
+      "family": "definitions-reference",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "d11d4835d87e614b3f7ffdc4de4a14652d4b1dd80ef979213421ca02756480c0",
+      "split": "capability",
+      "task_id": "C06"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/capability/C07",
+      "document_sha256": {
+        "A1": "e70991808ee9227cde94425265d452db8ed59405482bacb7c798581957678081",
+        "A2": "8cdd00188a1efd99277e5875dea5f35b540a2478d094206e44f07217e8c6c278",
+        "agreement": "87ea56b091c713a9be02488edd69b872795cb1fca38adcc76c2e693c12c2e54b"
+      },
+      "family": "competing-amendments",
+      "manifest_sha256": "645334d25541c06b8cf15116a8d9e335a2ac8b71457e68e616752df363f25394",
+      "provenance_sha256": "b6cefbb8973e543fe65c7e556f6fa49798be0d6a87baaca4e58813be1796eea6",
+      "split": "capability",
+      "task_id": "C07"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/capability/C08",
+      "document_sha256": {
+        "A1": "4c1a662ae85a314c854cb71bf5a5f7e7825ea2529888186b8cf41c423c76d4a3",
+        "A2": "46f669b04b5214df6135e63f39a65226169652b6194b7123cc6df68767d1fa8c",
+        "agreement": "2e2698e89063999dc867337b2492ebf9aabd542655d0056df7f9cdcab175ae72"
+      },
+      "family": "competing-amendments",
+      "manifest_sha256": "645334d25541c06b8cf15116a8d9e335a2ac8b71457e68e616752df363f25394",
+      "provenance_sha256": "e55bd1375c7c072c8b96e56fcbb0701ce881f2a8054e47c38c2ac35ec50599ce",
+      "split": "capability",
+      "task_id": "C08"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/capability/C09",
+      "document_sha256": {
+        "agreement": "016aad9da077f796a9d3d72a5fbb996eea64689cf9d5c35039cb1822fb5e9e43"
+      },
+      "family": "absent-unavailable",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "4b0bdd8ecb0b583365bd03f33ee505add268dc047a3c2d4d51d7df1dfc3dd230",
+      "split": "capability",
+      "task_id": "C09"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/capability/C10",
+      "document_sha256": {
+        "agreement": "edf1b2148358300f6f04663c40b269d7c421dd98280adb1eaa96fc486b4c07fc"
+      },
+      "family": "absent-unavailable",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "6804fd42758b4896db779a7c5ca21a9efc8c4400c4cdaef9e200202dd5244442",
+      "split": "capability",
+      "task_id": "C10"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/capability/C11",
+      "document_sha256": {
+        "agreement": "2f799ae5dd7d20ace1d54f85640a7699c5b555f35675173101163f6960cdcce2"
+      },
+      "family": "injection-unicode-preservation",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "917e006e61bb7dc6f906802d40c729060dfa293a6817f7de7c6e1e9cf922c185",
+      "split": "capability",
+      "task_id": "C11"
+    },
+    {
+      "case_path": "fixtures/upgrade/u2b/capability/C12",
+      "document_sha256": {
+        "agreement": "88b1cd94ba46d2033a3324e759daeee696003bf4b0c7a745a8995e88338d6eae"
+      },
+      "family": "injection-unicode-preservation",
+      "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+      "provenance_sha256": "7257246a93ccbfcf923693416344723451b9b3a015c19f993b99837444b9f938",
+      "split": "capability",
+      "task_id": "C12"
+    }
+  ],
+  "counts": {
+    "capability": 12,
+    "development": 24
+  },
+  "families": [
+    "paraphrase",
+    "party-exception",
+    "definitions-reference",
+    "competing-amendments",
+    "absent-unavailable",
+    "injection-unicode-preservation"
+  ],
+  "fictional": true,
+  "historical_v1": {
+    "case_count": 42,
+    "freeze_path": "evaluation/HELDOUT_FREEZE.json",
+    "freeze_sha256": "8ae16854230fd754760c38a205f698857fdbdb3f75e0da92ee16cd9daac3b666",
+    "use": "Historical regression only; no merged v2 score"
+  },
+  "label_exposed": true,
+  "license": "MIT",
+  "main_unseen": {
+    "authored_by_worker": false,
+    "owner": "main",
+    "paths_supplied": false,
+    "worker_access": false
+  },
+  "near_duplicate_review": {
+    "common_boilerplate": true,
+    "flagged_pairs": [
+      {
+        "a": "D02",
+        "b": "C10",
+        "critical_token_jaccard": 1.0
+      },
+      {
+        "a": "D13",
+        "b": "D15",
+        "critical_token_jaccard": 0.8235
+      },
+      {
+        "a": "D14",
+        "b": "C07",
+        "critical_token_jaccard": 0.7429
+      }
+    ],
+    "limitation": "Same author and repeated boilerplate; task count is not statistical independence.",
+    "measure": "Critical-text token Jaccard excluding common agreement boilerplate",
+    "threshold": 0.55
+  },
+  "schema_version": 1,
+  "scorer_only_labels": {
+    "capability": {
+      "path": "evaluation/upgrade/u2b_labels/capability.json",
+      "sha256": "d7e79411bee864edf6d732bdfe32eb7ae5aa05c4673b2561b350795d401469ff"
+    },
+    "development": {
+      "path": "evaluation/upgrade/u2b_labels/development.json",
+      "sha256": "66cdb8c53a7d6c5ce16ee5500e1a78c5b5ace670aee286d3c7c53809ee4aad66"
+    }
+  },
+  "version": "U2-B-1.0"
+}

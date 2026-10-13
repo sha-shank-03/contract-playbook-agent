@@ -1,0 +1,27 @@
+{
+  "attribution": "2026 Contract Playbook Agent contributors",
+  "author": "contract-playbook-agent worker; AI-assisted",
+  "created_date": "2026-10-12",
+  "documents": {
+    "agreement": "2022a31e84d30bc0e5c31d5ca25c3d1389c8d7b46f7abf813cc67f9eb3582c35"
+  },
+  "external_data": false,
+  "family": "definitions-reference",
+  "fictional": true,
+  "label_exposure": "Worker-authored/exposed synthetic fiction; not blind or independently sampled",
+  "license": "MIT",
+  "license_file": "LICENSE",
+  "manifest_sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031",
+  "near_duplicate_review": {
+    "independent_samples": false,
+    "method": "Semantic feature contrast notes plus pairwise critical-text token Jaccard; no claim of random independence.",
+    "review_basis": "Read the definition as well as the payment clause; literal reference and supporting meaning are different checks.",
+    "reviewer": "authoring worker with AI assistance",
+    "shared_agreement_boilerplate": true
+  },
+  "schema_version": 1,
+  "split": "development",
+  "task_id": "D09",
+  "title": "Billing window definition",
+  "version": "U2-B-1.0"
+}

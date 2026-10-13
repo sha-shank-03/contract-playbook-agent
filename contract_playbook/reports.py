@@ -22,6 +22,8 @@ def render(store, document):
              "These artifacts demonstrate workflow behavior, not legal validation or model quality.",
              "This proposal remains immutable. A separate receipt records a later review decision.",
              "", f"Proposal digest: {packet['proposal_sha256']}", ""]
+    if "execution_mode" in packet:
+        lines.extend([f"Execution mode: **{packet['execution_mode']}**. No live-model quality is established.", ""])
     for finding in packet["findings"]:
         lines.extend([f"## {finding['rule_id']}: {finding['disposition']}", "",
                       html.escape(finding["reason"]), "",

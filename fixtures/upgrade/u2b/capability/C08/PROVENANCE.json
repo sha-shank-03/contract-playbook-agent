@@ -1,0 +1,29 @@
+{
+  "attribution": "2026 Contract Playbook Agent contributors",
+  "author": "contract-playbook-agent worker; AI-assisted",
+  "created_date": "2026-10-12",
+  "documents": {
+    "A1": "4c1a662ae85a314c854cb71bf5a5f7e7825ea2529888186b8cf41c423c76d4a3",
+    "A2": "46f669b04b5214df6135e63f39a65226169652b6194b7123cc6df68767d1fa8c",
+    "agreement": "2e2698e89063999dc867337b2492ebf9aabd542655d0056df7f9cdcab175ae72"
+  },
+  "external_data": false,
+  "family": "competing-amendments",
+  "fictional": true,
+  "label_exposure": "Worker-authored/exposed synthetic fiction; not blind or independently sampled",
+  "license": "MIT",
+  "license_file": "LICENSE",
+  "manifest_sha256": "645334d25541c06b8cf15116a8d9e335a2ac8b71457e68e616752df363f25394",
+  "near_duplicate_review": {
+    "independent_samples": false,
+    "method": "Semantic feature contrast notes plus pairwise critical-text token Jaccard; no claim of random independence.",
+    "review_basis": "Explicit second replacement restores the fictional preference; changing old base text alone is unnecessary.",
+    "reviewer": "authoring worker with AI assistance",
+    "shared_agreement_boilerplate": true
+  },
+  "schema_version": 1,
+  "split": "capability",
+  "task_id": "C08",
+  "title": "Renewal chain restores writing",
+  "version": "U2-B-1.0"
+}

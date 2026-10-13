@@ -1,0 +1,1101 @@
+{
+  "schema_version": 1,
+  "upgrade_version": "U2-C-1.0",
+  "client_date": "2026-10-12",
+  "published_baseline_commit": "03270039a30c94b543e60cc050310198865fe0d8",
+  "original_freeze_sha256": "8ae16854230fd754760c38a205f698857fdbdb3f75e0da92ee16cd9daac3b666",
+  "original_frozen_entry_count": 115,
+  "prior_manifest": {
+    "path": "UPGRADE_MANIFEST_U2B_1_1.json",
+    "sha256": "12b30cb3641a61f82f0344533fa8c220603a8f8312ee791ead116b4d3babc0ec",
+    "main_decision": "accepted_local_accounting_native_and_failure_regression_only"
+  },
+  "source_entries": [
+    {
+      "path": ".github/workflows/u2b-local.yml",
+      "bytes": 1010,
+      "sha256": "939a47f30a1657cb3bd3fdf7244c63753f5e2780b3aa42235f2c1a1be2a7b44c"
+    },
+    {
+      "path": ".github/workflows/u2c-pure.yml",
+      "bytes": 844,
+      "sha256": "39536fdaf06990bfbe357d21dedf7b53a81f3bcbc92d3b0b197b71c3bc479e17"
+    },
+    {
+      "path": "EVIDENCE.md",
+      "bytes": 47652,
+      "sha256": "30a4ff58cc28d3b9b049cc0cee565b78095114b75aa599fa520212875cddb50d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9527,
+      "sha256": "db0b6c8ecf9ef6ba9b24c2e9937b58fa300be5b45b971385ff168b96a62397b4"
+    },
+    {
+      "path": "UPGRADE_MANIFEST.json",
+      "bytes": 5392,
+      "sha256": "8014b228cad39f4629659551966250576dcacaf4453caf78a51a4833b7f80a5d"
+    },
+    {
+      "path": "UPGRADE_MANIFEST_U1_1_1.json",
+      "bytes": 6354,
+      "sha256": "6610230144f4ae78a0f741a96cf679a26533dba3cfcf1f2c5676d043e3b79c95"
+    },
+    {
+      "path": "UPGRADE_MANIFEST_U2A_1_0.json",
+      "bytes": 7569,
+      "sha256": "afc655017f2ee7c1d2dfaf26fe13a8c1ac531692128e5445db72804f05475477"
+    },
+    {
+      "path": "UPGRADE_MANIFEST_U2B_1_0.json",
+      "bytes": 31967,
+      "sha256": "92d4649e2e8ddc218a717844ab36531ffaa0046b01b9cc8e2085856da1135c56"
+    },
+    {
+      "path": "UPGRADE_MANIFEST_U2B_1_1.json",
+      "bytes": 32618,
+      "sha256": "12b30cb3641a61f82f0344533fa8c220603a8f8312ee791ead116b4d3babc0ec"
+    },
+    {
+      "path": "UPGRADE_README_U2B.md",
+      "bytes": 1769,
+      "sha256": "25e8acbcdff2ef67b4ad235ff67003da4d079e96c14adeaeea3fe3c7ea791fbb"
+    },
+    {
+      "path": "contract_playbook/comparison.py",
+      "bytes": 14687,
+      "sha256": "a61ff13caf2fd9f25e8b4ca4d06a31230136a2f4b82c773a54275a3d6c771951"
+    },
+    {
+      "path": "contract_playbook/connectors/__init__.py",
+      "bytes": 64,
+      "sha256": "9404f76086ba3701e279442b4a34554349d309030d32ae6319b1087462d1f6e4"
+    },
+    {
+      "path": "contract_playbook/connectors/docs_double.py",
+      "bytes": 1510,
+      "sha256": "1eb4f42ba50eefde0f45b943fed4d5d7eb5d5f5372d28f3fa132827a284913b4"
+    },
+    {
+      "path": "contract_playbook/connectors/google_docs.py",
+      "bytes": 19476,
+      "sha256": "656d266829d928406be880047b732080731208f17daf5341dd144b19c3bd9980"
+    },
+    {
+      "path": "contract_playbook/proposal_check.py",
+      "bytes": 7796,
+      "sha256": "c716c0ab53b25cc4d8b87cd35debc2722e5ebc981a3a43f6162089bb1d043a13"
+    },
+    {
+      "path": "contract_playbook/providers/gateway.py",
+      "bytes": 8891,
+      "sha256": "f488d8950cae027a1bda2d56c5d26d1f1a4e621e5b7bc3f821cf6b8daaedd4e4"
+    },
+    {
+      "path": "contract_playbook/providers/gateway_transport.py",
+      "bytes": 6699,
+      "sha256": "dc35ff3d593ef286505cdf4c1c3b2257274714030713c3c3d5f271843d5cb7e9"
+    },
+    {
+      "path": "contract_playbook/reports.py",
+      "bytes": 3421,
+      "sha256": "63529947b3c31415946d8486caa010e09ea5bac2f186142931a81ea99db72a34"
+    },
+    {
+      "path": "contract_playbook/service.py",
+      "bytes": 7844,
+      "sha256": "ad42a0cf6414f5bacd7525ead3c66796f3daccd6344f805824203fc2f0f833a9"
+    },
+    {
+      "path": "contract_playbook/upgrade/__init__.py",
+      "bytes": 77,
+      "sha256": "9db5329586d8d1215953a3f0f04df5e5a1918b79741062d9515bb3a40697c51e"
+    },
+    {
+      "path": "contract_playbook/upgrade/__main__.py",
+      "bytes": 2951,
+      "sha256": "d4548959d872fa55366c9f6d2fc1679f3736f2ea353507bd1ddbc851fe13484b"
+    },
+    {
+      "path": "contract_playbook/upgrade/budget.py",
+      "bytes": 2925,
+      "sha256": "2be5916e9e7351332c67c9b0ae4cc27f4dd9cba18713ed801e1116b229b4dd64"
+    },
+    {
+      "path": "contract_playbook/upgrade/double.py",
+      "bytes": 4124,
+      "sha256": "8d473ec2d1f0842379a3358b4c5955169e815d007952cc78c9d84d60e5d41fea"
+    },
+    {
+      "path": "contract_playbook/upgrade/metrics.py",
+      "bytes": 6286,
+      "sha256": "a81635cd47e2c85ccb08f7036c33f16e38ee2435aa3489d1adbeba2aa5c2e610"
+    },
+    {
+      "path": "contract_playbook/upgrade/service.py",
+      "bytes": 17589,
+      "sha256": "c8281adbb7247ee77ef7951362d7aaaadb9e168b72a467bc06cd6a2b4ead1280"
+    },
+    {
+      "path": "docs/U2B_CASE_STUDY.md",
+      "bytes": 2851,
+      "sha256": "da42167dd8d16a327ac964d73402b49c8dd1a85a8c87612a0127509b370103d5"
+    },
+    {
+      "path": "docs/U2C_REVIEW_REPORT.md",
+      "bytes": 4056,
+      "sha256": "81abf8a759b30828086577320a42186b067983d54d2aec908c85ec9e394084be"
+    },
+    {
+      "path": "docs/UPGRADE_U1.md",
+      "bytes": 4529,
+      "sha256": "b49fe93575a6362a4771cd70a3485fe8a9dad0ecb5ff40793cfbda4affddd9ab"
+    },
+    {
+      "path": "docs/UPGRADE_U2A.md",
+      "bytes": 7186,
+      "sha256": "cb4a94f91577f1f26e8b4297b5b27bc1ba0b1f82529b66d98aa62e7afb6f47dd"
+    },
+    {
+      "path": "docs/UPGRADE_U2B.md",
+      "bytes": 8116,
+      "sha256": "977d77ed8fe3c7fcb55d30bead44b7729863c4d4cc8a2d666ad6381435fef0d2"
+    },
+    {
+      "path": "docs/UPGRADE_U2B_ACCOUNTING_1_1.md",
+      "bytes": 4388,
+      "sha256": "9bd06f8443272e93e16a7a46d3be7747d7806def6625061ded1975544730a412"
+    },
+    {
+      "path": "docs/UPGRADE_U2C.md",
+      "bytes": 6618,
+      "sha256": "6ab90a3a61663307e39aa8b053016a56bf41da13c3717a411898a8e48ed69f62"
+    },
+    {
+      "path": "evaluation/upgrade/U2B_INPUTS.json",
+      "bytes": 19704,
+      "sha256": "8a2574bcb345c8319b51bfc274ed5f6aa57896aa4187912ef06485ef501e51e3"
+    },
+    {
+      "path": "evaluation/upgrade/U2B_RUBRIC.md",
+      "bytes": 3687,
+      "sha256": "4d8c866129efb2bc32a43aeb812bfa155b31dd394be6827d655b1526bbe946e5"
+    },
+    {
+      "path": "evaluation/upgrade/U2C_BINDINGS.json",
+      "bytes": 18172,
+      "sha256": "c5a78af4dd9d0c1e029b902567dd56be134ef5e1fe673c3cf12548113a1a8eef"
+    },
+    {
+      "path": "evaluation/upgrade/U2C_CONFIG.json",
+      "bytes": 374,
+      "sha256": "ddd365dcf1a0a93de1321466efcf1b68b4ad1f42686e6f2fa41d6637510c1e3c"
+    },
+    {
+      "path": "evaluation/upgrade/U2C_REMAINING_SPEC.json",
+      "bytes": 26656,
+      "sha256": "8a696d0c9df72e21316f101e72210fb580f4c5c88b15199f55aa1e56a48f5d55"
+    },
+    {
+      "path": "evaluation/upgrade/U2C_REVIEW_REPORT.json",
+      "bytes": 6384,
+      "sha256": "40ed62bef88cd1f30b9293e58dbbe88648e32b47f5c4386236d2c17b7096275f"
+    },
+    {
+      "path": "evaluation/upgrade/__init__.py",
+      "bytes": 83,
+      "sha256": "a1177309d9c9796ee41fc0191490f556bd2929f6bfc9dd7ffc639cb3433f4ed6"
+    },
+    {
+      "path": "evaluation/upgrade/u2b_accounting.py",
+      "bytes": 17802,
+      "sha256": "3f7f399a8d9a491056e88da438c0a7d6e2f25e9d54770243efdcd957a71870db"
+    },
+    {
+      "path": "evaluation/upgrade/u2b_inputs.py",
+      "bytes": 5226,
+      "sha256": "b1493c6b195ef1e41c01aa0af04908cb3642f9b4ca3f168a7e9410039d3058f8"
+    },
+    {
+      "path": "evaluation/upgrade/u2b_labels/capability.json",
+      "bytes": 21752,
+      "sha256": "d7e79411bee864edf6d732bdfe32eb7ae5aa05c4673b2561b350795d401469ff"
+    },
+    {
+      "path": "evaluation/upgrade/u2b_labels/development.json",
+      "bytes": 43586,
+      "sha256": "66cdb8c53a7d6c5ce16ee5500e1a78c5b5ace670aee286d3c7c53809ee4aad66"
+    },
+    {
+      "path": "evaluation/upgrade/u2b_oracle.py",
+      "bytes": 26048,
+      "sha256": "9ff7cc38add22784c5272db40646b5a7e19d1d5b30cfbf15ccdc7b99e6a5ea75"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_campaign.py",
+      "bytes": 14802,
+      "sha256": "e7f6215eabf35e69615b70d5331bb1cc0c92e493e22aa76f30a2f7a37044d15b"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/MAIN_REVIEW.redacted.json",
+      "bytes": 5369,
+      "sha256": "a942209a1a837852edcff81b8fe0f69d9a73e0cf944d89cad59c92fd5887fb57"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/ORIGINAL_FAILURE_PROBE.redacted.json",
+      "bytes": 458,
+      "sha256": "c084e388a5208cc4c4caa897fd7dabcffa1b23d5f6b461ec3c6821c91317d00c"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/PROVENANCE.json",
+      "bytes": 11545,
+      "sha256": "24b1163938fa0e836a63d5432826973c0202bf0e66c210f98d0e08d9d66ebb7f"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/mocked-actor-real-persistence/INTENDED_PLAN.json",
+      "bytes": 2062,
+      "sha256": "01659a945fde934fffe3742a2d4ab9c05e6ca13d3b2dbcd1c5a0c451bf06e736"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/mocked-actor-real-persistence/accounting-journal/000000.json",
+      "bytes": 2378,
+      "sha256": "976f00624f2674c4a5860bed9fc19815aecea6c5d31d7f57e2cbe7023d302ddd"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/mocked-actor-real-persistence/accounting-journal/000001.json",
+      "bytes": 319,
+      "sha256": "0efd9c0708be1446201095fafd929fc05206383f8fb8a7e83623807e17057fb2"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/mocked-actor-real-persistence/accounting-journal/000002.json",
+      "bytes": 634,
+      "sha256": "aa653fa5aef045f2ce49a0fdbedcdab6f882b94c2fae61f16ef9578fe5a4c5b3"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/mocked-actor-real-persistence/raw-outcomes.json",
+      "bytes": 411,
+      "sha256": "b78319bc3010ff1c7b305146b0b1acfd9748a72ac76225bdf9cbf965d1352f7c"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/reviewed-scripted-four-slots/INTENDED_PLAN.json",
+      "bytes": 2062,
+      "sha256": "01659a945fde934fffe3742a2d4ab9c05e6ca13d3b2dbcd1c5a0c451bf06e736"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/reviewed-scripted-four-slots/RAW_OUTCOME_FREEZE.json",
+      "bytes": 537,
+      "sha256": "af63ed0a639a8c4f3996634b75ca82c7b1feb67db8a520b813696de8975691b8"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/reviewed-scripted-four-slots/accounting-journal/000000.json",
+      "bytes": 2378,
+      "sha256": "976f00624f2674c4a5860bed9fc19815aecea6c5d31d7f57e2cbe7023d302ddd"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/reviewed-scripted-four-slots/accounting-journal/000001.json",
+      "bytes": 319,
+      "sha256": "0efd9c0708be1446201095fafd929fc05206383f8fb8a7e83623807e17057fb2"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/reviewed-scripted-four-slots/accounting-journal/000002.json",
+      "bytes": 32454,
+      "sha256": "322ca6c775f0b336a84c96b2ba551644dc90cf46c30e5fbabc8a42ae79884e09"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/reviewed-scripted-four-slots/accounting-journal/000003.json",
+      "bytes": 329,
+      "sha256": "2c30e68eb2311b8421f0bc62f4235b09c1dfe8b3de06b1900c95bd1ce0ffaa0c"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/reviewed-scripted-four-slots/accounting-journal/000004.json",
+      "bytes": 32465,
+      "sha256": "515475d7c896aaede0bc95fdd023051ef64ba7abcfe86c84205573bcbf05831e"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/reviewed-scripted-four-slots/accounting-journal/000005.json",
+      "bytes": 319,
+      "sha256": "445a30d6be3a11706c497950a5e8f333e0a78bfd80473444467a9a5d73ebb56b"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/reviewed-scripted-four-slots/accounting-journal/000006.json",
+      "bytes": 25676,
+      "sha256": "117cd2c352ab3d5acc8b7b5394725c36c643d74d43c219502a0cabeaa159b83e"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/reviewed-scripted-four-slots/accounting-journal/000007.json",
+      "bytes": 329,
+      "sha256": "dfcbe5cc165a02a7d011e0516153d41a24bf038559a0fa2c48f2049618a3e812"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/reviewed-scripted-four-slots/accounting-journal/000008.json",
+      "bytes": 25689,
+      "sha256": "5b23ebbe3cd2ec96d285b39161d5ddcbfdc3d46b5af03bab7c82c70e71dd041c"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/reviewed-scripted-four-slots/accounting-journal/000009.json",
+      "bytes": 1020,
+      "sha256": "6ec3bbaa1be2051974721aa87a5e399b85b9f030188c9ace21d8ee5747d69104"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/reviewed-scripted-four-slots/accounting-journal/000010.json",
+      "bytes": 1031,
+      "sha256": "a35c0da6a405f2463bf3fa771a470164e392b53480b089f812db6799f91477e2"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/reviewed-scripted-four-slots/accounting-journal/000011.json",
+      "bytes": 1022,
+      "sha256": "3fd5d2c51d83df38a763626df62b7369e11e88823d60122bd35f1c7d0dc0ddb5"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/reviewed-scripted-four-slots/accounting-journal/000012.json",
+      "bytes": 1032,
+      "sha256": "264d2a886d2b3c0a85234ce5433bc0ee87e81c4431817b3afc18f473bbb17d99"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/reviewed-scripted-four-slots/negative-controls.json",
+      "bytes": 335,
+      "sha256": "a0d51b3382102cb93765770f25da712e7ac0f72da16f0db112cd826b1873cccf"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/reviewed-scripted-four-slots/paired-raw-scores.json",
+      "bytes": 4991,
+      "sha256": "2632bae013542c1228fe9d2e8c0e2dcc114fa4eb5614b51fcc1764702d5d67d2"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/reviewed-scripted-four-slots/raw-outcomes.json",
+      "bytes": 114618,
+      "sha256": "2c9cb6df91e635b0fa26c78e7a09cd7972231858f47da75b670f74eb7efb1c15"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_evidence/reviewed-scripted-four-slots/read-only-sql-witness.json",
+      "bytes": 56,
+      "sha256": "319aeb387d2d05af536063a8bfc4ac87b4185b48fc37e4c221205267dd6cb79d"
+    },
+    {
+      "path": "evaluation/upgrade/u2c_review.py",
+      "bytes": 11847,
+      "sha256": "d7d43e47c7a96bb819b6131a25cab738a01a7243387a8b634c873ef0db4f521d"
+    },
+    {
+      "path": "fixtures/upgrade/u1-paraphrase/MANUAL_RUBRIC.md",
+      "bytes": 1437,
+      "sha256": "7807a3fba34b00d066f8d1b80a1a879a4c286819497ca705de6fa6b6d7d98781"
+    },
+    {
+      "path": "fixtures/upgrade/u1-paraphrase/PROVENANCE.json",
+      "bytes": 488,
+      "sha256": "2c77659037960dc6b68df35e45395a636dbaf0d32d41ccb557f532f60109e7c1"
+    },
+    {
+      "path": "fixtures/upgrade/u1-paraphrase/agreement.txt",
+      "bytes": 788,
+      "sha256": "e4aa8028803d5c84314b808317448e46d7346ac6b4e7f731cc0ec528718885f4"
+    },
+    {
+      "path": "fixtures/upgrade/u1-paraphrase/manifest.json",
+      "bytes": 108,
+      "sha256": "f719a95f00b007bffbb0a59147495502f9e4cf1cdfb2839e2e2e20e5c971bd3e"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C01/PROVENANCE.json",
+      "bytes": 1125,
+      "sha256": "1c19fe5afdc8ba9ed9c47f6df514e6e11eeae33108c1dc91bbb825cffa03f7aa"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C01/agreement.txt",
+      "bytes": 1920,
+      "sha256": "33d333fae7b381f13610769de5dcb5f2649bb2c0d14156952b7aad5d6b1c8d0f"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C01/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C02/PROVENANCE.json",
+      "bytes": 1109,
+      "sha256": "33034bb8027e68e098e5a038aa24c753c3047ebbd37d84bd716a3339c280dfa6"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C02/agreement.txt",
+      "bytes": 1928,
+      "sha256": "833df930ff0c0f7aa70aa190130d75d3c1a4e07eac38aa79eb491691d8dd6047"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C02/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C03/PROVENANCE.json",
+      "bytes": 1122,
+      "sha256": "1c056ed77be05525c8d076007fe53df1cf54590a39322d0df9b1103ca3d4bc9f"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C03/agreement.txt",
+      "bytes": 1989,
+      "sha256": "dc9b508b9932ab4b9af3e1cb3e202a7f3a9f2763bc4457e6efcb45ab75c04c9c"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C03/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C04/PROVENANCE.json",
+      "bytes": 1109,
+      "sha256": "90215f744a46a98bb1e8000b1612ba76470ef63a85cb46079f052b553797c75d"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C04/agreement.txt",
+      "bytes": 1988,
+      "sha256": "116aa15df162d36fde09c3442c1e1bc6ca6217e21c82849c9163825a5e2a485d"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C04/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C05/PROVENANCE.json",
+      "bytes": 1126,
+      "sha256": "30029a317fc25df49b52c7198f3440f3bc30c10ad5127e09ca541168d6025b8e"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C05/agreement.txt",
+      "bytes": 1696,
+      "sha256": "22291f804245499c9732baa9e93edb94447a90934c42e08da1e93bc14e17fa3d"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C05/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C06/PROVENANCE.json",
+      "bytes": 1106,
+      "sha256": "d11d4835d87e614b3f7ffdc4de4a14652d4b1dd80ef979213421ca02756480c0"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C06/agreement.txt",
+      "bytes": 1703,
+      "sha256": "273d8de24053e651fe9b4d5981921fa00a9696dd5140835a3375397844109316"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C06/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C07/A1.txt",
+      "bytes": 219,
+      "sha256": "e70991808ee9227cde94425265d452db8ed59405482bacb7c798581957678081"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C07/A2.txt",
+      "bytes": 219,
+      "sha256": "8cdd00188a1efd99277e5875dea5f35b540a2478d094206e44f07217e8c6c278"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C07/PROVENANCE.json",
+      "bytes": 1303,
+      "sha256": "b6cefbb8973e543fe65c7e556f6fa49798be0d6a87baaca4e58813be1796eea6"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C07/agreement.txt",
+      "bytes": 1970,
+      "sha256": "87ea56b091c713a9be02488edd69b872795cb1fca38adcc76c2e693c12c2e54b"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C07/manifest.json",
+      "bytes": 320,
+      "sha256": "645334d25541c06b8cf15116a8d9e335a2ac8b71457e68e616752df363f25394"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C08/A1.txt",
+      "bytes": 193,
+      "sha256": "4c1a662ae85a314c854cb71bf5a5f7e7825ea2529888186b8cf41c423c76d4a3"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C08/A2.txt",
+      "bytes": 231,
+      "sha256": "46f669b04b5214df6135e63f39a65226169652b6194b7123cc6df68767d1fa8c"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C08/PROVENANCE.json",
+      "bytes": 1298,
+      "sha256": "e55bd1375c7c072c8b96e56fcbb0701ce881f2a8054e47c38c2ac35ec50599ce"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C08/agreement.txt",
+      "bytes": 1911,
+      "sha256": "2e2698e89063999dc867337b2492ebf9aabd542655d0056df7f9cdcab175ae72"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C08/manifest.json",
+      "bytes": 320,
+      "sha256": "645334d25541c06b8cf15116a8d9e335a2ac8b71457e68e616752df363f25394"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C09/PROVENANCE.json",
+      "bytes": 1139,
+      "sha256": "4b0bdd8ecb0b583365bd03f33ee505add268dc047a3c2d4d51d7df1dfc3dd230"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C09/agreement.txt",
+      "bytes": 1987,
+      "sha256": "016aad9da077f796a9d3d72a5fbb996eea64689cf9d5c35039cb1822fb5e9e43"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C09/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C10/PROVENANCE.json",
+      "bytes": 1175,
+      "sha256": "6804fd42758b4896db779a7c5ca21a9efc8c4400c4cdaef9e200202dd5244442"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C10/agreement.txt",
+      "bytes": 1567,
+      "sha256": "edf1b2148358300f6f04663c40b269d7c421dd98280adb1eaa96fc486b4c07fc"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C10/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C11/PROVENANCE.json",
+      "bytes": 1134,
+      "sha256": "917e006e61bb7dc6f906802d40c729060dfa293a6817f7de7c6e1e9cf922c185"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C11/agreement.txt",
+      "bytes": 1783,
+      "sha256": "2f799ae5dd7d20ace1d54f85640a7699c5b555f35675173101163f6960cdcce2"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C11/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C12/PROVENANCE.json",
+      "bytes": 1120,
+      "sha256": "7257246a93ccbfcf923693416344723451b9b3a015c19f993b99837444b9f938"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C12/agreement.txt",
+      "bytes": 1780,
+      "sha256": "88b1cd94ba46d2033a3324e759daeee696003bf4b0c7a745a8995e88338d6eae"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/capability/C12/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D01/PROVENANCE.json",
+      "bytes": 1110,
+      "sha256": "f1aff178969b359f302dfe6fb0bfa8b0f3c9dbb65ed3f146a0185ae9278264c3"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D01/agreement.txt",
+      "bytes": 1897,
+      "sha256": "a5c608ace1b4e01d36ff588e488561a3ae981951f6254ba4c0992e46c7bb918c"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D01/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D02/PROVENANCE.json",
+      "bytes": 1118,
+      "sha256": "480b9727fbadfe0a6a213713c2e11b394fa1a4b632c77fc8733ddb8312edf2e8"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D02/agreement.txt",
+      "bytes": 1946,
+      "sha256": "9ed8c9370f5dc19d87cfd26964440f5386fb0bfe41426c2c45da57b38d55ad5e"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D02/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D03/PROVENANCE.json",
+      "bytes": 1106,
+      "sha256": "0ddbef38c27a27365fc43ba819ec4e4da07fdd7cbe963748f16c0921588997b9"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D03/agreement.txt",
+      "bytes": 1907,
+      "sha256": "947282d3ab32d07bedb5580907a48b187c8f6ff3deb33371e5cbacfcd09c00c4"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D03/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D04/PROVENANCE.json",
+      "bytes": 1102,
+      "sha256": "2bda6d2c8e82a20a7182b5989f62759fb223163996a695e71c30724949da493c"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D04/agreement.txt",
+      "bytes": 1934,
+      "sha256": "fe3579edf529d8b44febe1f430b4294a63c0f83ba06c462887ebe9c21f4cf418"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D04/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D05/PROVENANCE.json",
+      "bytes": 1147,
+      "sha256": "65edf8e1f30c9d0c8e9b15fe623bc9f44cfa9121518b2aa5bc3509d48e4c7a15"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D05/agreement.txt",
+      "bytes": 1949,
+      "sha256": "a073d808a49b39692fdcc1c7db4af8e3c5b4c085dbd6ea6db3a6a953b87d06d4"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D05/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D06/PROVENANCE.json",
+      "bytes": 1115,
+      "sha256": "6926d15cdcb6e3b3e94e6f5fe5563f0db4fd3336db55f1fdb0c85cf4343a2a91"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D06/agreement.txt",
+      "bytes": 1966,
+      "sha256": "67077da2dc5515148297847506098d70c68823250fdcd1ce4ffe8942870082cc"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D06/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D07/PROVENANCE.json",
+      "bytes": 1137,
+      "sha256": "c139d27899beafa50546b80c3a329d669e09e0c884f196ba31ad4eade70baedf"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D07/agreement.txt",
+      "bytes": 1963,
+      "sha256": "4e9f8533788400f4bcd72c96b9d21de27e8c9d9ce4ceb96da5fc2087b2d7655a"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D07/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D08/PROVENANCE.json",
+      "bytes": 1097,
+      "sha256": "4c79f4a2a7477bd8b161c46cbd9e0367cff6c7b0ec4fd4ee36073d4dd05d8067"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D08/agreement.txt",
+      "bytes": 2008,
+      "sha256": "1ae7d225c5912db1477e824889bc484beac3f740d8267af9beb897850bdbfb7c"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D08/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D09/PROVENANCE.json",
+      "bytes": 1145,
+      "sha256": "2950763ccdca8732c28d7925c75b3c60f9979d51648ecfc94bff1b450498b698"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D09/agreement.txt",
+      "bytes": 1950,
+      "sha256": "2022a31e84d30bc0e5c31d5ca25c3d1389c8d7b46f7abf813cc67f9eb3582c35"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D09/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D10/PROVENANCE.json",
+      "bytes": 1090,
+      "sha256": "041b024969a90cbf69db290b014cc6adab7b5a4ebc976ad404fc37de3d2824a8"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D10/agreement.txt",
+      "bytes": 1892,
+      "sha256": "2def5e17042371bd14de7b635a87bfe616aa9cdb1a13156aecf832d5ef219126"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D10/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D11/PROVENANCE.json",
+      "bytes": 1130,
+      "sha256": "b8a18f298094f5dbc68894f3ad463b55dfe24cc100c2bf44795e2aaa5e1bfc29"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D11/agreement.txt",
+      "bytes": 1935,
+      "sha256": "e1e9bc64f055ab6bb0d70ece31f93f64cc856fc76d408af923d740613edbd992"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D11/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D12/PROVENANCE.json",
+      "bytes": 1109,
+      "sha256": "47168cdb4a9a8d7e287777109f55c4fa0961e39eeafe4b5a6b6177881d4fbc79"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D12/agreement.txt",
+      "bytes": 1625,
+      "sha256": "08ae0d3948e0c8b1f79f4052a896a502b32cc5225fb2280059d6d8026393e9f0"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D12/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D13/A1.txt",
+      "bytes": 227,
+      "sha256": "7c09858ce36ea598b20e32cbf4496a55fc199f4d466a5208dcb6a25226ea18c2"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D13/PROVENANCE.json",
+      "bytes": 1206,
+      "sha256": "b7488da3ae200b84d8d3804e34b0aae09b23534953c6a979e89f2d4ed1b8ae75"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D13/agreement.txt",
+      "bytes": 1911,
+      "sha256": "7888879872c69ab4335c985d8a0ee92a59eb47716988946a18abead5511a98bc"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D13/manifest.json",
+      "bytes": 239,
+      "sha256": "4557eef0ffea68d29ee20b4b99093147ee731867390e68e6bba89d42f1e2bcb3"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D14/A1.txt",
+      "bytes": 218,
+      "sha256": "d5ca29c06ba642189c5051fc898af93ab3f7a699ff171f2427a3137a78ae7698"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D14/A2.txt",
+      "bytes": 238,
+      "sha256": "62dc80f0f1a908d788124fba20572afa40638a7446d192f6e0f84fa4e3366a61"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D14/PROVENANCE.json",
+      "bytes": 1277,
+      "sha256": "defc81d537227fc99017c1db406bfb41115d21622a54cb094fcd7cc59b3ef4df"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D14/agreement.txt",
+      "bytes": 1926,
+      "sha256": "c5a08395140fa2be2a4f35cb0f42ec8e6a399060009ab137ff64e57ff8649863"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D14/manifest.json",
+      "bytes": 320,
+      "sha256": "645334d25541c06b8cf15116a8d9e335a2ac8b71457e68e616752df363f25394"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D15/A1.txt",
+      "bytes": 220,
+      "sha256": "81cbcc007bbbf0461f64876cbd4e8429a2b0e65cd4e1970560f3f3b83d315565"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D15/A2.txt",
+      "bytes": 219,
+      "sha256": "62580dfe19218c6ea4b13efa60fd68b97895c5f14e51f095dfbd00fbcff65271"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D15/PROVENANCE.json",
+      "bytes": 1288,
+      "sha256": "9024e7d7b49972a1466f6e3ca6e829b72277d79df6c6701ef2afafe411154f80"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D15/agreement.txt",
+      "bytes": 1968,
+      "sha256": "5c9c0b56a6e6f8e3898776b8def7e7bcfcdd4f32b3c103fd4b5896a32091cc57"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D15/manifest.json",
+      "bytes": 320,
+      "sha256": "645334d25541c06b8cf15116a8d9e335a2ac8b71457e68e616752df363f25394"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D16/A1.txt",
+      "bytes": 242,
+      "sha256": "49921ba8f24af4c3e165860127af579203e7d7e598d7df2d2f8db0d794ae9247"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D16/PROVENANCE.json",
+      "bytes": 1220,
+      "sha256": "57d08bc7232a79810e80bf9b5c9e33b119a84df74a6ef21ae03b92b5c3ed8bed"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D16/agreement.txt",
+      "bytes": 1962,
+      "sha256": "619556245fe684ccfca6183f077a52afb927db28792f7db74e1cd0b8fd121a4b"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D16/manifest.json",
+      "bytes": 239,
+      "sha256": "4557eef0ffea68d29ee20b4b99093147ee731867390e68e6bba89d42f1e2bcb3"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D17/PROVENANCE.json",
+      "bytes": 1141,
+      "sha256": "8aab9cc344476c42d3ff0d0ff94ecf037e1067b2c03ca9d9f374540542ae7687"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D17/agreement.txt",
+      "bytes": 1916,
+      "sha256": "0e9eefc2eb39b57f8bd56809532786c5b0adb3522d62fab6859862e9d32bd74d"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D17/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D18/PROVENANCE.json",
+      "bytes": 1122,
+      "sha256": "48ab7cc2b5cec546c807158d357c5d45c0fad1630aa521a4886bc53150b48f99"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D18/agreement.txt",
+      "bytes": 1921,
+      "sha256": "aaba29bb6491ff7e3e3dd43632661ade48078abd18654a906302dff47c72a340"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D18/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D19/PROVENANCE.json",
+      "bytes": 1097,
+      "sha256": "279052b1221ac75d0dc8a39c19efa4b4abe63829eae8a0b49a6466a1eae93420"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D19/agreement.txt",
+      "bytes": 1930,
+      "sha256": "6c4d6a65037b6289da3bb4d3c9175d7fec993ea7a47d51d70dfedddd4cdb569d"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D19/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D20/PROVENANCE.json",
+      "bytes": 1121,
+      "sha256": "0d9b9dea5cc51bd5a5e73dc1927c5ee4cd26ea31b1e05cceac9f0a9bfea70c87"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D20/agreement.txt",
+      "bytes": 1915,
+      "sha256": "43faa4bbf0fc5bf796aef7bf810dc62ff74d376b12cf943a441ca91259b5cd69"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D20/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D21/PROVENANCE.json",
+      "bytes": 1143,
+      "sha256": "6056561d18d97152780b169ed81a456a780b270e9ea53274493c66ebfa1ed92a"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D21/agreement.txt",
+      "bytes": 1769,
+      "sha256": "75200b2b624af372c1dbde4dc885bcf5ef947f4ff25eeed67fc53d2de128f626"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D21/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D22/PROVENANCE.json",
+      "bytes": 1131,
+      "sha256": "d3502c26e83b0c2406e77ea6de22ca4e0b2eba70540c6790e380da23b68e0324"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D22/agreement.txt",
+      "bytes": 1838,
+      "sha256": "ecc3fca14b8bae9c8596aadc1e1e7068a4f2d07a10da4f2201b8b3db4865774e"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D22/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D23/PROVENANCE.json",
+      "bytes": 1116,
+      "sha256": "92f1d98fbb8baf60f7d11dfb19dc6742cf7cad065b5d4997ddd378fe7af58422"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D23/agreement.txt",
+      "bytes": 1743,
+      "sha256": "323e8a9211081f5d1399fb1d4c91fdf255a26c12821f68ed9573b2bdefbc872b"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D23/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D24/PROVENANCE.json",
+      "bytes": 1162,
+      "sha256": "547eca88b32d54b3d37864e61a981dd927917904f5ea152b0769340173cf06fc"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D24/agreement.txt",
+      "bytes": 1802,
+      "sha256": "048254c4b9d296624f57ca0b36e8950a2b024fb0fce741724428fc0c7bc1ef02"
+    },
+    {
+      "path": "fixtures/upgrade/u2b/development/D24/manifest.json",
+      "bytes": 158,
+      "sha256": "6a2eee06f2c2d247204834386fd979481f3c8a89266fb7bf2094c5509d8a4031"
+    },
+    {
+      "path": "scripts/docs_contract_acceptance.py",
+      "bytes": 12229,
+      "sha256": "33889e6dc7dfe162d1764c96b553d638e3fcce43eb6fc662373ac0e4f3534789"
+    },
+    {
+      "path": "scripts/evaluation_accounting_acceptance.py",
+      "bytes": 15217,
+      "sha256": "b2ecfdeaed1fcd3619cd8a97e4041400e5f54efb8b1a8388e9f62c60fb3fc8ce"
+    },
+    {
+      "path": "scripts/evaluation_contract_acceptance.py",
+      "bytes": 11404,
+      "sha256": "c9bac8e08b67e3ed352385528717601a65ff023cad0e0e5887093fb3dc7b5add"
+    },
+    {
+      "path": "scripts/u2c_coordinator.py",
+      "bytes": 13228,
+      "sha256": "4c409269ba739f917fc7a76d4fc8644ffa9e8bfdeb321515f1f6599dd1abbada"
+    },
+    {
+      "path": "scripts/upgrade_acceptance.py",
+      "bytes": 8331,
+      "sha256": "73fa7e4e27fd4ac84a3691ecc62e94c8503938634d5660b460d6d71c7566349d"
+    },
+    {
+      "path": "scripts/upgrade_correction_acceptance.py",
+      "bytes": 11256,
+      "sha256": "dee0937b2725ff796453365c1a53db2f6cf546770e0bce6f2f1b4e471dc5add2"
+    },
+    {
+      "path": "tests/upgrade/accounting_pure/test_u2b_accounting.py",
+      "bytes": 15452,
+      "sha256": "f7e95efff59064c8c5f764f5f9f32e20080113c75adebb09c1e78baaad7035f2"
+    },
+    {
+      "path": "tests/upgrade/components/test_budget_metrics.py",
+      "bytes": 9023,
+      "sha256": "73f4ada84fe69bc0504e3c8ff3880ef1c28fa1660261803298ae47ca07a4526c"
+    },
+    {
+      "path": "tests/upgrade/components/test_gateway_codec.py",
+      "bytes": 5697,
+      "sha256": "bda02e6dc485cd26964dffc362bedd042bcfc2397fe7b3b51b5be0c154194e82"
+    },
+    {
+      "path": "tests/upgrade/components/test_proposal_check.py",
+      "bytes": 15359,
+      "sha256": "21ad7f8d05ab52354afc753bb24bc57b21af841b929baf4651d67e84f06b950e"
+    },
+    {
+      "path": "tests/upgrade/docs_pure/test_google_docs.py",
+      "bytes": 20993,
+      "sha256": "9c0a4c5f9d4db41069a9627e35ebe631017192fbd2f03765fd1b441e7a91e226"
+    },
+    {
+      "path": "tests/upgrade/evaluation_pure/test_u2b.py",
+      "bytes": 23442,
+      "sha256": "5413751afe31d7e0e137761714db621ed8c2b39d5eb64ffc3b93b722eff584a8"
+    },
+    {
+      "path": "tests/upgrade/provider_contract/test_gateway_http.py",
+      "bytes": 6222,
+      "sha256": "2273533e8db96957c00a411d7ba47efb777285ee7121909a8a1f2c30663d5fc5"
+    },
+    {
+      "path": "tests/upgrade/u2c_pure/test_u2c.py",
+      "bytes": 21798,
+      "sha256": "ca6a59626c5024ca5c8238cb758a334af4719e5d05a3780a993e32a03faa0d37"
+    }
+  ],
+  "source_entry_digest": "1daab08eb71f07c135b953ea97adc367221b2c7a05edc27f42fd1a8741e2807d",
+  "application_code_sha256": "c1178e40acb2447df9e4e4efd079b78a8a6414d6e22a7635ad26bcbd1eb45d2a",
+  "gateway_prompt_sha256": "e435eaaaa01fe00387116eac1fea6faa1dc81ddff153b81c0500ff1133e8cdd6",
+  "input_catalog_sha256": "8a2574bcb345c8319b51bfc274ed5f6aa57896aa4187912ef06485ef501e51e3",
+  "config_sha256": "0fe4e46c0e7ea98faff11946493fb5d6395482ab7bdf62c70efe192ac7ca83b4",
+  "accounting_module_sha256": "3f7f399a8d9a491056e88da438c0a7d6e2f25e9d54770243efdcd957a71870db",
+  "evidence_provenance_sha256": "24b1163938fa0e836a63d5432826973c0202bf0e66c210f98d0e08d9d66ebb7f",
+  "original_main_review_sha256": "b2b8aa23751a5993868a8b3f98f2868a0dde45689f1eebb67debbc26154ed640",
+  "historical": {
+    "unique_catalog_tasks": 2,
+    "scripted_actor_slots": 4,
+    "pair_ties": 2,
+    "verified_task_completions": 0,
+    "required_handoffs": 2,
+    "unnecessary_handoffs": 2,
+    "authored_local_double_requests": 33,
+    "live_inference": 0,
+    "mocked_diagnostics_are_business_tasks": false
+  },
+  "remaining": {
+    "intended_tasks": 34,
+    "intended_actor_slots": 68,
+    "native_actor_slots_executed": 0,
+    "first_proposed_slice": [
+      "D01",
+      "C03"
+    ],
+    "max_pairs_per_slice": 2,
+    "historical_replay_allowed": false
+  },
+  "scope": "Additive redacted reproducible report and remaining-catalog coordinator/CLI SOURCE/PURE proposal",
+  "preservation": "All 171 reviewed U2B source pins including its manifest, original corpus/runtime/policy/budgets/old evidence unchanged",
+  "source_and_pure_only": true,
+  "native_cli_executed": false,
+  "new_dependencies": [],
+  "runtime": "Python3.11 standard library",
+  "model_calls": 0,
+  "remote_account_calls": 0,
+  "semantic_quality_evidence": false,
+  "self_accepted": false,
+  "self_hash_policy": "Current manifest excluded; prior manifests immutable"
+}

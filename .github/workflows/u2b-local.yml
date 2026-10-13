@@ -1,0 +1,32 @@
+name: U2-B exposed local contract
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: contract-u2b-offline
+  cancel-in-progress: false
+
+jobs:
+  local-contract:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    env:
+      PYTHONUTF8: "1"
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # Reused reviewed v1 pin
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # Reused reviewed v1 pin
+        with:
+          python-version: "3.11"
+      - name: Static preservation and hygiene
+        run: python -B scripts/check_repository.py
+      - name: Guarded pure evaluation controls
+        run: python -B -m unittest discover -s tests/upgrade/evaluation_pure -p test_*.py -v
+      - name: Two exposed scripted pairs with independent raw-state scoring
+        run: python -B scripts/evaluation_contract_acceptance.py --out work/ci-u2b-evaluation

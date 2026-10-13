@@ -1,0 +1,29 @@
+{
+  "attribution": "2026 Contract Playbook Agent contributors",
+  "author": "contract-playbook-agent worker; AI-assisted",
+  "created_date": "2026-10-12",
+  "documents": {
+    "A1": "81cbcc007bbbf0461f64876cbd4e8429a2b0e65cd4e1970560f3f3b83d315565",
+    "A2": "62580dfe19218c6ea4b13efa60fd68b97895c5f14e51f095dfbd00fbcff65271",
+    "agreement": "5c9c0b56a6e6f8e3898776b8def7e7bcfcdd4f32b3c103fd4b5896a32091cc57"
+  },
+  "external_data": false,
+  "family": "competing-amendments",
+  "fictional": true,
+  "label_exposure": "Worker-authored/exposed synthetic fiction; not blind or independently sampled",
+  "license": "MIT",
+  "license_file": "LICENSE",
+  "manifest_sha256": "645334d25541c06b8cf15116a8d9e335a2ac8b71457e68e616752df363f25394",
+  "near_duplicate_review": {
+    "independent_samples": false,
+    "method": "Semantic feature contrast notes plus pairwise critical-text token Jaccard; no claim of random independence.",
+    "review_basis": "No explicit precedence between the two replacements; both links must be cited and approval blocked.",
+    "reviewer": "authoring worker with AI assistance",
+    "shared_agreement_boilerplate": true
+  },
+  "schema_version": 1,
+  "split": "development",
+  "task_id": "D15",
+  "title": "Competing notice amendments",
+  "version": "U2-B-1.0"
+}

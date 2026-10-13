@@ -1,0 +1,29 @@
+{
+  "attribution": "2026 Contract Playbook Agent contributors",
+  "author": "contract-playbook-agent worker; AI-assisted",
+  "created_date": "2026-10-12",
+  "documents": {
+    "A1": "d5ca29c06ba642189c5051fc898af93ab3f7a699ff171f2427a3137a78ae7698",
+    "A2": "62dc80f0f1a908d788124fba20572afa40638a7446d192f6e0f84fa4e3366a61",
+    "agreement": "c5a08395140fa2be2a4f35cb0f42ec8e6a399060009ab137ff64e57ff8649863"
+  },
+  "external_data": false,
+  "family": "competing-amendments",
+  "fictional": true,
+  "label_exposure": "Worker-authored/exposed synthetic fiction; not blind or independently sampled",
+  "license": "MIT",
+  "license_file": "LICENSE",
+  "manifest_sha256": "645334d25541c06b8cf15116a8d9e335a2ac8b71457e68e616752df363f25394",
+  "near_duplicate_review": {
+    "independent_samples": false,
+    "method": "Semantic feature contrast notes plus pairwise critical-text token Jaccard; no claim of random independence.",
+    "review_basis": "Supported chain reaches forty-five days; filenames and dates are not the precedence rule.",
+    "reviewer": "authoring worker with AI assistance",
+    "shared_agreement_boilerplate": true
+  },
+  "schema_version": 1,
+  "split": "development",
+  "task_id": "D14",
+  "title": "Replacement of replacement",
+  "version": "U2-B-1.0"
+}

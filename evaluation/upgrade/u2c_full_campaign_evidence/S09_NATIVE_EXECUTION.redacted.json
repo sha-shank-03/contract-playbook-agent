@@ -1,0 +1,87 @@
+{
+  "recorder_version": "20261013",
+  "process_cap_scope": "owned command tree excludes one main recorder; RSS includes recorder",
+  "process_identities": [
+    {
+      "pid": 10880,
+      "create_time": 1791866852.444197,
+      "parent_pid": 6776,
+      "executable_basename": "python3.11.exe",
+      "kind": "python"
+    },
+    {
+      "pid": 26156,
+      "create_time": 1791866855.9662695,
+      "parent_pid": 6776,
+      "executable_basename": "python3.11.exe",
+      "kind": "python"
+    }
+  ],
+  "recorder_identity": {
+    "pid": 6776,
+    "create_time": 1791866851.9100628,
+    "parent_pid": 7536,
+    "executable_basename": "python3.11.exe",
+    "kind": "python"
+  },
+  "max_sampled_python_including_recorder": 2,
+  "commands": [
+    {
+      "id": "next-four-slot-same-campaign",
+      "argv": [
+        "<private-path-redacted>",
+        "-B",
+        "scripts/u2c_coordinator.py",
+        "run-slice",
+        "--campaign",
+        "work/upgrade-u2c",
+        "--tasks",
+        "D18",
+        "D22"
+      ],
+      "cwd": "<private-path-redacted>",
+      "started_at": "2026-10-13T04:47:32.407286+00:00",
+      "ended_at": "2026-10-13T04:47:35.052554+00:00",
+      "seconds": 2.639999999999418,
+      "exit_code": 0,
+      "expected_exit": 0,
+      "limit_exceeded": null,
+      "stdout": "01-stdout.log",
+      "stderr": "01-stderr.log"
+    },
+    {
+      "id": "full-denominator-report",
+      "argv": [
+        "<private-path-redacted>",
+        "-B",
+        "scripts/u2c_coordinator.py",
+        "report",
+        "--campaign",
+        "work/upgrade-u2c"
+      ],
+      "cwd": "<private-path-redacted>",
+      "started_at": "2026-10-13T04:47:35.934105+00:00",
+      "ended_at": "2026-10-13T04:47:37.966679+00:00",
+      "seconds": 2.0469999999986612,
+      "exit_code": 1,
+      "expected_exit": 0,
+      "limit_exceeded": null,
+      "stdout": "02-stdout.log",
+      "stderr": "02-stderr.log"
+    }
+  ],
+  "source_unchanged": true,
+  "sampled_peak_tree_plus_main_rss_bytes": 68657152,
+  "sampled_peak_generated_bytes": 1336612,
+  "max_sampled_processes": 1,
+  "max_sampled_python": 1,
+  "max_sampled_java": 0,
+  "max_sampled_listeners": 0,
+  "sampling_errors": 0,
+  "external_connections_observed": [],
+  "cleanup_actions": [],
+  "lifetime_peak_guaranteed": false,
+  "new_output_bytes": 1336612,
+  "live_model_calls": 0,
+  "actual_external_sandbox_calls": 0
+}
